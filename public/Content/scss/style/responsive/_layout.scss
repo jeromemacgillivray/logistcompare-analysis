@@ -1,0 +1,245 @@
+@include media('<=1199px'){
+    .regWarpper{
+        .regShape{
+            .buttonWarp{
+                @include max-width(970);
+            }
+        }
+    }
+}
+
+@include media('<=991px'){
+    #header{
+        @include padding(10 0);
+        .nav-header{
+            width: 100%;
+            .nav-brand{
+                img{
+                    @include max-height(40);
+                }
+            }
+            .toggleMenuButton{
+                display: $b;
+            }
+        }
+        .nav-collapsed{
+            //display: none;
+            @include  pos(f, 0 null 0 -220px);
+            @include width(220);
+            background-color: lighten($black, 33%);
+            @include box-shadow(3px 4px 5px rgba(0,0,0,0.3) inset);
+            overflow: auto;
+            @include padding(20 0);
+            @include opacity(0);
+            z-index: 1000;
+            text-align: center;
+            .logo-white{
+                display: $ib;
+                @include max-width(100);
+                @include margin-bottom(30);
+            }
+            nav{
+                float: none;
+                ul{
+                    li{
+                        @include margin(0);
+                        float: none;
+                        a{
+                            color: $white;
+                            @include padding(0 20);
+                            text-align: center;
+                            @include fontsize(16);
+                            line-height: 40px;
+                            &:after,&:before{
+                                display: none;
+                            }
+                            &.active{
+                                background-color: $theme;
+                                color: $white;
+                            }
+                            &.button-action{
+                                @include max-width(170);
+                                margin: 10px auto 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .headerSpacer{
+        @include min-height(60);
+    }
+
+    #footer{
+        ul{
+            li{
+                @include margin(10 15);
+                a{
+                    @include fontsize(15);
+                }
+            }
+        }
+    }
+
+    // Login
+    .regWarpper{
+        @include padding-top(90);
+        .regShape{
+            svg{
+                display: $none;
+            }
+            .svg1, .svg2{
+                content: "";
+                @include pos(ab, 0);
+                @include transform-origin(bottom, left);
+                @include transition(all 0.8s ease-out);
+                z-index: 1;
+            }
+            .svg1{
+                background-color: $white;
+            }
+            .svg2{
+                background-color: $theme-alt;
+            }
+            &.regShape1{
+                .svg1{
+                    @include transform(skew(0) rotate(0) translate(0));
+                }
+                .svg2{
+                    @include transform(skew(-79deg) rotate(0) translate(0));
+                    @include transition-delay(0.7s);
+                }
+            }
+            &.regShape2{
+                .svg1{
+                    @include transform(skew(-79deg) rotate(0) translate(0));
+                    @include transition-delay(0.7s);
+                }
+                .svg2{
+                    @include transform(skew(0) rotate(0) translate(0));
+                }
+            }
+            .buttonWarp{
+                @include max-width(750);
+            }
+        }
+        &.regWarpper1{
+            .regShape{
+                .svg2{
+                    background-color: $theme;
+                }
+            }
+        }
+    }
+
+    // Modal Warpper
+    .modalWarpper{
+        .modal-dialog{
+            @include width-auto;
+            @include margin(30 10);
+            .modal-header{
+                @include padding(20 15);
+                @include padding-right(60);
+                .close{
+                    top: 50%;
+                    right: 15px;
+                    @include square(30px);
+                    @include fontsize(13);
+                    @include margin-top(-15);
+                }
+            }
+            .modal-body{
+                @include padding(20 15);
+            }
+        }
+    }
+}
+
+@include media('<=767px'){
+    #footer{
+        @include padding-top(45);
+        .logo{
+            @include margin-bottom(15);
+            @include max-width(120);
+        }
+        ul{
+            li{
+                display: $b;
+                @include margin(10 0);
+            }
+        }
+        .__copy{
+            @include fontsize(12);
+            @include margin-top(15);
+            @include padding(10 15);
+        }
+    }
+
+    // Login
+    .regWarpper{
+        .regShape{
+            &.regShape1{
+                .svg2{
+                    @include transform(skew(-73deg) rotate(0) translate(0));
+                }
+            }
+            &.regShape2{
+                .svg1{
+                    @include transform(skew(-73deg) rotate(0) translate(0));
+                }
+            }
+        }
+    }
+
+    // SideBar
+    .mainSection{
+        @include pos(r, null);
+        @include padding-left(0);
+        #aside{
+            @include min-height-auto;
+            @include max-height(60);
+            overflow: hidden;
+            width: 100%;
+            @include pos(ab, null);
+            height: 100%;
+            &.opened{
+                @include max-height(730);
+                @include transition-delay(0.1s);
+            }
+            .collapesToggle{
+                border-right: 3px solid darken($white, 4%);
+                @include pos(r, null);
+                z-index: 51;
+            }
+            nav{
+                @include width(240);
+            }
+        }
+        .header{
+            width: 100%;
+            @include padding(0 10 0 80);
+        }
+        .mainContent{
+            width: 100%;
+        }
+    }
+}
+
+@include media('<=380px'){
+    // Login
+    .regWarpper{
+        .regShape{
+            &.regShape1{
+                .svg2{
+                    @include transform(skew(-68deg) rotate(0) translate(0));
+                }
+            }
+            &.regShape2{
+                .svg1{
+                    @include transform(skew(-68deg) rotate(0) translate(0));
+                }
+            }
+        }
+    }
+}

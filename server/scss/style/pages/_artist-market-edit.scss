@@ -1,0 +1,115 @@
+.artist-market-page {
+	&.artist-market-page-edit {	
+		.cyp_form_outer {	
+			.cyp_body {
+				.cyp_body_inner {
+					.cyp_contentbox {				
+						.field_outer {
+							&.uploadimg {
+								label {
+									@extend .ver_midle;
+									@include margin(0);
+									position: relative;
+									@include border(2, solid, rgba(255, 255, 255, 0.7));
+									@include border-round(50);
+									@include padding(22 5);
+									text-align: center;
+									color: rgba(255, 255, 255, 0.7);
+									font-weight: 400;
+									width: 66%;
+									input {
+										position: absolute;
+										top: 0;
+										left: 0;
+										width: 100%;
+										@include padding(0);
+										@include margin(0);
+										visibility: hidden;
+									}
+								}
+								span {
+									display: inline-block;
+								    vertical-align: bottom;
+								    @include margin-left(8);
+								    color: rgba(255, 255, 255, 0.7);
+								    @include fontsize(14);
+								}
+							}
+							&.uploaded_images {
+								.imgbox {
+									@extend .ver_midle;
+									@include margin(11);
+								    @include border(1, solid, rgba(255, 255, 255, 0.2));
+								    background: rgba(255, 255, 255, 0.3);
+								    @include width(63);
+								    @include height(63);
+								    position: relative;
+								    text-align: center;
+								    img {
+								    	width: 100%;
+								    	@include h_auto;
+								    }
+								    a {
+								    	position: absolute;
+									    content: "\f00d";
+									    font-family: fontawesome;
+									    @include height(25);
+									    @include width(25);
+									    background: rgba(255, 255, 255, 0.75);
+									    top: -13px;
+									    right: -12px;
+									    @include circle;
+									    @include border(4, solid, #222434);
+									    color: #222434;
+									    @include fontsize(12);
+									    @include padding-top(1);
+								    }
+								}
+							}			
+							textarea {
+								width:100%;
+							}
+							label {
+								&.select-outer {
+									@include pos(r,null);
+									display: block;
+									select {
+										-webkit-appearance: none;
+										-moz-appearance: none;
+										appearance: none;
+										font-weight:400;
+										option {
+											color: $dashboardcolor;
+											background: #fff;
+										}
+									}
+									&:after {
+										@include pos(a,17px 0 auto auto);
+										height: 0;
+										width: 0;
+										content: "";
+										@include border-left(5, solid, transparent);
+										@include border-right(5, solid, transparent);
+										@include border-top(5, solid,  rgba(255, 255, 255, 0.5));
+									}
+								}
+							}
+						}
+						&:last-child {
+							@include border-bottom(0, solid, rgba(255, 255, 255, 0.5));						
+						}
+					}
+				}
+			}
+			.cyp_footer {
+				@include padding(25 60);
+				a {
+					@include margin(0 15 0 0);
+					&:last-child {
+						@include margin-right(0);
+					}	
+				}
+			}
+		}
+	}
+}

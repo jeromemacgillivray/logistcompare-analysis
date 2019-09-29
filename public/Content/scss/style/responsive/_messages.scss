@@ -1,0 +1,13 @@
+@include media('<=991px'){
+    .mainMessageWrapper{
+        .__userListing{
+            .__inner{
+                display: none;
+            }
+            .member_list{
+                @include height-auto;
+                @include max-height(300);
+            }
+        }
+    }
+}

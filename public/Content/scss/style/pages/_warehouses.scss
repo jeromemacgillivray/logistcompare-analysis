@@ -1,0 +1,66 @@
+.warehouseWarpper{
+    .wh_Warp{
+        .resultWarp{
+            .__content{
+                .__contentHead{
+                    @include pos(r, null);
+                    @include padding-right(80);
+                    .__actions{
+                        @include pos(ab, 0 0 null null);
+                        float: right;
+                        a{
+                            display: $ib;
+                            @include fontsize(22);
+                            color: darken($white, 30%);
+                            &:hover{
+                                color: $theme;
+                            }
+                            &.trashLink{
+                                &:hover{
+                                    color: $theme-danger;
+                                }
+                            }
+                        }
+                    }
+                }
+                h3{
+                    @include pos(r, null);
+                    .editLink{
+                        @include pos(ab, 0 0 null null);
+                        float: right;
+                        @include fontsize(22);
+                        color: darken($white, 30%);
+                        &:hover{
+                            color: $theme;
+                        }
+                    }
+                }
+            }
+        }
+        .addWarehouses{
+            @include square(50px);
+            line-height: 50px;
+            @include radius(50%);
+            background-color: darken($white, 15%);
+            color: $white;
+            text-align: center;
+            display: $ib;
+            @include fontsize(24);
+            &:hover{
+                background-color: $theme;
+            }
+        }
+    }
+    .warehouseDetailWarp{
+        @extend %warehouse-detail-extend;
+        .__backButton{
+            float: right;
+            @include fontsize(14);
+            color: darken($white, 20%);
+            @include font-weight(medium);
+            &:hover{
+                color: $theme;
+            }
+        }
+    }
+}

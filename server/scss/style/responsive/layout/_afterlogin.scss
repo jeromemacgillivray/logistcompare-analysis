@@ -1,0 +1,295 @@
+@include media("<=1600px") {
+	.main_outer {
+		.content_area {
+			.content_area_inner {
+				@include padding(122 352 0 310);
+				.con_left_menu {
+					@include width(280);
+					top: 82px;
+					.menu_outer {
+						li {
+							a {
+								@include padding(12 18);
+							}
+							&.dropdown {
+								&:after {
+									@include fontsize(12);
+									top: 18px;
+								}
+							}
+						}
+					}
+				}
+				.con_sidebar {
+					@include width(320);
+					top: 82px;
+					.profile_progress {
+						@include padding(30 27 25);
+						.pp_graph {
+							img {
+								@include width(160);
+							}
+						}
+					}
+					.top_selling_music, .music_contracts {
+						@include padding(25 27);
+						.tsm_box {
+							.tsm_text {
+								width: 74%;
+							}
+						}
+						.ctrct_info_box {
+							.ctrct_info {
+								width: 74%;
+							}
+						}
+					}
+				}
+				&.withoutsidebar {
+					@include padding(130 57 0 330);
+				}
+			}
+		}
+	}
+}
+@include media("<=1400px") {
+.theme-button {
+	@include padding(14 40);
+	@include margin(0 15);
+}
+.main_outer {
+	@include fontsize(14);
+		.content_area {
+	    	.content_area_inner {
+	    		@include padding(114 329 0 280);
+	    		.con_left_menu {
+	    			top: 86px;
+	    			@include width(250);
+	    			.menu_outer {
+	    				@include padding(13 0 28);
+	    				li {
+	    					a {
+	    						@include padding(12 18);
+	    						i {
+	    							@include fontsize(18);					
+	    						}
+	    					}
+	    					&.menu_withdraw {
+	    						@include padding(16 18 16 16);
+	    						span {
+	    							@include fontsize(22);
+	    						}
+	    					}
+	    					&.sgst_fchr {
+	    						@include padding(24 12 10);
+	    					}
+	    				}
+	    			}
+	    		}
+	    		.con_sidebar {
+	    			top: 86px;
+		    			@include width(298);
+		    			.profile_progress {
+		    				@include padding(32 27 24);
+		    				.pp_graph {
+		    					@include margin-bottom(25);
+		    					img {
+		    						@include width(150);
+		    					}
+		    				}
+		    				.pp_text {
+		    					.cplt_pro {
+		    						@include margin-top(12);
+		    					}
+		    				}
+		    			}
+		    			.top_selling_music {
+		    				@include padding(20 27);
+		    				h3 {
+		    					@include fontsize(18);
+		    					@include margin-bottom(22);
+		    				}
+		    				.tsm_box {
+		    					.tsm_img {
+		    						@include width(40);
+		    					}
+		    					.tsm_text {
+		    						width: 73%;
+		    					}
+		    				}
+		    			}
+		    			.music_contracts {
+		    				@include padding(20 27);
+		    				h3 {
+		    					@include fontsize(18);
+		    					@include margin-bottom(22);	
+		    				}
+		    				.ctrct_info_box {
+		    					.ctrct_date {
+		    						width: 35px;
+		    					}
+		    					.ctrct_info {
+		    						width: 68%;
+		    					}
+		    				}
+		    			}
+		    		}
+		    	&.withoutsidebar {
+		    		@include padding(115 27 0 277);
+		    	}
+		    	input, textarea, select {
+		    		@include padding(4 4 19);
+		    		@include margin-bottom(40);
+		    	}
+	    	}
+	    }
+	}
+}
+ 
+@include media("<=1200px") {
+.theme-button {
+    padding: 12px 40px !important;
+    @include margin(0 11);
+    font-size: 14px !important;
+}
+.main_outer {
+	.content_area {
+			.content_area_inner {
+				@include padding(107 23 0 252);
+				.con_left_menu {
+					top: 79px;
+					@include width(230);
+					.menu_outer {
+						@include fontsize(13);
+						li {
+							a {
+								@include padding(10 18);
+								i {
+									@include fontsize(16);
+								}
+							}
+							&.dropdown {
+								&:after {
+									top: 12px;
+								}
+								.sub_nav {
+									li {
+										&.prfile_info {
+											a {
+												@include padding(13 14);
+											}
+										}
+									}
+								}
+							}
+							&.menu_withdraw {
+								span {
+									@include fontsize(20);
+								}
+							}
+						}
+					}
+				}
+				.con_sidebar {
+					display: none;
+				}
+				input, textarea, select {
+		    		@include fontsize(17);
+		    		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+					  @include fontsize(14);
+					  opacity: 1;
+					}
+					&::-moz-placeholder { /* Firefox 19+ */
+					  @include fontsize(14);
+					  opacity: 1;
+					}
+					&:-ms-input-placeholder { /* IE 10+ */
+					  @include fontsize(14);
+					  opacity: 1;
+					}
+					&:-moz-placeholder { /* Firefox 18- */
+					  @include fontsize(14);
+					  opacity: 1;
+					}
+		    	}
+			}
+		}
+	}
+}
+
+@include media("<=992px") {
+	.main_outer {
+		@include fontsize(13);
+		.content_area {
+			.content_area_inner {
+				@include padding(85 20 0);
+				&.menuOpen {
+					.con_left_menu {
+						left: 0;
+						top: 59px;
+					}
+				}
+				.con_left_menu {
+					left: -250px;
+					top: 59px;
+					transition: all 0.3s ease-in-out 0s;
+					background: rgba(40, 46, 73, 1);
+					z-index: 9999;
+				}
+				&.withoutsidebar {
+					@include padding(135 25 0 25);
+				}
+			}
+		}
+	}
+}
+
+@include media("<=767px") {
+	.main_outer {
+		.content_area {
+			.content_area_inner {
+				@include padding(75 20 0);
+				&.menuOpen {
+					.con_left_menu {
+						top: 53px;
+					}
+				}
+				.con_left_menu {
+					top: 53px;
+				}
+				&.withoutsidebar {
+					@include padding(90 15 20);
+				}
+				input, textarea, select {
+		    		width: 100%;
+		    		@include fontsize(17);
+		    	}
+			}
+		}
+	}
+}
+
+@include media("<=640px") {
+	.main_outer {
+		.content_area {
+			.content_area_inner {
+				@include padding(115 20 0);
+				.con_left_menu {
+					top: 96px;
+				}
+				&.menuOpen {
+					.con_left_menu {
+						top: 96px;
+					}
+				}
+				&.withoutsidebar {
+					@include padding(130 15 20);
+				}
+			}
+		}
+	}
+}
+
+@include media("<=479px") {
+	
+}

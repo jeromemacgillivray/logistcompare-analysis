@@ -1,0 +1,256 @@
+%formWarp-extend{
+    .form-group {
+        @include margin-bottom(30);
+        .form-control {
+            @include radius(0);
+            color: darken($white, 43.5%);
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid darken($white, 20%);
+            @include padding(6 0);
+            @include font-weight(semi-bold);
+            @include input-placeholder {
+                color: darken($white, 20%);
+            }
+            &:focus{
+                border-color: $theme-alt;
+            }
+        }
+    }
+}
+
+.regWarpper{
+    min-height: 100%;
+    @include padding-top(180);
+    @include padding-bottom(110);
+    @include pos(r, null);
+    overflow: hidden;
+    //background-color: $theme-alt;
+    .regShape{
+        @include pos(ab, 0);
+        svg{
+            @include pos(ab, null null 0);
+            //width: 100%;
+            //@include height-auto;
+            @include transition(all 1.5s ease-out);
+            &.translateY{
+                @include translateY(84%);
+            }
+            &.active{
+                //z-index: 1;
+            }
+        }
+        &.regShape1{
+            .svg1{
+                &.active{
+                    z-index: 1;
+                }
+            }
+            .svg2{
+                z-index: 11;
+                &.active{
+                    z-index: 0;
+                }
+            }
+        }
+        &.regShape2{
+            .svg2{
+                &.active{
+                    z-index: 1;
+                }
+            }
+            .svg1{
+                z-index: 11;
+                @include transition(all 1.3s ease-out);
+                &.active{
+                    z-index: 0;
+                }
+            }
+        }
+        &.bg-white{
+            background-color: $white;
+        }
+        .buttonWarp{
+            @include max-width(1200);
+            @include padding(0 15);
+            text-align: right;
+            @include pos(ab, null 0 30px);
+            margin: $mauto;
+            z-index: 11;
+            display: block;
+        }
+        &.active{
+            svg{
+                z-index: 0;
+            }
+            .buttonWarp{
+                //display: none;
+            }
+        }
+    }
+    .container{
+        //@include pos(r, null);
+        //z-index: 8;
+    }
+    h2{
+        @include fontsize(22);
+        text-transform: uppercase;
+        color: $black;
+        @include font-weight(semi-bold);
+        @include margin-bottom(40);
+    }
+    .formOuterWarp{
+        @include pos(r, null);
+        z-index: 20;
+    }
+    .formWarp{
+        @extend %formWarp-extend;
+        .uploadeWarp{
+            display: $ib;
+            overflow: hidden;
+            @include pos(r, null);
+            overflow: hidden;
+            .userUpload{
+                @include square(100px);
+                display: $b;
+                //border: 2px solid $white;
+                @include fontsize(35);
+                color: $white;
+                @include radius(50%);
+                text-align: center;
+                line-height: 98px;
+                @include pos(r, null);
+                overflow: hidden;
+                &:before{
+                    content: "";
+                    @include pos(ab, 0);
+                    border: 2px solid $white;
+                    @include radius(50%);
+                }
+            }
+            .addbtn{
+                @include square(35px);
+                line-height: 35px;
+                @include fontsize(13);
+                @include radius(50%);
+                border: 2px solid $white;
+                @include pos(ab, 6px 5px null null);
+                color: $white;
+                text-align: center;
+            }
+        }
+        .forgotLink{
+            @include font-weight(semi-bold);
+            color: darken($white, 43.5%);
+            &:hover{
+                color: $theme;
+            }
+        }
+    }
+    .rightPart{
+        @include pos(r, null);
+        z-index: 8;
+    }
+    #signUp{
+        h2{
+            color: $white;
+        }
+        .formWarp{
+            .form-group {
+                .form-control {
+                    border-color: darken($white, 15%);
+                    color: $white;
+                    @include input-placeholder {
+                        color: darken($white, 12%);
+                    }
+                }
+            }
+        }
+    }
+    .cInfo{
+        @include pos(r, null);
+        @include padding(0 0 0 40);
+        color: $black;
+        i{
+            @include fontsize(22);
+            @include pos(ab, 0 null null 0);
+        }
+        h5{
+            @include font-weight(light);
+            text-transform: uppercase;
+            @include fontsize(16);
+        }
+        span{
+            color: darken($white, 45%);
+            @include fontsize(14);
+            font-family: arial, sans-serif;
+        }
+    }
+    .__video{
+        @extend %__video_ratio_button_extend;
+        @include margin-top(30);
+        h3{
+            @include fontsize(20);
+            text-align: center;
+            background-color: $theme-alt;
+            color: $white;
+            @include padding(15 10);
+        }
+        .video-js{
+            &:before{
+                padding-bottom: 80% !important;
+            }
+        }
+    }
+    .signUpactive{
+        .cInfo{
+            color: $white;
+            span{
+                color: $white; 
+            }
+        }
+        .__video{
+            h3{
+                background-color: $white;
+                color: $theme-alt;
+            }
+        }
+    }
+    &.regWarpper1{
+        .signInForm{
+            .formWarp{
+                .form-group{
+                    .form-control{
+                        &:focus{
+                            border-bottom-color: $theme;
+                        }
+                    }
+                }
+            }
+        }
+        .__video{
+            h3{
+                background-color: $theme;
+            }
+        }
+        .signUpactive{
+            .__video{
+                h3{
+                    background-color: $white;
+                    color: $theme;
+                }
+            }
+        }
+    }
+}
+
+@include media('>=2000px'){
+    .regWarpper{
+        .regShape{
+            svg{
+                width: 100%;
+                @include height-auto;
+            }
+        }
+    }
+}

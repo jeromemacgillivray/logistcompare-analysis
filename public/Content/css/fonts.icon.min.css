@@ -1,0 +1,79 @@
+@charset "UTF-8";[class*=" icon-"]:before,[class^=icon-]:before,[data-icon]:before{font-family:logist!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@font-face{font-family:logist;src:url(../fonts/bootstrap/logist.eot);src:url(../fonts/bootstrap/logist.eot?#iefix) format("embedded-opentype"),url(../fonts/bootstrap/logist.woff) format("woff"),url(../fonts/bootstrap/logist.ttf) format("truetype"),url(../fonts/bootstrap/logist.svg#logist) format("svg");font-weight:400;font-style:normal}[data-icon]:before{content:attr(data-icon)}
+.icon-find-space:before {
+  content: "\61";
+}
+.icon-list-space:before {
+  content: "\62";
+}
+.icon-email-o:before {
+  content: "\63";
+}
+.icon-phone-o:before {
+  content: "\64";
+}
+.icon-calendar:before {
+  content: "\65";
+}
+.icon-database-search:before {
+  content: "\66";
+}
+.icon-folder-search:before {
+  content: "\67";
+}
+.icon-gears-o:before {
+  content: "\68";
+}
+.icon-quote-o:before {
+  content: "\69";
+}
+.icon-report:before {
+  content: "\6a";
+}
+.icon-user-managment:before {
+  content: "\6b";
+}
+.icon-close:before {
+  content: "\6c";
+}
+.icon-map-marker:before {
+  content: "\6d";
+}
+.icon-left-arrow:before {
+  content: "\6e";
+}
+.icon-analytics:before {
+  content: "\6f";
+}
+.icon-bell:before {
+  content: "\70";
+}
+.icon-card:before {
+  content: "\71";
+}
+.icon-customer-cart:before {
+  content: "\72";
+}
+.icon-user-management:before {
+  content: "\73";
+}
+.icon-user:before {
+  content: "\74";
+}
+.icon-edit-pencil:before {
+  content: "\75";
+}
+.icon-plus:before {
+  content: "\76";
+}
+.icon-plus-circle:before {
+  content: "\77";
+}
+.icon-user-o:before {
+  content: "\78";
+}
+.icon-trash:before {
+  content: "\79";
+}
+.icon-gear:before {
+  content: "\7a";
+}

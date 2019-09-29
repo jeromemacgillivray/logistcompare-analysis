@@ -1,0 +1,7 @@
+.reportWarpper{
+    .reportWarp {
+        .__lineChart{
+            @include pos(r, null);
+        }
+    }
+}

@@ -1,0 +1,67 @@
+%h2Title{
+    @include fontsize(22);
+    text-transform: uppercase;
+    @include font-weight(semi-bold);
+}
+
+.addWhWarpper{
+    @include padding(60 0);
+    .h2Title {
+        @extend %h2Title;
+    }
+    .formWarp{
+        @extend %formWarpInner-extend;
+        .form-group{
+            @include margin-bottom(20);
+            .lbl{
+                @include fontsize(13);
+                @include font-weight(semi-bold);
+                display: $b;
+            }
+            .ch-checkMark{
+                @include padding(5 15 5 0);
+                float: left;
+                width: 50%;
+            }
+        }
+        .__uploadedBlk{
+            .__blk{
+                @include square(100px);
+                @include radius(5px);
+                border: 1px dashed darken($white, 15%);
+                display: $ib;
+                @include margin(10 10 10 0);
+                overflow: hidden;
+                @include pos(r, null);
+                background-color: darken($white, 4%);
+                text-align: center;
+                line-height: 98px;
+                span{
+                     @include pos(a, null 0 0 null );
+                     z-index: 99;
+                      padding: 2px 0;
+                      padding: 3px 5px !important;
+                    height: auto;
+                    width: auto;
+                    font-size: 16px;
+                    border-radius: 3px;
+                }
+                img{
+                    @include pos(ab, 0);
+                     z-index: 9;
+                    margin: $mauto;
+                }
+                input[type="file"]{
+                    @include pos(ab, 0);
+                    @include square(100%);
+                    @include opacity(0);
+                    z-index: 10;
+                }
+                .icon-plus{
+                    @include fontsize(40);
+                    color: darken($white, 20%);
+                }
+            }
+        }
+    }
+}

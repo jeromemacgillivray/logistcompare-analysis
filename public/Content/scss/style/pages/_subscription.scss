@@ -1,0 +1,203 @@
+.sbsWarpper{
+    min-height: 100%;
+    @include pos(r, null);
+    @include padding-top(90);
+    .innerWarp {
+        display: $t;
+        width: 100%;
+        height: 100%;
+        .cell{
+            display: $cell;
+            vertical-align: middle;
+            width: 50%;
+            @include padding(20);
+            &.cell1{
+
+            }
+        }
+    }
+    .infoBlk{
+        color: $white;
+        @include max-width(580);
+        margin: $mauto;
+        .imgBlk{
+            @include square(260px);
+            @include radius(50%);
+            background-color: $white;
+            @include box-shadow(0 0 5px rgba(0,0,0,0.2));
+            @include pos(r, null);
+            display: $b;
+            img{
+                @include pos(ab, 0);
+                margin: $mauto;
+            }
+        }
+        h2{
+            @include fontsize(22);
+            @include font-weight(semi-bold);
+            text-transform: uppercase;
+        }
+        p{
+            @include fontsize(18);
+            line-height: 2;
+        }
+    }
+    .subcribeWarp{
+        .sBlks{
+            @include max-width(290);
+            overflow: hidden;
+            @include radius(5px);
+            text-align: center;
+            @include box-shadow(0 0 5px rgba(0,0,0,0.2));
+            h3{
+                color: $white;
+                background-color: darken($theme, 5%);
+                @include fontsize(16);
+                @include font-weight(bold);
+                @include padding(15 10);
+            }
+            .cb-pricing{
+                color: $white;
+                background-color: $theme;
+                @include pos(r, null);
+                display: $t;
+                width: 100%;
+                @include height(100);
+                z-index: 5;
+                &:after{
+                    @include arrow(bottom, $theme, 5px, true);
+                }
+                .sCell{
+                    display: $cell;
+                    vertical-align: middle;
+                    @include padding(10);
+                }
+                h5{
+                    @include fontsize(23);
+                    @include font-weight(bold);
+                }
+                h2{
+                    @include fontsize(60);
+                    @include font-weight(bold);
+                    sup{
+                        @include fontsize(20);
+                        top: -1em;
+                    }
+                }
+            }
+            .cb-duration{
+                color: darken($white, 45%);
+                @include fontsize(16);
+                @include font-weight(bold);
+                background-color: $white;
+                @include pos(r, null);
+                display: $t;
+                width: 100%;
+                @include height(120);
+                z-index: 2;
+                line-height: 1.8;
+                &:after{
+                    @include arrow(bottom, $white, 5px, true);
+                }
+                .sCell{
+                    display: $cell;
+                    vertical-align: middle;
+                    @include padding(10);
+                }
+            }
+            .cb-button{
+                display: $b;
+                background-color: $theme;
+                color: $white;
+                @include fontsize(16);
+                @include font-weight(bold);
+                @include padding(12 10);
+                &:hover{
+                    background-color: lighten($theme, 10%);
+                }
+            }
+            &.sblk-info{
+                h3{
+                    background-color: darken($theme-info, 8%);
+                }
+                .cb-pricing{
+                    background-color: $theme-info;
+                    &:after{
+                        border-top-color: $theme-info;
+                    }
+                    .sCell{
+                        vertical-align: top;
+                    }
+                }
+                .cb-button{
+                    background-color: $theme-info;
+                    &:hover{
+                        background-color: lighten($theme-info, 10%);
+                    }
+                }
+            }
+        }
+    }
+    .formWarp{
+        @include padding(0 70);
+        h3{
+            @include font-weight(semi-bold);
+            @include fontsize(22);
+            color: $black;
+            text-transform: uppercase;
+        }
+        .form-group{
+            @include margin-bottom(30);
+            .form-control{
+                background-color: transparent;
+                @include radius(0);
+                border: none;
+                border-bottom: 2px solid darken($white, 10%);
+                @include fontsize(16);
+                @include font-weight(semi-bold);
+                @include padding(10 0);
+                @include height(50);
+                &:focus{
+                    border-color: $theme;
+                }
+            }
+        }
+        .multiSelectBlk{
+            .bootstrap-select{
+                width: 100% !important;
+                .dropdown-toggle{
+                    background-color: transparent;
+                    @include radius(0);
+                    border: none;
+                    border-bottom: 2px solid darken($white, 10%);
+                    @include fontsize(16);
+                    @include font-weight(semi-bold);
+                    @include padding(10 0);
+                    @include height(50);
+                    outline: 0 !important;
+                    color: $color00;
+                    &:focus{
+                        @include box-shadow-none;
+                    }
+                    .bs-caret{
+                        .caret{
+                            @include rotate(-90deg);
+                        }
+                    }
+                }
+                &.open{
+                    .dropdown-toggle{
+                        border-color: $theme;
+                    }
+                }
+            }
+        }
+        .ch-checkMark{
+            span{
+                @include fontsize(16);
+                @include font-weight(semi-bold);
+                color: darken($white, 27%);
+            }
+        }
+    }
+}

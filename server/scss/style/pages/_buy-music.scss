@@ -1,0 +1,73 @@
+.profilepage {
+	&.buymusic-page {
+	.cyp_form_outer {
+		&.margin-bottom-75 {
+			@include margin-bottom(75);
+		}
+		.cyp_body {
+			.cyp_body_inner {
+				@include min-height(1);
+				.cyp_contentbox {
+					&.sale-contnet-top {
+						padding-top: 30px;
+						padding-bottom:30px;
+						color:rgba(255,255,255,0.55);
+						p {	
+							line-height: $lineheight;
+							color: $dulwhite;
+							span {
+								color:$skycolor;
+							}
+						}
+					}
+					.field_outer {
+						label {
+							&.z_radio {
+								span {
+									font-weight:400;
+								}
+							}								
+							&.select-outer {
+								width: 89%;
+								select {
+									width:100%;									
+								}
+							}
+						}
+						&.doubleselect {	
+							label {
+								width: 39%;
+								margin-right: 10%;
+								margin-bottom: 0;	
+								display: inline-block;				
+								select {
+									&:last-child {
+										margin-right:0%;
+									}
+								}
+							}
+						}
+						.theme-button {
+							margin:0 !important;
+						}
+					}
+					&:last-child {
+						@include margin-bottom(0);
+					}
+				}
+			}
+		}
+	}
+	.contentouter {				
+			&.notification {
+				.cyp_contentbox {				
+					.field_outer {
+						&:nth-child(2) {
+							@include padding(0 15);					
+						}						
+					}
+				}
+			}
+		}
+	}
+}

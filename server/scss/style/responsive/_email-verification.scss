@@ -1,0 +1,44 @@
+.beforelogin {
+	.beforelogin_inner {		
+		.login_content_box {			
+			.login_content_box_inner {			
+				.email_verif_box_inner{
+					.tick-img{
+						@include media("<=1367px"){
+							@include margin(20 0 40 0);					
+						}
+						@include media("<=767px"){
+							@include margin(20 0 30 0);								
+						}
+						span{
+							@include media("<=767px"){
+								@include font-size(40);
+							}
+						}
+					}
+					h2{
+						@include media("<=1367px"){
+							@include font-size(16);
+						    @include margin-bottom(30);				
+						}
+						@include media("<=767px"){
+							@include font-size(14);
+						    @include margin-bottom(20);									
+						}
+					}
+					p{
+						@include media("<=1367px"){
+							@include font-size(16);
+						    line-height: 30px;									
+						}
+						@include media("<=767px"){
+							@include font-size(14);
+						     line-height: 20px;									
+						}
+					}
+
+				}				
+			}
+		}
+	}
+}

@@ -1,0 +1,2784 @@
+/***border-mixn****/
+@media (max-width: 1600px) {
+  /* line 4, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content {
+    padding-top: 10px;
+  }
+  /* line 6, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content .menuicon {
+    margin-left: 30px;
+  }
+  /* line 10, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content {
+    padding: 0px 100px 0px 40px;
+  }
+  /* line 12, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right {
+    padding-top: 13px;
+  }
+  /* line 15, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .search {
+    padding: 10px 20px;
+  }
+  /* line 19, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content {
+    padding: 13px 10px 0px 0px;
+  }
+  /* line 21, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu {
+    padding-right: 10px;
+  }
+  /* line 23, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu img {
+    width: 30px;
+    width: 1.875rem;
+    margin-right: 10px;
+  }
+  /* line 27, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu .usr_name {
+    line-height: 22px;
+    vertical-align: top;
+    margin: 0px;
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 34, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profile_logout {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 1400px) {
+  /* line 43, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+  /* line 46, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content .logo_outer {
+    padding-left: 0px;
+    width: 57%;
+  }
+  /* line 50, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content .menuicon {
+    padding: 7px 0px 0px 18px;
+  }
+  /* line 54, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content {
+    padding: 0px 30px;
+  }
+  /* line 56, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content > div {
+    width: auto;
+  }
+  /* line 58, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content > div:last-child {
+    float: right;
+  }
+  /* line 62, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .songfilter {
+    padding: 16px 15px;
+  }
+  /* line 64, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .songfilter input {
+    width: 100px;
+    width: 6.25rem;
+  }
+  /* line 68, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .search {
+    padding: 13px 15px;
+  }
+  /* line 71, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right {
+    padding-top: 16px;
+  }
+  /* line 73, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .uploadmusic {
+    padding: 0px 24px 4px 0px;
+    margin-right: 12px;
+  }
+  /* line 79, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .user_notif a i {
+    margin: 0px 4px;
+  }
+  /* line 86, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content {
+    padding: 10px 6px 0px 0px;
+  }
+  /* line 88, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu {
+    padding-right: 4px;
+  }
+  /* line 90, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu img {
+    margin-right: 5px;
+    width: 40px;
+    width: 2.5rem;
+    display: none;
+  }
+  /* line 95, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu .usr_name {
+    line-height: 22px;
+  }
+  /* line 97, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu .usr_name samp {
+    font-size: 11px;
+    font-size: 0.6875rem;
+  }
+  /* line 102, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profile_logout {
+    padding-left: 7px;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 113, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content {
+    width: 25%;
+    padding-top: 9px;
+  }
+  /* line 116, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content .logo_outer {
+    width: 56%;
+  }
+  /* line 120, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content {
+    width: 50%;
+    padding: 0px;
+  }
+  /* line 123, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content > div {
+    width: auto;
+    padding: 0px 5px;
+  }
+  /* line 126, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content > div.removepadright {
+    float: right;
+  }
+  /* line 130, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .songfilter {
+    padding: 12px 15px;
+  }
+  /* line 132, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .songfilter input {
+    width: 90px;
+    width: 5.625rem;
+  }
+  /* line 136, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .search {
+    padding: 7px 13px;
+  }
+  /* line 138, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .search input {
+    width: 130px;
+    width: 8.125rem;
+  }
+  /* line 142, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right {
+    padding-top: 12px;
+  }
+  /* line 144, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .uploadmusic {
+    padding: 0px 8px 4px 0px;
+  }
+  /* line 147, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .uploadmusic label span {
+    display: none;
+  }
+  /* line 154, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content {
+    width: 24%;
+    padding: 8px 6px 0px 0px;
+  }
+  /* line 158, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu .usr_name {
+    line-height: 6px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 169, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner {
+    padding: 8px 18px;
+  }
+  /* line 172, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content .menuicon {
+    margin-left: 10px;
+  }
+  /* line 176, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content {
+    padding: 0px 20px 0px 0px;
+  }
+  /* line 179, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .uploadmusic {
+    margin-right: 8px;
+    padding-right: 6px;
+  }
+  /* line 183, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .uploadmusic label i {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+  /* line 188, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .uploadmusic a span {
+    display: none;
+  }
+  /* line 194, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .user_notif a {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 200, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .songfilter input {
+    width: 80px;
+    width: 5rem;
+  }
+  /* line 205, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content {
+    padding: 8px 0px 0px 0px;
+  }
+  /* line 208, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu img {
+    width: 30px;
+    width: 1.875rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 219, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner {
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  /* line 221, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content {
+    width: 26%;
+    padding-top: 7px;
+    padding-left: 7px;
+  }
+  /* line 225, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content .logo_outer {
+    width: 100px;
+    width: 6.25rem;
+  }
+  /* line 228, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content .menuicon {
+    width: auto;
+    padding-top: 5px;
+    margin: 0px;
+  }
+  /* line 234, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content {
+    width: 46%;
+    padding: 0px;
+  }
+  /* line 237, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right {
+    padding-top: 9px;
+  }
+  /* line 240, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .user_notif a {
+    font-size: 12px;
+    font-size: 0.75rem;
+  }
+  /* line 242, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .user_notif a i {
+    font-size: 21px;
+    font-size: 1.3125rem;
+  }
+  /* line 244, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right .user_notif a i.icon-comment {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  /* line 251, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .search {
+    border-width: 2px;
+  }
+  /* line 253, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .search input {
+    width: 80px;
+    width: 5rem;
+  }
+  /* line 258, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content {
+    width: 28%;
+    padding-top: 3px;
+  }
+}
+@media (max-width: 640px) {
+  /* line 267, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner {
+    position: relative;
+    padding: 8px 28px;
+  }
+  /* line 270, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content {
+    padding: 8px 0px 10px;
+    width: auto;
+  }
+  /* line 273, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content .menuicon {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  /* line 277, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content {
+    padding: 0px;
+    width: 100%;
+    text-align: right;
+  }
+  /* line 281, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .search {
+    padding: 5px 13px;
+    border-width: 2px;
+  }
+  /* line 285, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .h_mid_right {
+    padding-top: 5px;
+  }
+  /* line 288, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content > div {
+    padding: 0px 15px 0px 5px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  /* line 295, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content {
+    padding: 10px 0px 0px 0px;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 24px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 310, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_left_content .menuicon {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+  /* line 314, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content {
+    padding: 24px 0px 0px 0px;
+  }
+  /* line 316, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profilemenu {
+    display: none;
+  }
+  /* line 319, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_right_content .profile_logout {
+    padding: 0px;
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 326, ../scss/style/responsive/layout/_header.scss */
+  header .header_inner .h_mid_content .search input {
+    width: 90px;
+    width: 5.625rem;
+  }
+}
+@media (max-width: 1400px) {
+  /* line 3, ../scss/style/responsive/layout/_footer.scss */
+  footer .footer_inner {
+    font-size: 14px;
+    font-size: 0.875rem;
+    padding: 30px 0px;
+  }
+}
+@media (max-width: 1600px) {
+  /* line 4, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner {
+    padding: 122px 352px 0px 310px;
+  }
+  /* line 6, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu {
+    width: 280px;
+    width: 17.5rem;
+    top: 82px;
+  }
+  /* line 11, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li a {
+    padding: 12px 18px;
+  }
+  /* line 15, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li.dropdown:after {
+    font-size: 12px;
+    font-size: 0.75rem;
+    top: 18px;
+  }
+  /* line 23, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar {
+    width: 320px;
+    width: 20rem;
+    top: 82px;
+  }
+  /* line 26, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .profile_progress {
+    padding: 30px 27px 25px;
+  }
+  /* line 29, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .profile_progress .pp_graph img {
+    width: 160px;
+    width: 10rem;
+  }
+  /* line 34, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .top_selling_music, .main_outer .content_area .content_area_inner .con_sidebar .music_contracts {
+    padding: 25px 27px;
+  }
+  /* line 37, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .top_selling_music .tsm_box .tsm_text, .main_outer .content_area .content_area_inner .con_sidebar .music_contracts .tsm_box .tsm_text {
+    width: 74%;
+  }
+  /* line 42, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .top_selling_music .ctrct_info_box .ctrct_info, .main_outer .content_area .content_area_inner .con_sidebar .music_contracts .ctrct_info_box .ctrct_info {
+    width: 74%;
+  }
+  /* line 48, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner.withoutsidebar {
+    padding: 130px 57px 0px 330px;
+  }
+}
+@media (max-width: 1400px) {
+  /* line 56, ../scss/style/responsive/layout/_afterlogin.scss */
+  .theme-button {
+    padding: 14px 40px;
+    margin: 0px 15px;
+  }
+
+  /* line 60, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+  /* line 63, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner {
+    padding: 114px 329px 0px 280px;
+  }
+  /* line 65, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu {
+    top: 86px;
+    width: 250px;
+    width: 15.625rem;
+  }
+  /* line 68, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer {
+    padding: 13px 0px 28px;
+  }
+  /* line 71, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li a {
+    padding: 12px 18px;
+  }
+  /* line 73, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li a i {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+  /* line 77, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li.menu_withdraw {
+    padding: 16px 18px 16px 16px;
+  }
+  /* line 79, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li.menu_withdraw span {
+    font-size: 22px;
+    font-size: 1.375rem;
+  }
+  /* line 83, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li.sgst_fchr {
+    padding: 24px 12px 10px;
+  }
+  /* line 89, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar {
+    top: 86px;
+    width: 298px;
+    width: 18.625rem;
+  }
+  /* line 92, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .profile_progress {
+    padding: 32px 27px 24px;
+  }
+  /* line 94, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .profile_progress .pp_graph {
+    margin-bottom: 25px;
+  }
+  /* line 96, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .profile_progress .pp_graph img {
+    width: 150px;
+    width: 9.375rem;
+  }
+  /* line 101, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .profile_progress .pp_text .cplt_pro {
+    margin-top: 12px;
+  }
+  /* line 106, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .top_selling_music {
+    padding: 20px 27px;
+  }
+  /* line 108, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .top_selling_music h3 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    margin-bottom: 22px;
+  }
+  /* line 113, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .top_selling_music .tsm_box .tsm_img {
+    width: 40px;
+    width: 2.5rem;
+  }
+  /* line 116, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .top_selling_music .tsm_box .tsm_text {
+    width: 73%;
+  }
+  /* line 121, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .music_contracts {
+    padding: 20px 27px;
+  }
+  /* line 123, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .music_contracts h3 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    margin-bottom: 22px;
+  }
+  /* line 128, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .music_contracts .ctrct_info_box .ctrct_date {
+    width: 35px;
+  }
+  /* line 131, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar .music_contracts .ctrct_info_box .ctrct_info {
+    width: 68%;
+  }
+  /* line 137, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner.withoutsidebar {
+    padding: 115px 27px 0px 277px;
+  }
+  /* line 140, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner input, .main_outer .content_area .content_area_inner textarea, .main_outer .content_area .content_area_inner select {
+    padding: 4px 4px 19px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 150, ../scss/style/responsive/layout/_afterlogin.scss */
+  .theme-button {
+    padding: 12px 40px !important;
+    margin: 0px 11px;
+    font-size: 14px !important;
+  }
+
+  /* line 157, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner {
+    padding: 107px 23px 0px 252px;
+  }
+  /* line 159, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu {
+    top: 79px;
+    width: 230px;
+    width: 14.375rem;
+  }
+  /* line 162, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer {
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  /* line 165, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li a {
+    padding: 10px 18px;
+  }
+  /* line 167, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li a i {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  /* line 172, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li.dropdown:after {
+    top: 12px;
+  }
+  /* line 178, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li.dropdown .sub_nav li.prfile_info a {
+    padding: 13px 14px;
+  }
+  /* line 186, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu .menu_outer li.menu_withdraw span {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+  /* line 193, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_sidebar {
+    display: none;
+  }
+  /* line 196, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner input, .main_outer .content_area .content_area_inner textarea, .main_outer .content_area .content_area_inner select {
+    font-size: 17px;
+    font-size: 1.0625rem;
+  }
+  /* line 198, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner input::-webkit-input-placeholder, .main_outer .content_area .content_area_inner textarea::-webkit-input-placeholder, .main_outer .content_area .content_area_inner select::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 14px;
+    font-size: 0.875rem;
+    opacity: 1;
+  }
+  /* line 202, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner input::-moz-placeholder, .main_outer .content_area .content_area_inner textarea::-moz-placeholder, .main_outer .content_area .content_area_inner select::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 14px;
+    font-size: 0.875rem;
+    opacity: 1;
+  }
+  /* line 206, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner input:-ms-input-placeholder, .main_outer .content_area .content_area_inner textarea:-ms-input-placeholder, .main_outer .content_area .content_area_inner select:-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 14px;
+    font-size: 0.875rem;
+    opacity: 1;
+  }
+  /* line 210, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner input:-moz-placeholder, .main_outer .content_area .content_area_inner textarea:-moz-placeholder, .main_outer .content_area .content_area_inner select:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 14px;
+    font-size: 0.875rem;
+    opacity: 1;
+  }
+}
+@media (max-width: 992px) {
+  /* line 221, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer {
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  /* line 224, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner {
+    padding: 85px 20px 0px;
+  }
+  /* line 227, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner.menuOpen .con_left_menu {
+    left: 0;
+    top: 59px;
+  }
+  /* line 232, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu {
+    left: -250px;
+    top: 59px;
+    transition: all 0.3s ease-in-out 0s;
+    background: #282e49;
+    z-index: 9999;
+  }
+  /* line 239, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner.withoutsidebar {
+    padding: 135px 25px 0px 25px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 250, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner {
+    padding: 75px 20px 0px;
+  }
+  /* line 253, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner.menuOpen .con_left_menu {
+    top: 53px;
+  }
+  /* line 257, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu {
+    top: 53px;
+  }
+  /* line 260, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner.withoutsidebar {
+    padding: 90px 15px 20px;
+  }
+  /* line 263, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner input, .main_outer .content_area .content_area_inner textarea, .main_outer .content_area .content_area_inner select {
+    width: 100%;
+    font-size: 17px;
+    font-size: 1.0625rem;
+  }
+}
+@media (max-width: 640px) {
+  /* line 275, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner {
+    padding: 115px 20px 0px;
+  }
+  /* line 277, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner .con_left_menu {
+    top: 96px;
+  }
+  /* line 281, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner.menuOpen .con_left_menu {
+    top: 96px;
+  }
+  /* line 285, ../scss/style/responsive/layout/_afterlogin.scss */
+  .main_outer .content_area .content_area_inner.withoutsidebar {
+    padding: 130px 15px 20px;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 2, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner {
+    width: 800px;
+    width: 50rem;
+  }
+}
+@media (max-width: 992px) {
+  /* line 2, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner {
+    width: 700px;
+    width: 43.75rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 2, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner {
+    width: 94%;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 12, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .logo {
+    padding: 70px 0px 50px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 12, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .logo {
+    padding: 40px 0px 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 19, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .logo img {
+    max-width: 110px;
+    max-width: 6.875rem;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 25, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box {
+    margin-bottom: 30px;
+    padding: 10px;
+    min-height: 90px;
+    min-height: 5.625rem;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 32, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .form-title h1 {
+    font-size: 18px;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 32, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .form-title h1 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 41, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .form-title p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 41, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .form-title p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 51, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner {
+    font-size: 20px;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    padding: 50px 40px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 51, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
+    padding: 40px 20px;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 62, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer input {
+    margin-bottom: 30px;
+    font-size: 16px;
+    padding: 0px 3px 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 62, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer input {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 73, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer.box-20 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 78, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer.box-25 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 84, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer.box-30 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 89, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer.box-40 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 94, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer.box-45 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 99, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer.box-60 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 104, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer.box-65 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 109, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer.box-80 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 114, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .inout-outer.box-70 {
+    width: 100%;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 120, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 120, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 128, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_radio {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 128, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_radio {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 137, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_radio span:after {
+    position: absolute;
+    top: 6px;
+    right: auto;
+    bottom: auto;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 143, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_radio span:before {
+    position: absolute;
+    top: 2px;
+    right: auto;
+    bottom: auto;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 151, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_checked {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 151, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_checked {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 159, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_checked span {
+    padding-left: 25px;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 163, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_checked span:after {
+    position: absolute;
+    top: 3px;
+    right: auto;
+    bottom: auto;
+    left: 4px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 163, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_checked span:after {
+    position: absolute;
+    top: 2px;
+    right: auto;
+    bottom: auto;
+    left: 2px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 172, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner form .radio-outer label.z_checked span:before {
+    position: absolute;
+    top: 2px;
+    right: auto;
+    bottom: auto;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 184, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .forgot_pwd a {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 184, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .forgot_pwd a {
+    font-size: 14px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 193, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .button_block {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 193, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .button_block {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 200, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .button_block .button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 200, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .button_block .button {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 211, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .signup_btn p {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 480px) {
+  /* line 215, ../scss/style/responsive/layout/_beforelogin.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .signup_btn p a {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1600px) {
+  /* line 5, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .top_strip .heading {
+    font-size: 16px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 9px;
+  }
+  /* line 10, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .top_strip .ts_filter {
+    width: 100%;
+  }
+  /* line 12, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .top_strip .ts_filter label {
+    width: 28%;
+    margin: 0px 16px 0px 0px;
+  }
+  /* line 15, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .top_strip .ts_filter label select {
+    padding-bottom: 6px;
+  }
+  /* line 22, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .graph_outer {
+    padding: 25px 30px 40px;
+    margin-bottom: 30px;
+  }
+  /* line 27, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box {
+    padding: 10px;
+    width: 50%;
+  }
+  /* line 30, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box.removepadleft, .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box.removepadright {
+    padding: 10px !important;
+  }
+  /* line 33, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner {
+    padding: 28px 25px;
+    min-height: 300px;
+    min-height: 18.75rem;
+  }
+  /* line 38, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner .cr_con .create_new a {
+    width: 80%;
+    margin: auto;
+  }
+  /* line 43, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner .cr_con .cr_con_txt {
+    margin-bottom: 25px;
+  }
+  /* line 46, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner .cr_con .cr_blankcbox {
+    height: 137px;
+    height: 8.5625rem;
+  }
+  /* line 50, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner h5 {
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 1400px) {
+  /* line 66, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner {
+    padding: 25px 15px;
+    min-height: 347px;
+  }
+  /* line 69, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner h5 {
+    min-height: 38px;
+    margin-bottom: 28px;
+    font-size: 17px;
+    font-size: 1.0625rem;
+  }
+  /* line 75, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner .cr_con .cr_blankcbox {
+    font-size: 16px;
+    font-size: 1rem;
+    height: 178px;
+  }
+  /* line 80, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner .cr_con .create_new a {
+    padding: 16px;
+  }
+}
+@media (max-width: 1300px) {
+  /* line 98, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box {
+    padding: 12px 0px;
+    width: 100%;
+  }
+  /* line 101, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box.removepadleft, .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box.removepadright {
+    padding: 12px 0px !important;
+  }
+  /* line 104, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner {
+    min-height: 1px;
+  }
+  /* line 108, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner .cr_con .create_new a {
+    width: 350px;
+    width: 21.875rem;
+    margin: auto;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 127, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .top_strip .ts_filter label {
+    width: 29%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 151, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .top_strip .ts_filter span {
+    margin: 0px 0px 12px;
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+  }
+  /* line 157, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .top_strip .ts_filter label {
+    width: 30%;
+  }
+  /* line 166, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner h5 {
+    min-height: 1px;
+    min-height: 0.0625rem;
+  }
+}
+@media (max-width: 479px) {
+  /* line 182, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .top_strip .ts_filter label {
+    width: 100%;
+    margin: 0px 0px 15px;
+  }
+  /* line 194, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner .cr_con .create_new a {
+    width: 240px;
+    width: 15rem;
+  }
+  /* line 196, ../scss/style/responsive/_dashboard.scss */
+  .con_mid.dashboard_main .status_con .status_body .chartresult_boxes .cr_box .cr_box_inner .cr_con .create_new a span {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 1600px) {
+  /* line 5, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading.withfilter .hehading_text, .profilepage .main_heading.withfilter .hehading_text {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  /* line 9, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading.withfilter .ts_filter, .profilepage .main_heading.withfilter .ts_filter {
+    width: 100%;
+    text-align: left;
+  }
+  /* line 12, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading.withfilter .ts_filter label, .createyourprofile .main_heading.withfilter .ts_filter > div, .profilepage .main_heading.withfilter .ts_filter label, .profilepage .main_heading.withfilter .ts_filter > div {
+    width: 30.3%;
+    margin: 0px 29px 0px 0px;
+  }
+  /* line 16, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading.withfilter .ts_filter select, .createyourprofile .main_heading.withfilter .ts_filter input, .profilepage .main_heading.withfilter .ts_filter select, .profilepage .main_heading.withfilter .ts_filter input {
+    width: 100%;
+  }
+  /* line 25, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 0px 40px 50px;
+  }
+  /* line 29, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label {
+    padding: 22px 26px;
+  }
+  /* line 35, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data {
+    padding: 70px 0px 0px;
+    margin-bottom: 40px;
+  }
+  /* line 38, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:before, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:before {
+    height: 82px;
+    height: 5.125rem;
+  }
+  /* line 41, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:after, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:after {
+    height: 186px;
+    height: 11.625rem;
+  }
+  /* line 53, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.uploadimg label, .profilepage .contentouter .field_outer.uploadimg label {
+    padding: 22px 30px;
+  }
+  /* line 61, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner {
+    padding: 28px 25px;
+  }
+  /* line 63, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox_pad, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox_pad {
+    padding: 28px 25px;
+  }
+  /* line 66, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 30px 0px;
+  }
+  /* line 68, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .cyp_contentbox_inner, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .cyp_contentbox_inner {
+    padding: 28px 25px;
+  }
+  /* line 71, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox {
+    width: 47%;
+    margin: 0px 7px 15px;
+  }
+  /* line 74, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox.removemarleft, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox.removemarleft {
+    margin-left: 7px !important;
+  }
+}
+@media (max-width: 1400px) {
+  /* line 85, ../scss/style/responsive/_profile-pages.scss */
+  .theme-button {
+    padding: 14px 30px !important;
+  }
+
+  /* line 89, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading, .profilepage .main_heading {
+    margin-bottom: 18px;
+  }
+  /* line 91, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading h2, .profilepage .main_heading h2 {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  /* line 93, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading h2 i, .profilepage .main_heading h2 i {
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-right: 7px;
+  }
+  /* line 99, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading .headinglink a, .profilepage .main_heading .headinglink a {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  /* line 105, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading.withfilter .ts_filter label, .createyourprofile .main_heading.withfilter .ts_filter > div, .profilepage .main_heading.withfilter .ts_filter label, .profilepage .main_heading.withfilter .ts_filter > div {
+    width: 30.3%;
+    margin: 0px 22px 0px 0px;
+  }
+  /* line 112, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox, .profilepage .cyp_upperbox {
+    margin-bottom: 40px;
+  }
+  /* line 117, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox .cyp_uppersteps span, .profilepage .cyp_upperbox .cyp_uppersteps span {
+    width: 40px;
+    width: 2.5rem;
+    height: 40px;
+    height: 2.5rem;
+    font-size: 18px;
+    font-size: 1.125rem;
+    padding-top: 9px;
+  }
+  /* line 122, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox .cyp_uppersteps span:after, .profilepage .cyp_upperbox .cyp_uppersteps span:after {
+    top: 18px;
+    left: 40px;
+  }
+  /* line 130, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_head, .profilepage .cyp_form_outer .cyp_head {
+    padding: 28px;
+  }
+  /* line 132, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_head h4, .profilepage .cyp_form_outer .cyp_head h4 {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 138, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 0px 30px 30px;
+  }
+  /* line 140, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox h5, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox h5 {
+    margin: 30px 0px 30px;
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 146, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn > input, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn > input {
+    width: 29%;
+  }
+  /* line 149, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon {
+    width: 58%;
+  }
+  /* line 151, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon i, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon i {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  /* line 156, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea {
+    margin-bottom: 40px;
+    padding: 4px 4px 19px;
+    width: 93%;
+  }
+  /* line 162, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label {
+    padding: 16px 20px;
+  }
+  /* line 168, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data {
+    padding: 60px 0px 0px;
+    margin-bottom: 30px;
+  }
+  /* line 171, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:after, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:after {
+    height: 173px;
+    height: 10.8125rem;
+  }
+  /* line 176, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner .file_field label, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner .file_field label {
+    padding: 12px 28px;
+  }
+  /* line 183, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .fieldmoreinfo, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .fieldmoreinfo {
+    font-size: 17px;
+    font-size: 1.0625rem;
+  }
+  /* line 186, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.without_heading, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.without_heading {
+    padding-top: 30px;
+  }
+  /* line 192, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .contributor_info span, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .contributor_info span {
+    margin: 10px 30px 10px 0px;
+  }
+  /* line 209, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer button.theme-button, .profilepage .createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer button.theme-button {
+    width: 100%;
+    padding: 17px;
+  }
+  /* line 217, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .errorbox_outer .errorbox span, .profilepage .createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .errorbox_outer .errorbox span {
+    width: 90%;
+    vertical-align: top;
+  }
+  /* line 225, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:nth-child(2), .profilepage .createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:nth-child(2) {
+    text-align: left;
+    padding: 10px 0px;
+  }
+  /* line 229, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:last-child, .profilepage .createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:last-child {
+    text-align: left;
+  }
+  /* line 239, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter, .profilepage .contentouter {
+    padding: 30px 30px 50px;
+    margin-bottom: 60px;
+  }
+  /* line 242, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter h5, .profilepage .contentouter h5 {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 247, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.uploadimg label, .profilepage .contentouter .field_outer.uploadimg label {
+    padding: 18px 30px;
+  }
+  /* line 251, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer input[type="submit"], .profilepage .contentouter .field_outer input[type="submit"] {
+    margin: 50px 0 0 !important;
+  }
+  /* line 255, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.uploaded_images .imgbox, .profilepage .contentouter .field_outer.uploaded_images .imgbox {
+    margin: 5px;
+    width: 50px;
+    width: 3.125rem;
+    height: 50px;
+    height: 3.125rem;
+  }
+  /* line 259, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.uploaded_images .imgbox a, .profilepage .contentouter .field_outer.uploaded_images .imgbox a {
+    width: 23px;
+    width: 1.4375rem;
+    height: 23px;
+    height: 1.4375rem;
+    font-size: 11px;
+    font-size: 0.6875rem;
+    padding-top: 0px;
+  }
+  /* line 271, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner {
+    padding: 18px 15px;
+  }
+  /* line 273, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .cyp_contentbox_inner, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .cyp_contentbox_inner {
+    padding: 18px 15px;
+  }
+  /* line 277, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox_pad, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox_pad {
+    padding: 18px 15px;
+  }
+  /* line 281, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 30px 0px;
+  }
+  /* line 283, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox h4, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox h4 {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 286, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox {
+    width: 47%;
+    margin: 0px 7px 15px;
+  }
+  /* line 289, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox.removemarleft, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox.removemarleft {
+    margin-left: 7px !important;
+  }
+  /* line 293, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus {
+    margin-top: 50px;
+  }
+  /* line 295, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus .theme-button, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus .theme-button {
+    padding: 12px 30px !important;
+    margin: 0 0 0 20px !important;
+  }
+  /* line 299, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus label, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus label {
+    padding: 12px 30px;
+  }
+
+  /* line 314, ../scss/style/responsive/_profile-pages.scss */
+  .edit-album .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select, .edit-song .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select {
+    padding-bottom: 17px;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 327, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading h2, .profilepage .main_heading h2 {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 329, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading h2 i, .profilepage .main_heading h2 i {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+  /* line 334, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading .headinglink a, .profilepage .main_heading .headinglink a {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  /* line 339, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox, .profilepage .cyp_upperbox {
+    margin-bottom: 30px;
+  }
+  /* line 342, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox .cyp_uppersteps span, .profilepage .cyp_upperbox .cyp_uppersteps span {
+    margin: 0px 28px;
+    font-size: 16px;
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+  /* line 346, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox .cyp_uppersteps span:after, .profilepage .cyp_upperbox .cyp_uppersteps span:after {
+    width: 57px;
+  }
+  /* line 355, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 0px 30px 30px;
+  }
+  /* line 357, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox h5, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox h5 {
+    margin: 30px 0px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  /* line 363, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea {
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-size: 1.0625rem;
+  }
+  /* line 367, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input::-webkit-input-placeholder, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea::-webkit-input-placeholder, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input::-webkit-input-placeholder, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    opacity: 1;
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  /* line 371, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input::-moz-placeholder, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea::-moz-placeholder, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input::-moz-placeholder, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    opacity: 1;
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  /* line 375, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input:-ms-input-placeholder, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea:-ms-input-placeholder, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input:-ms-input-placeholder, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea:-ms-input-placeholder {
+    /* IE 10+ */
+    opacity: 1;
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  /* line 379, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input:-moz-placeholder, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea:-moz-placeholder, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input:-moz-placeholder, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea:-moz-placeholder {
+    /* Firefox 18- */
+    opacity: 1;
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  /* line 384, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea {
+    min-height: 80px;
+    min-height: 5rem;
+  }
+  /* line 388, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label {
+    text-align: center;
+  }
+  /* line 393, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.withinfo .fieldmoreinfo, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.withinfo .fieldmoreinfo {
+    font-size: 18px;
+    font-size: 1.125rem;
+    top: 5px;
+  }
+  /* line 399, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:last-child, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:last-child {
+    margin-bottom: 67px;
+  }
+  /* line 405, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner input, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner input {
+    margin-bottom: 21px;
+  }
+  /* line 422, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer button.theme-button, .profilepage.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer button.theme-button {
+    width: 300px;
+    width: 18.75rem;
+  }
+  /* line 439, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label, .profilepage.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label {
+    width: 70%;
+    padding: 20px 30px;
+    cursor: pointer;
+  }
+  /* line 444, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg span, .profilepage.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg span {
+    margin: 8px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  /* line 450, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images .imgbox, .profilepage.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images .imgbox {
+    width: 53px;
+    width: 3.3125rem;
+    height: 53px;
+    height: 3.3125rem;
+    margin: 8px;
+  }
+  /* line 465, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.uploadimg span, .profilepage .contentouter .field_outer.uploadimg span {
+    margin: 8px;
+  }
+  /* line 474, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 20px 0px;
+  }
+  /* line 476, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox h4, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox h4 {
+    margin-bottom: 18px;
+  }
+
+  /* line 490, ../scss/style/responsive/_profile-pages.scss */
+  .edit-album .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select, .edit-song .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select {
+    padding-bottom: 7px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 504, ../scss/style/responsive/_profile-pages.scss */
+  .profilepage .contentouter.notification .cyp_contentbox {
+    padding: 40px 30px;
+  }
+  /* line 506, ../scss/style/responsive/_profile-pages.scss */
+  .profilepage .contentouter.notification .cyp_contentbox:first-child {
+    padding: 50px 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 515, ../scss/style/responsive/_profile-pages.scss */
+  .bluebtn {
+    padding: 14px 28px;
+  }
+
+  /* line 518, ../scss/style/responsive/_profile-pages.scss */
+  .theme-button {
+    padding: 11px 28px !important;
+    font-size: 13px !important;
+  }
+
+  /* line 526, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading.withfilter .ts_filter label, .createyourprofile .main_heading.withfilter .ts_filter > div, .profilepage .main_heading.withfilter .ts_filter label, .profilepage .main_heading.withfilter .ts_filter > div {
+    width: 100%;
+    margin: 0px 0px 12px 0px;
+  }
+  /* line 532, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading.withfilter > div:first-child, .profilepage .main_heading.withfilter > div:first-child {
+    padding: 0px 0px 25px;
+  }
+  /* line 535, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading.withfilter > div.text-right, .profilepage .main_heading.withfilter > div.text-right {
+    text-align: left;
+    padding: 0px;
+  }
+  /* line 538, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .main_heading.withfilter > div.text-right label, .profilepage .main_heading.withfilter > div.text-right label {
+    width: 100%;
+  }
+  /* line 545, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox, .profilepage .cyp_upperbox {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* line 548, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox .cyp_uppertext, .profilepage .cyp_upperbox .cyp_uppertext {
+    width: 100%;
+  }
+  /* line 551, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox .cyp_uppersteps, .profilepage .cyp_upperbox .cyp_uppersteps {
+    width: 100%;
+    margin-top: 15px;
+  }
+  /* line 554, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_upperbox .cyp_uppersteps.text-right, .profilepage .cyp_upperbox .cyp_uppersteps.text-right {
+    text-align: center;
+  }
+  /* line 562, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 0px 20px 30px;
+  }
+  /* line 565, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select {
+    width: 100%;
+  }
+  /* line 567, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input.removemar, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea.removemar, .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select.removemar, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input.removemar, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea.removemar, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer select.removemar {
+    margin-bottom: 40px !important;
+  }
+  /* line 571, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer textarea {
+    min-height: 80px;
+    min-height: 5rem;
+  }
+  /* line 575, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doubleselect label, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doubleselect label {
+    width: 100%;
+    margin-right: 00%;
+  }
+  /* line 579, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doubleselect label select:last-child, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doubleselect label select:last-child {
+    margin-right: 0%;
+  }
+  /* line 583, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doubleselect label.right-side-select, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doubleselect label.right-side-select {
+    margin-left: 0%;
+  }
+  /* line 589, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doublefields label, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doublefields label {
+    width: 48%;
+  }
+  /* line 591, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doublefields label:first-child, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doublefields label:first-child {
+    margin-right: 13px;
+  }
+  /* line 597, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn > input, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn > input {
+    width: 30%;
+    margin: 0px 20px 0px 0px;
+  }
+  /* line 601, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon {
+    width: 64%;
+  }
+  /* line 604, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon input.removemar, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon input.removemar {
+    margin-bottom: 0 !important;
+  }
+  /* line 608, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon i, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon i {
+    font-size: 14px;
+    font-size: 0.875rem;
+    bottom: 19px;
+  }
+  /* line 615, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer .date-field:after, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer .date-field:after {
+    right: 7px;
+  }
+  /* line 619, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg {
+    text-align: center;
+  }
+  /* line 621, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label {
+    margin: auto;
+  }
+  /* line 626, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images.text-right, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images.text-right {
+    text-align: center;
+    margin-top: 25px;
+  }
+  /* line 630, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images.text-right .imgbox:first-child, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images.text-right .imgbox:first-child {
+    margin-left: 0px;
+  }
+  /* line 637, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.withinfo select, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.withinfo select {
+    width: 91%;
+  }
+  /* line 640, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.withinfo .fieldmoreinfo, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.withinfo .fieldmoreinfo {
+    top: 16px;
+  }
+  /* line 645, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:last-child, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:last-child {
+    margin-bottom: 40px;
+  }
+  /* line 650, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box h5, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box h5 {
+    margin: 0px 0px 17px;
+  }
+  /* line 654, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .contributor_info span, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .contributor_info span {
+    width: 100%;
+    margin: 0px 0px 10px;
+  }
+  /* line 657, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .contributor_info span:first-child, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .contributor_info span:first-child {
+    width: 100%;
+  }
+  /* line 665, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data {
+    padding: 40px 0px 0px;
+  }
+  /* line 667, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:before, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:before {
+    height: 52px;
+    height: 3.25rem;
+  }
+  /* line 670, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:after, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data:after {
+    height: 435px;
+    height: 27.1875rem;
+  }
+  /* line 674, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner > div, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner > div {
+    padding: 0px;
+  }
+  /* line 677, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner > div input.removemar, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner > div input.removemar {
+    margin-bottom: 25px !important;
+  }
+  /* line 683, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner > div:last-child input.removemar, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .music_data_outer .music_data .music_data_inner > div:last-child input.removemar {
+    margin-bottom: 0 !important;
+  }
+  /* line 696, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_footer, .profilepage .cyp_form_outer .cyp_footer {
+    padding: 14px 16px;
+  }
+  /* line 698, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_footer.text-right, .profilepage .cyp_form_outer .cyp_footer.text-right {
+    text-align: center;
+  }
+  /* line 705, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner {
+    padding: 18px 15px;
+  }
+  /* line 707, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 20px 0px;
+  }
+  /* line 709, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus {
+    margin-top: 40px;
+  }
+  /* line 711, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus .theme-button, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus .theme-button {
+    padding: 10px 25px !important;
+  }
+  /* line 714, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus label, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus label {
+    padding: 10px 25px;
+  }
+  /* line 726, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 20px;
+  }
+  /* line 728, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:first-child, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:first-child {
+    padding: 20px;
+  }
+  /* line 730, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:first-child > div, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:first-child > div {
+    width: 50%;
+  }
+  /* line 734, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .walletrecord, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .walletrecord {
+    padding-top: 0px;
+    padding: 0px 0px 20px;
+  }
+  /* line 738, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div {
+    padding: 0px 0px 20px;
+    width: 33%;
+  }
+  /* line 741, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div:last-child, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div:last-child {
+    padding: 0px;
+  }
+  /* line 745, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.headingstrip, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.headingstrip {
+    padding: 15px 20px;
+  }
+  /* line 760, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .errorbox_outer .errorbox i, .profilepage.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .errorbox_outer .errorbox i {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+  /* line 763, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .errorbox_outer .errorbox span, .profilepage.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .errorbox_outer .errorbox span {
+    width: 84%;
+  }
+  /* line 770, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer button .theme-button, .profilepage.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer button .theme-button {
+    width: 60%;
+  }
+  /* line 777, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:nth-child(2), .profilepage.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:nth-child(2) {
+    text-align: left;
+    padding: 30px 0px;
+  }
+  /* line 781, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:last-child, .profilepage.createyourprofile-step2 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:last-child {
+    text-align: left;
+  }
+  /* line 798, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.manage_team .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:nth-child(2), .profilepage.manage_team .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:nth-child(2) {
+    text-align: left;
+    padding: 30px 0px;
+  }
+  /* line 802, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.manage_team .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:last-child, .profilepage.manage_team .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.notification .field_outer:last-child {
+    text-align: left;
+  }
+  /* line 819, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label, .profilepage.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label {
+    width: 250px;
+    width: 15.625rem;
+  }
+  /* line 823, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images, .profilepage.createyourprofile-step3 .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images {
+    text-align: left;
+    margin-top: 15px;
+  }
+  /* line 833, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter, .profilepage .contentouter {
+    padding: 30px 20px 40px;
+    margin-bottom: 50px;
+  }
+  /* line 836, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter h5, .profilepage .contentouter h5 {
+    margin-bottom: 35px;
+  }
+  /* line 841, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.uploadimg label, .profilepage .contentouter .field_outer.uploadimg label {
+    width: 250px;
+    width: 15.625rem;
+  }
+  /* line 846, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.uploaded_images.text-right, .profilepage .contentouter .field_outer.uploaded_images.text-right {
+    text-align: left;
+    margin-top: 15px;
+  }
+  /* line 852, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.doubleselect label, .profilepage .contentouter .field_outer.doubleselect label {
+    width: 100%;
+    margin-right: 0%;
+  }
+  /* line 858, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.doubleselect label.right-side-select, .profilepage .contentouter .field_outer.doubleselect label.right-side-select {
+    margin-left: 0%;
+  }
+  /* line 864, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer input.removemar, .profilepage .contentouter .field_outer input.removemar {
+    margin-bottom: 40px !important;
+  }
+  /* line 868, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.radiooptions_box, .profilepage .contentouter .field_outer.radiooptions_box {
+    margin-bottom: 40px;
+  }
+  /* line 870, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.radiooptions_box .radio_heading, .profilepage .contentouter .field_outer.radiooptions_box .radio_heading {
+    width: 100%;
+  }
+  /* line 873, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter .field_outer.radiooptions_box .radio_option, .profilepage .contentouter .field_outer.radiooptions_box .radio_option {
+    margin: 15px 10px 0px 0px;
+  }
+  /* line 879, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter.notification .cyp_contentbox, .profilepage .contentouter.notification .cyp_contentbox {
+    padding: 40px 20px;
+  }
+  /* line 881, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter.notification .cyp_contentbox:first-child, .profilepage .contentouter.notification .cyp_contentbox:first-child {
+    padding: 50px 20px;
+  }
+  /* line 885, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter.notification .cyp_contentbox .field_outer:nth-child(2), .profilepage .contentouter.notification .cyp_contentbox .field_outer:nth-child(2) {
+    padding: 30px 0px;
+    text-align: left;
+  }
+  /* line 889, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .contentouter.notification .cyp_contentbox .field_outer:last-child, .profilepage .contentouter.notification .cyp_contentbox .field_outer:last-child {
+    text-align: left;
+  }
+
+  /* line 897, ../scss/style/responsive/_profile-pages.scss */
+  .theme-button {
+    padding: 12px 36px;
+    margin: 0px 5px;
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  /* line 909, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox {
+    padding: 20px;
+  }
+  /* line 911, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:first-child, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:first-child {
+    padding: 20px;
+  }
+  /* line 913, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:first-child > div, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox:first-child > div {
+    width: 100%;
+  }
+  /* line 917, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .walletrecord, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .walletrecord {
+    padding-top: 0px;
+    padding: 0px 0px 20px;
+  }
+  /* line 921, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div {
+    padding: 0px 0px 20px;
+    width: 100%;
+  }
+  /* line 924, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div.text-right, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div.text-right {
+    text-align: left;
+  }
+  /* line 927, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div:nth-child(2), .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div:nth-child(2) {
+    padding-left: 0px;
+  }
+  /* line 930, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div:last-child, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox > div:last-child {
+    padding: 0px;
+    text-align: left;
+  }
+  /* line 935, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.headingstrip, .profilepage.payment-layout .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.headingstrip {
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 946, ../scss/style/responsive/_profile-pages.scss */
+  .theme-button {
+    width: 220px !important;
+    padding: 12px 18px !important;
+    margin: 5px 0 !important;
+  }
+
+  /* line 953, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_head, .profilepage .cyp_form_outer .cyp_head {
+    padding: 20px;
+  }
+  /* line 960, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer input {
+    width: 100%;
+  }
+  /* line 964, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn > input, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn > input {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* line 968, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.cc_mn .inputicon {
+    width: 100%;
+  }
+  /* line 972, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.addsong, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.addsong {
+    padding: 14px 18px;
+  }
+  /* line 974, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.addsong i, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.addsong i {
+    font-size: 22px;
+    font-size: 1.375rem;
+    padding-right: 9px;
+  }
+  /* line 980, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doublefields label, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doublefields label {
+    width: 100%;
+  }
+  /* line 982, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doublefields label:first-child, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doublefields label:first-child {
+    margin-right: 0px;
+  }
+  /* line 990, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .time_period, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .time_period {
+    margin-bottom: 10px;
+  }
+  /* line 993, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .time_period span i, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .time_period span i {
+    display: none;
+  }
+  /* line 997, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .time_period samp, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box .time_period samp {
+    margin: 0px 10px;
+  }
+  /* line 1001, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box p, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox.cntributr_list_outer .cntributr_list_box p {
+    margin-bottom: 10px;
+  }
+  /* line 1008, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .copyright_agree div span, .profilepage .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .copyright_agree div span {
+    margin: 9px 0px 6px 0px;
+  }
+  /* line 1022, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox select.fullwidth, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox select.fullwidth {
+    margin-bottom: 25px !important;
+  }
+  /* line 1026, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus {
+    text-align: center;
+  }
+  /* line 1028, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus.lowmar, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus.lowmar {
+    margin-top: 12px;
+  }
+  /* line 1031, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus .theme-button, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus .theme-button {
+    margin: auto auto 15px !important;
+  }
+  /* line 1033, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus .theme-button:last-child, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus .theme-button:last-child {
+    margin: auto !important;
+  }
+  /* line 1037, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus label, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .requeststatus label {
+    width: 220px;
+    width: 13.75rem;
+    margin-bottom: 15px;
+  }
+  /* line 1042, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox {
+    width: 100%;
+    margin: 0px 0px 15px;
+  }
+  /* line 1043, ../scss/style/responsive/_profile-pages.scss */
+  .createyourprofile.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox.removemarleft, .profilepage.viewdetail_layout .cyp_body .cyp_body_inner .cyp_contentbox .detailbox.removemarleft {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 13, ../scss/style/responsive/_artist-market-edit.scss */
+  .artist-market-page.artist-market-page-edit .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label {
+    width: 70%;
+    padding: 20px 30px;
+    cursor: pointer;
+  }
+  /* line 18, ../scss/style/responsive/_artist-market-edit.scss */
+  .artist-market-page.artist-market-page-edit .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg span {
+    margin: 8px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  /* line 24, ../scss/style/responsive/_artist-market-edit.scss */
+  .artist-market-page.artist-market-page-edit .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images .imgbox {
+    width: 53px;
+    width: 3.3125rem;
+    height: 53px;
+    height: 3.3125rem;
+    margin: 7px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 50, ../scss/style/responsive/_artist-market-edit.scss */
+  .artist-market-page.artist-market-page-edit .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploadimg label {
+    width: 250px;
+    width: 15.625rem;
+  }
+  /* line 54, ../scss/style/responsive/_artist-market-edit.scss */
+  .artist-market-page.artist-market-page-edit .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images {
+    text-align: center;
+    margin-top: 25px;
+  }
+  /* line 58, ../scss/style/responsive/_artist-market-edit.scss */
+  .artist-market-page.artist-market-page-edit .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.uploaded_images .imgbox:first-child {
+    margin-left: 0px;
+  }
+  /* line 67, ../scss/style/responsive/_artist-market-edit.scss */
+  .artist-market-page.artist-market-page-edit .cyp_form_outer .cyp_footer {
+    padding: 25px 20px;
+    text-align: center;
+  }
+  /* line 70, ../scss/style/responsive/_artist-market-edit.scss */
+  .artist-market-page.artist-market-page-edit .cyp_form_outer .cyp_footer a {
+    margin: 0px 5px 0px 0px;
+  }
+  /* line 72, ../scss/style/responsive/_artist-market-edit.scss */
+  .artist-market-page.artist-market-page-edit .cyp_form_outer .cyp_footer a.theme-button {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 3, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .a_page-tile .page-title-left {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 9, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .a_page-tile .cyp_uppersteps.copyright-search {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 13, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .a_page-tile .cyp_uppersteps.copyright-search .field_outer {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 19, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .a_page-tile .cyp_uppersteps.copyright-search input, .artist-market-page .a_page-tile .cyp_uppersteps.copyright-search select {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 32, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .a_page-tile .artist-social-icon a {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 42, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .artist-profile-box {
+    padding: 15px 15px 0px 15px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 46, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .artist-profile-box .artist-profile-img {
+    width: 120px;
+    height: 120px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 52, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .artist-profile-box .artist-box-l {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 60, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .artist-profile-box .edit-page-link a.theme-button {
+    margin: 5px 5px !important;
+    padding: 10px 20px !important;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  /* line 69, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .artist-profile-box .artist-profile-detail {
+    display: block;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 77, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .carousal-outer .carousal-inner {
+    max-height: 190px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 81, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .carousal-outer .carousal-inner .carousal-box {
+    width: 100%;
+    margin: 0 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 86, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .carousal-outer .carousal-inner .carousal-box img {
+    display: inline-block;
+  }
+}
+@media (max-width: 767px) {
+  /* line 92, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .carousal-outer .carousal-inner .arrow-slider {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 98, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .carousal-outer .carousal-inner .arrow-slider .arw.pre-arw:before {
+    left: -180px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 105, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .carousal-outer .carousal-inner .arrow-slider .arw.next-arw:before {
+    right: -180px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 115, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .barand-mem-outr {
+    padding: 20px 15px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 120, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .barand-mem-outr h5 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 126, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .barand-mem-outr .member-list .member-list-box {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 126, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .barand-mem-outr .member-list .member-list-box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 141, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-links ul li {
+    margin-left: 10px;
+  }
+}
+/* line 145, ../scss/style/responsive/_artist-market.scss */
+.artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-links ul li a {
+  padding: 20px 5px;
+}
+@media (max-width: 992px) {
+  /* line 156, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel {
+    padding: 10px 15px;
+  }
+}
+/* line 160, ../scss/style/responsive/_artist-market.scss */
+.artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head {
+  padding: 20px 40px 20px 0px;
+}
+/* line 163, ../scss/style/responsive/_artist-market.scss */
+.artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head.no-arrow .music-paneltitle {
+  padding-left: 10px;
+}
+/* line 165, ../scss/style/responsive/_artist-market.scss */
+.artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head.no-arrow .music-paneltitle h2 {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  /* line 170, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-main-img {
+    width: 12%;
+    vertical-align: top;
+  }
+}
+@media (max-width: 480px) {
+  /* line 170, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-main-img {
+    width: 20%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 179, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-paneltitle {
+    width: 87%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 179, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-paneltitle {
+    width: 78%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 186, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-paneltitle h2 {
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  /* line 186, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-paneltitle h2 {
+    line-height: 1.2;
+  }
+  /* line 192, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-paneltitle h2 br {
+    display: none;
+  }
+  /* line 195, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-paneltitle h2 span {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  /* line 201, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head a {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    text-align: left;
+  }
+}
+@media (max-width: 1800px) {
+  /* line 207, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head a.theme-button {
+    padding: 10px 15px  !important;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 207, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head a.theme-button {
+    padding: 8px 5px  !important;
+    margin-top: 5px  !important;
+    width: 160px !important;
+  }
+}
+@media (max-width: 480px) {
+  /* line 207, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head a.theme-button {
+    width: 150px !important;
+    float: none;
+    padding: 6px 5px !important;
+  }
+}
+@media (max-width: 992px) {
+  /* line 227, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel ul li {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 231, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel ul li .music-small-img {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  /* line 236, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel ul li .audio-box {
+    width: 78%;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 242, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel ul li .music-viewnumber {
+    width: 100%;
+    text-align: right;
+  }
+}
+@media (max-width: 1600px) {
+  /* line 266, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-paneltitle h2 {
+    width: 70%;
+  }
+  /* line 270, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music_options {
+    width: 29%;
+  }
+  /* line 272, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music_options span {
+    margin-left: 20px;
+  }
+  /* line 279, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel ul li .song_cntrls {
+    width: 93%;
+  }
+}
+@media (max-width: 1600px) and (max-width: 767px) {
+  /* line 279, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel ul li .song_cntrls {
+    padding: 20px 0px;
+    width: 100%;
+  }
+}
+@media (max-width: 1600px) and (max-width: 480px) {
+  /* line 285, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel ul li .song_cntrls .sc_left {
+    width: 100%;
+  }
+}
+@media (max-width: 1600px) {
+  /* line 290, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel ul li .song_cntrls .sc_left i.icon-pause {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+}
+@media (max-width: 1600px) and (max-width: 480px) {
+  /* line 295, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel ul li .song_cntrls .sc_views {
+    width: 100%;
+    text-align: left;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 1400px) {
+  /* line 320, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel {
+    padding: 0px 15px;
+  }
+  /* line 324, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music-paneltitle h2 {
+    width: 69%;
+  }
+  /* line 328, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music_options {
+    width: 30%;
+  }
+  /* line 330, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-content .music-panel .musicpanel-head .music_options span {
+    margin-left: 24px;
+  }
+  /* line 339, ../scss/style/responsive/_artist-market.scss */
+  .artist-market-page.musicalbum .cyp_form_outer .cyp_body .cyp_body_inner .music-tab-outer .music-tab-links ul li {
+    margin-left: 15px;
+  }
+}
+
+/* line 353, ../scss/style/responsive/_artist-market.scss */
+.modal.custom-modal {
+  background-color: rgba(40, 46, 73, 0.85);
+}
+@media (max-width: 767px) {
+  /* line 358, ../scss/style/responsive/_artist-market.scss */
+  .modal.custom-modal .modal-content .modal-body .update-profile-left h2 {
+    margin: 12% 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 366, ../scss/style/responsive/_artist-market.scss */
+  .modal.custom-modal .modal-content .modal-footer .theme-button {
+    padding: 10px 20px;
+    min-width: 100px;
+  }
+}
+/* line 372, ../scss/style/responsive/_artist-market.scss */
+.modal.custom-modal .modal-content .modal-footer .theme-button:hover {
+  background-color: #ffffff;
+  color: rgba(40, 46, 73, 0.9);
+}
+@media (max-width: 767px) {
+  /* line 377, ../scss/style/responsive/_artist-market.scss */
+  .modal.custom-modal .modal-content .modal-footer .modal-fiiter-left {
+    margin-bottom: 10px;
+  }
+}
+/* line 381, ../scss/style/responsive/_artist-market.scss */
+.modal.custom-modal .modal-content .modal-footer .modal-fiiter-left input {
+  position: relative;
+  z-index: 9;
+  width: 100%;
+  height: 52px;
+  opacity: 0;
+}
+@media (max-width: 767px) {
+  /* line 388, ../scss/style/responsive/_artist-market.scss */
+  .modal.custom-modal .modal-content .modal-footer .modal-fiiter-left .choose-btn {
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 405, ../scss/style/responsive/_artist-market.scss */
+  .a_center-box-outer .a_center-box-inner.artsit-dashboard p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+}
+/* line 413, ../scss/style/responsive/_artist-market.scss */
+.a_center-box-outer .a_center-box-inner.a_error-page {
+  padding: 0 8%;
+}
+@media (max-width: 767px) {
+  /* line 415, ../scss/style/responsive/_artist-market.scss */
+  .a_center-box-outer .a_center-box-inner.a_error-page h2 {
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 422, ../scss/style/responsive/_artist-market.scss */
+  .a_center-box-outer .a_center-box-inner.a_error-page p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 1600px) {
+  /* line 5, ../scss/style/responsive/_music-contracts.scss */
+  .sbscrp_page .subscription_content > div .sub_contentbox {
+    min-height: 396px;
+    min-height: 24.75rem;
+  }
+}
+@media (max-width: 1400px) {
+  /* line 5, ../scss/style/responsive/_music-contracts.scss */
+  .sbscrp_page .subscription_content > div .sub_contentbox {
+    min-height: 1px;
+    min-height: 0.0625rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 5, ../scss/style/responsive/_music-contracts.scss */
+  .sbscrp_page .subscription_content > div .sub_contentbox {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 9, ../scss/style/responsive/_signup1.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .signin_stepp1_box_inner form .inout-outer.box-45.second-box {
+    margin-left: 0px;
+  }
+}
+/* line 14, ../scss/style/responsive/_signup1.scss */
+.beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .signin_stepp1_box_inner form .inout-outer.box-45 img {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  /* line 8, ../scss/style/responsive/_signup2.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .signup_stepp2_box_inner form .inout-outer.box-70 {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1367px) {
+  /* line 6, ../scss/style/responsive/_email-verification.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .email_verif_box_inner .tick-img {
+    margin: 20px 0px 40px 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 6, ../scss/style/responsive/_email-verification.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .email_verif_box_inner .tick-img {
+    margin: 20px 0px 30px 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 13, ../scss/style/responsive/_email-verification.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .email_verif_box_inner .tick-img span {
+    font-size: 40px;
+    line-height: 1.5;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 19, ../scss/style/responsive/_email-verification.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .email_verif_box_inner h2 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 19, ../scss/style/responsive/_email-verification.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .email_verif_box_inner h2 {
+    font-size: 14px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1367px) {
+  /* line 29, ../scss/style/responsive/_email-verification.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .email_verif_box_inner p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 29, ../scss/style/responsive/_email-verification.scss */
+  .beforelogin .beforelogin_inner .login_content_box .login_content_box_inner .email_verif_box_inner p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  /* line 4, ../scss/style/responsive/_subscription.scss */
+  .sbscrp_page .subscription_content > div {
+    padding: 0px 17px;
+  }
+  /* line 8, ../scss/style/responsive/_subscription.scss */
+  .sbscrp_page .subscription_content > div .sub_contentbox .sub_main h2 {
+    padding: 25px 15px 30px;
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 27, ../scss/style/responsive/_subscription.scss */
+  .sbscrp_page .subscription_content > div {
+    padding: 0px 0px 30px;
+  }
+  /* line 31, ../scss/style/responsive/_subscription.scss */
+  .sbscrp_page .subscription_content > div .sub_contentbox .sub_main > div {
+    padding: 37px 20px 43px;
+  }
+  /* line 34, ../scss/style/responsive/_subscription.scss */
+  .sbscrp_page .subscription_content > div .sub_contentbox .sub_main > div p span {
+    font-size: 16px;
+    font-size: 1rem;
+    padding: 10px 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 5, ../scss/style/responsive/_copyright.scss */
+  .artist-market-page.copyright_page .cyp_form_outer .cyp_body .cyp_body_inner {
+    min-height: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 9, ../scss/style/responsive/_copyright.scss */
+  .artist-market-page.copyright_page .cyp_form_outer .cyp_body .cyp_body_inner .copyright-outer {
+    padding: 20px 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 13, ../scss/style/responsive/_copyright.scss */
+  .artist-market-page.copyright_page .cyp_form_outer .cyp_body .cyp_body_inner .copyright-outer .comp-box {
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* line 4, ../scss/style/responsive/_buy-music.scss */
+  .profilepage.buymusic-page .cyp_form_outer.margin-bottom-75 {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 15, ../scss/style/responsive/_buy-music.scss */
+  .profilepage.buymusic-page .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer label.select-outer {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 21, ../scss/style/responsive/_buy-music.scss */
+  .profilepage.buymusic-page .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer label.select-outer select.removemar {
+    margin-bottom: 30px !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 29, ../scss/style/responsive/_buy-music.scss */
+  .profilepage.buymusic-page .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer.doubleselect label {
+    width: 100%;
+    margin-right: 0%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 36, ../scss/style/responsive/_buy-music.scss */
+  .profilepage.buymusic-page .cyp_form_outer .cyp_body .cyp_body_inner .cyp_contentbox .field_outer .theme-button {
+    margin: 0 !important;
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 49, ../scss/style/responsive/_buy-music.scss */
+  .profilepage.buymusic-page .cyp_form_outer .cyp_footer a.theme-button {
+    margin: 5px !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 60, ../scss/style/responsive/_buy-music.scss */
+  .profilepage.buymusic-page .contentouter.notification .cyp_contentbox .field_outer:nth-child(2) {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 4, ../scss/style/responsive/_compaign_page.scss */
+  .createyourprofile.addcompaign-page .a_page-tile .page-title-left {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 10, ../scss/style/responsive/_compaign_page.scss */
+  .createyourprofile.addcompaign-page .a_page-tile .cyp_uppersteps {
+    width: 100%;
+  }
+}

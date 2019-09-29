@@ -1,0 +1,157 @@
+// WareHouse Extend Image
+%warehouse-detail-extend{
+    .ratingBlk{
+        .lbl{
+            @include radius(3px);
+            background-color: $theme-alt;
+            color: $white;
+            @include padding(5 15);
+            font-weight: 600;
+            @include fontsize(14);
+            display: $ib;
+            vertical-align: middle;
+            @include margin(0 10 0 0);
+        }
+        .rating-container{
+            display: $ib;
+            vertical-align: middle;
+            .filled-stars{
+                color: $theme-alt;
+                -webkit-text-stroke: 0;
+                text-shadow: none;
+            }
+        }
+    }
+    .sliderBlock{
+        @include pos(r, null);
+        .slickSyncThumbs{
+            @include pos(ab, null 0 0);
+            .slick-arrow{
+                @include pos(ab, 50% null null);
+                @include translateY(-50%);
+                @include fontsize(17);
+                background-color: $white;
+                @include square(20px);
+                @include radius(50%);
+                text-align: center;
+                line-height: 20px;
+                z-index: 10;
+                &.slick-prev{
+                    left: 0;
+                }
+                &.slick-next{
+                    right: 0;
+                }
+                &:hover{
+                    background-color: $theme;
+                    color: $white;
+                }
+            }
+            li{
+                @include padding(0 6);
+            }
+        }
+    }
+    .mapBlk{
+        .map{
+            @include pos(r, null);
+            @include fluid-ratio(4 3, iframe);
+        }
+    }
+    .blks{
+        h3{
+            @include fontsize(17);
+            @include font-weight(semi-bold);
+            @include margin-bottom(10);
+            color: lighten($black, 30%);
+        }
+        p{
+            @include fontsize(14);
+            line-height: 1.8;
+        }
+        .options{
+            display: $ib;
+            @include fontsize(13);
+            @include font-weight(semi-bold);
+            @include padding(5 10);
+            @include radius(4px);
+            background-color: darken($white, 7%);
+            @include margin(5 5 5 0);
+        }
+        &.openingHrs{
+            p{
+                color: lighten($black, 30%);
+            }
+        }
+    }
+    .reviewBlk{
+        .media{
+            @include margin(30 0 0);
+        }
+        .imgBlk{
+            @include square(75px);
+            overflow: hidden;
+            display: $b;
+            @include radius(50%);
+        }
+        h5{
+            @include fontsize(14);
+            @include font-weight(semi-bold);
+        }
+        .__reviewField{
+            @include pos(r, null);
+            @include padding-right(90);
+            textarea{
+                background-color: $white;
+                height: 80px;
+            }
+            .postReviewBtn {
+                border: none;
+                background-color: darken($white, 8%);
+                color: color00;
+                @include square(80px);
+                @include pos(ab, 0 0 null null);
+                @include fontsize(30);
+                @include transition(all 0.4s);
+                &:hover{
+                    background-color: $theme;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+// SCSS
+.findStorageWarpper{
+    .findStorageInner{
+        display: $t;
+        @include height(670);
+        width: 100%;
+        @include padding-right(10);
+        .cell{
+            display: $cell;
+            vertical-align: top;
+            @include pos(r, null);
+            &:last-child{
+                @include width(390);
+                @include padding(0 15);
+            }
+            #map{
+                @include pos(ab, 0);
+                height: 100%;
+                width: 100%;
+            }
+        }
+        &.innerPadding{
+            @include padding(20);
+        }
+    }
+    .formWarpInner{
+        @extend %formWarpInner-extend;
+    }
+}
+
+.wDetailModal{
+    @extend %warehouse-detail-extend;
+}

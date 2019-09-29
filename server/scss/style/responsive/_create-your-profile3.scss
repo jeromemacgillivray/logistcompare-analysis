@@ -1,0 +1,64 @@
+@include media("<=1400px") {
+	
+}
+@include media("<=1200px") {
+	.createyourprofile-step3 {
+		.cyp_form_outer {
+			.cyp_body {
+				.cyp_body_inner {
+					.cyp_contentbox {
+						.field_outer {
+							&.uploadimg {
+								label {
+									width: 70%;
+									@include padding(20 30);
+									cursor: pointer;
+								}
+								span {
+									@include margin(8);
+									@include fontsize(13);
+								}
+							}
+							&.uploaded_images {
+								.imgbox {
+									@include width(53);
+									@include height(53);
+									@include margin(8);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@include media("<=992px") {
+
+}
+@include media("<=767px") {
+	.createyourprofile-step3 {
+		.cyp_form_outer {
+			.cyp_body {
+				.cyp_body_inner {
+					.cyp_contentbox {
+						.field_outer {
+							&.uploadimg {
+								label {
+									@include width(250);
+								}
+							}
+							&.uploaded_images {
+								text-align: left;
+								@include margin-top(15);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@include media("<=479px") {
+
+}

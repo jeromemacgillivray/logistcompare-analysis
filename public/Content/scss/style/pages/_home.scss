@@ -1,0 +1,272 @@
+.heroWarpper{
+    //min-height: 100%;
+    //@include experimental-value(min-height, calc(100% - 80px));
+    @include pos(r, null);
+    .heroWarpInner{
+        @include pos(r, null);
+        .logo{
+            @include pos(ab, 60px 0 null);
+            @include width(320);
+            background-color: $white;
+            @include box-shadow(0 0 4px rgba(0,0,0,0.3));
+            margin: $zeroauto;
+            z-index: 1;
+            text-align: center;
+            @include padding(30 10 40);
+        }
+        h3{
+            font-family: $font-family-alt;
+            font-weight: 400;
+            @include fontsize(54);
+            @include pos(ab, null 0 60px);
+            text-align: center;
+            color: $white;
+        }
+    }
+    .heroBanner{
+        display: $t;
+        width: 100%;
+        @include experimental-value(height, calc(100vh - 80px));
+        @include bg-norepeat('#{$url}hero-bg.jpg');
+    }
+    .cell{
+        display: $cell;
+        width: 1%;
+        vertical-align: middle;
+        text-align: center;
+        color: $white;
+        i{
+            @include fontsize(80);
+            display: $ib;
+            @include height(80);
+            line-height: 80px;
+        }
+        h2{
+            font-family: $font-family-alt;
+            font-weight: 400;
+            @include fontsize(42);
+            @include margin(10 0 20);
+        }
+        .button{
+            @include fontsize(18);
+        }
+    }
+    .item{
+        @include padding(40 20);
+        @include fontsize(52);
+    }
+    .listSpace{
+        @include rgba($theme, 0.85, bg);
+    }
+    .findSpace{
+        @include rgba($theme-alt, 0.85, bg);
+    }
+    .heroInfo{
+        background-color: lighten($black, 33%);
+        @include padding(25 0);
+        text-align: center;
+        h4{
+            font-family: $font-family-alt;
+            font-weight: 700;
+            @include fontsize(30);
+            color: $white;
+            @include pos(r, null);
+            &:before{
+                content: "";
+                @include pos(ab, 0);
+                height: 2px;
+                background-color: darken($white, 20%);
+                margin: $mauto;
+            }
+            span{
+                background-color: lighten($black, 33%);
+                @include padding(0 50);
+                display: $ib;
+                @include pos(r, null);
+                z-index: 2;
+            }
+        }
+    }
+}
+
+%__video_ratio_button_extend{
+    .video-js{
+        @include height-auto;
+        width: 100%;
+        @include fluid-ratio(16 9, video);
+        overflow: hidden;
+        video{
+            height: auto;
+        }
+    }
+    .vjs-big-play-button{
+        @include square(90px);
+        @include bg-norepeat('#{$url}play-button.png', transparent, center center, no-repeat, 100%);
+        border: none;
+        @include margin-top(-45);
+        @include margin-left(-45);
+    }
+}
+
+// Home Warpper - Section-1
+.hWarpper1{
+    @include padding(110 0);
+    .Title{
+        @include padding-bottom(15);
+        &:before{
+            content: "";
+            background-color: $theme;
+            height: 5px;
+            @include pos(ab, null null 0 0);
+            @include width(115);
+        }
+    }
+    p{
+        line-height: 1.8;
+    }
+    .__video{
+        @extend %__video_ratio_button_extend;
+    }
+}
+
+.hWarpper2{
+    @include padding(110 0);
+    background-color: darken($white, 7%);
+    .Title{
+        @include padding-bottom(15);
+        text-align: right;
+        &:before{
+            content: "";
+            background-color: $theme-alt;
+            height: 5px;
+            @include pos(ab, null 0 0 null);
+            @include width(115);
+        }
+    }
+    p{
+        line-height: 1.8;
+        text-align: right;
+    }
+    .__video{
+        @extend %__video_ratio_button_extend;
+    }
+}
+
+.hWarpper3{
+    background-color: $theme;
+    @include pos(r, null);
+    @include padding(80 0);
+    &:before{
+        content: "";
+        @include pos(ab, 0);
+        @include bg-norepeat('#{$url}hero-bg.jpg');
+        @include opacity(0.15);
+        //@include rgba($theme, 0.75, bg);
+    }
+    .container {
+        @include pos(r, null);
+        z-index: 1;
+    }
+    .__testimonialUser{
+        @include max-width(800);
+        margin: $mauto;
+        .slick-arrow{
+            @include fontsize(60);
+            color: lighten($theme, 30%);
+            @include pos(ab, 50% null null);
+            z-index: 10;
+            &.slick-next{
+                right: 0;
+            }
+            &.slick-prev{
+                left: 0;
+            }
+        }
+        .slickSyncNav{
+            @include pos(s, null);
+        }
+        li{
+            .imgBlk {
+                @include square(210px);
+                border: 10px solid lighten($theme, 20%);
+                @include radius(50%);
+                overflow: hidden;
+                display: $b;
+                margin: $mauto;
+                @include scale(0.6);
+                @include transition(all 0.4s);
+                @include opacity(0);
+            }
+            &.slick-active{
+                .imgBlk {
+                    @include opacity(1);
+                }
+            }
+            &.slick-current{
+                .imgBlk {
+                    @include scale(1);
+                }
+            }
+        }
+    }
+    .slickSyncFor{
+        color: $white;
+        @include margin-top(50);
+        h3{
+            @include fontsize(24);
+            font-weight: 300;
+            @include margin-bottom(20);
+            text-transform: uppercase;
+        }
+        p{
+            @include fontsize(20);
+            line-height: 2;
+        }
+        .slick-dots{
+            @include margin-top(40);
+            li{
+                display: $ib;
+                @include margin(0 8);
+                button{
+                    @include square(15px);
+                    @include radius(50%);
+                    background-color: $white;
+                    border: none;
+                    font-size: 0;
+                    @include scale(0.7);
+                    @include opacity(0.6);
+                }
+                &.slick-active{
+                    button{
+                        @include scale(1);
+                        @include opacity(1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mapSection{
+    @include pos(r, null);
+    z-index: 10;
+    border-bottom: 3px solid $theme-alt;
+    .directionBtn{
+        @include square(95px);
+        line-height: 95px;
+        background-color: $theme-alt;
+        color: $white;
+        @include fontsize(55);
+        text-align: center;
+        @include pos(ab, null 0 0);
+        margin: $mauto;
+        @include margin-bottom(-45);
+    }
+    .map{
+        @include fluid-ratio(16 4, iframe);
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

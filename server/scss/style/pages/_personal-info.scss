@@ -1,0 +1,166 @@
+.personal_info {
+	color: rgba(255, 255, 255, 0.65);
+	.main_heading {
+		@include margin-bottom(28);
+		@extend .ver_midle;
+		width: 100%;
+		h2 {
+			@include fontsize(18);
+			i,span {
+				@extend .ver_midle;
+			}
+			i {
+				color: $pink;
+				@include margin-right(9);
+				@include fontsize(22);
+			}
+		}
+		.headinglink {
+			a {
+				@include fontsize(18);
+				color: rgba(82, 179, 198, 0.65);
+			}
+		}
+	}
+	.cyp_body_inner {
+				background: rgba(40, 46, 73, 0.45);
+				.cyp_contentbox {
+					@include padding(0 60 60);
+					@include border-bottom(1, solid, rgba(255, 255, 255, 0.1));
+					@extend .ver_midle;
+					width: 100%;
+					color: $white;
+					h5 {
+						@include fontsize(16);
+						text-transform: capitalize;
+						@include margin(50 0 44);
+					}
+					.field_outer {
+						input,textarea,select {
+							background: transparent;
+							@include padding(4 4 24);
+							@include border(0, solid, transparent);
+							@include border-bottom(1, solid, rgba(255, 255, 255, 0.5));
+							width: 89%;
+							@include margin-bottom(52);
+							@include fontsize(14);
+							&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+							  color: rgba(255, 255, 255, 0.55);
+							  opacity: 1;
+							}
+							&::-moz-placeholder { /* Firefox 19+ */
+							  color: rgba(255, 255, 255, 0.5);
+							  opacity: 1;
+							}
+							&:-ms-input-placeholder { /* IE 10+ */
+							  color: rgba(255, 255, 255, 0.5);
+							  opacity: 1;
+							}
+							&:-moz-placeholder { /* Firefox 18- */
+							  color: rgba(255, 255, 255, 0.5);
+							  opacity: 1;
+							}
+						}
+						textarea {
+							@include min-height(100);
+							resize: none;
+							@include padding(4);
+							width: 100%;
+						}
+						&.optionalbox {
+							h5 {
+								position: relative;
+								@include padding-right(20);
+								&:after {
+									content: "\e90e";
+	    							font-family: "icomoon";
+	    							color: rgba(255, 255, 255, 0.5);
+								    font-weight: bold;
+								    right: 0;
+								    position: absolute;
+								    top: 1px;
+								}
+							}
+						}
+						button {
+							margin: 0 0 55px !important;
+							&.theme-button {
+							    background: transparent;
+							    width: 70%;
+							    border-color: rgba(255, 255, 255, 0.7);
+							    font-weight: normal;
+							    text-transform: none;
+							    color: rgba(255, 255, 255, 0.7);
+							    @include padding(25);
+							    @include fontsize(16);
+							}
+						}
+						&.cc_mn {
+							& > input {
+								@extend .ver_midle;
+								width: 24%;
+								@include margin(0 20 0);
+							}
+							.inputicon {
+								width: 60%;
+								@extend .ver_midle;
+								position: relative;
+								input {
+									width: 100%;
+								}
+								i {
+									position: absolute;
+								    bottom: 24px;
+								    right: 0;
+								    @include fontsize(20);
+								    color: $skycolor;
+								    cursor: pointer;
+								}
+							}
+						}
+
+					}
+					.errorbox_outer {
+					    	color: $white;
+							.errorbox {
+								@include margin-bottom(26);
+								i,span,a {
+									@extend .ver_midle;
+								}
+								i {
+									@include fontsize(24);
+									@include margin-right(10);
+								}
+								&:last-child {
+									@include margin-bottom(0);
+								}
+							}
+						}
+					&:last-child {
+						@include margin-bottom(77);
+					}
+					&.notification {
+						@include padding-top(50);
+						.field_outer {
+							&:nth-child(2) {
+								text-align: center;
+							}
+							&:last-child {
+								text-align: right;
+							}
+						}
+						&:last-child {
+							@include margin-bottom(28);
+						}
+					}
+					&.bottom_btn {
+					    @include padding-top(70);
+					    @include margin(0);
+					    border: none;
+					}
+					&:last-child {
+						border-width: 0;
+					}
+				}
+			}
+}

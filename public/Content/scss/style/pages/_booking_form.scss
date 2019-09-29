@@ -1,0 +1,69 @@
+.bookingFormWarp{
+    @include padding(20);
+    .h2Title{
+        @include fontsize(16);
+        font-weight: 600;
+        @include pos(r, null);
+        @include padding-bottom(10);
+        @include margin-bottom(20);
+        &:after{
+            content: "";
+            border-bottom: 2px solid $theme;
+            @include width(105);
+            @include pos(ab, null null 0 0);
+        }
+    }
+    .noBooking{
+        color: darken($white, 30%);
+        i{
+            @include fontsize(60);
+            color: darken($white, 15%);
+        }
+        h3{
+            @include fontsize(25);
+            @include margin(10 0 30);
+        }
+    }
+    .bCateBlk{
+        @include margin-bottom(20);
+        background-color: $white;
+        @include box-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+        @include padding(10);
+        h4{
+            @include fontsize(16);
+            @include margin-bottom(10);
+        }
+        ul{
+            li{
+                display: $ib;
+                @include fontsize(14);
+                @include min-height(50);
+                @include margin(7 20 7 0);
+                @include font-weight(semi-bold);
+                label{
+                    display: $b;
+                    @include font-weight(semi-bold);
+                    color: darken($white, 30%);
+                }
+            }
+        }
+    }
+}
+.bookingFormWarpper{
+    .formWarpInner{
+        .form-group{
+            @include margin-bottom(15);
+            .addNewCategory{
+                color: darken($white, 40%);
+                @include padding(7 0);
+                border-bottom: 1px solid darken($white, 40%);
+                @include fontsize(14);
+                @include font-weight(semi-bold);
+                &:hover{
+                    color: $theme;
+                    border-color: $theme;
+                }
+            }
+        }
+    }    
+}

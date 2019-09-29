@@ -1,0 +1,43 @@
+.quotesWarpper{
+    .quoteWarp{
+        .__findBy{
+            @include clear;
+            @include margin-bottom(40);
+            .__searchByName{
+                float: left;
+                label, .form-control{
+                    display: $ib;
+                    vertical-align: middle;
+                }
+                label{
+                    @include fontsize(15);
+                    color: $black;
+                    @include font-weight(semi-bold);
+                    @include margin-right(10);
+                }
+                .form-control {
+                    @include width(150);
+                    background-color: $white;
+                }
+            }
+            .__searchByDate{
+                float: right;
+                label{
+                    @include fontsize(15);
+                    color: $black;
+                    @include font-weight(semi-bold);
+                    @include margin-right(10);
+                }
+                .__dateRang{
+                    display: $ib;
+                    vertical-align: middle;
+                    @include max-width(260);
+                    .form-control{
+                        @include width(110);
+                        background-color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

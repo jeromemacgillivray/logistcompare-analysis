@@ -1,0 +1,77 @@
+.sbscrp_page {
+	.subscription_content {
+		& > div {
+		    @include padding(0 27);
+			.sub_contentbox {
+				background: rgba(40, 46, 73, 0.45);
+				box-shadow: 0px 0px 6px 0px #000;
+				-webkit-box-shadow: 0px 0px 6px 0px #000;
+				-moz-box-shadow: 0px 0px 6px 0px #000;
+				.sub_heading {
+					background: rgba(40, 46, 73, 0.80);
+					@include padding(12);
+					@include border(4, solid, #272d47);
+					box-shadow: 0px 0px 56px 0px #000;
+					-webkit-box-shadow: 0px 0px 56px 0px #000;
+					-moz-box-shadow: 0px 0px 56px 0px #000;
+				}
+				.sub_main {
+					h2 {
+						@include fontsize(22);
+						@include padding(32 20 40);
+						background: rgba(40, 46, 73, 0.65);
+						position: relative;
+						&:after {
+						    content: "";
+							position: absolute;
+							bottom: -9px;
+							@include border-left(10, solid, transparent);
+							@include border-right(10, solid, transparent);
+							@include border-top(10, solid, rgba(40, 46, 73, 0.65));
+							right: 0;
+							left: 0;
+							margin: auto;
+							@include width(0);
+						}
+					}
+					& > div {
+						@include padding(47 20 60);
+						color: rgba(255, 255, 255, 0.55);
+						p {
+							@include fontsize(14);
+							span {
+								@extend .ver_midle;
+								width: 100%;
+								color: $white;
+								@include fontsize(18);
+								@include padding(14 0);
+							}
+						}
+					}
+				}
+				.sub_footer {
+					background: rgba(40, 46, 73, 0.80);
+					@include padding(20);
+					position: relative;
+					&:after {
+					    content: "";
+						position: absolute;
+						top: 0;
+						@include border-left(10, solid, transparent);
+						@include border-right(10, solid, transparent);
+						@include border-top(10, solid, #1b1e2f);
+						right: 0;
+						left: 0;
+						margin: auto;
+						@include width(0);
+					}
+					a {
+						@extend .ver_midle;
+						color: $white;
+						width: auto;
+					}
+				}
+			}
+		}
+	}
+}

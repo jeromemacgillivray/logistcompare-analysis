@@ -1,0 +1,431 @@
+.artist-market-page {
+	.a_page-tile{
+		.page-title-left{
+			@include media("<=767px") {
+				width:100%;
+			}
+		}
+			.cyp_uppersteps{				
+			&.copyright-search{
+				@include media("<=767px") {
+					width:100%;
+				}
+				.field_outer{
+					@include media("<=767px") {
+						width: 100%;
+						margin-left: 0%;
+					}
+				}
+				input, select{
+					@include media("<=767px") {
+						margin-top:10px;
+						font-size:14px;
+					}
+				}
+				label{
+					
+			
+				}
+			}
+			}
+		.artist-social-icon{
+			a{
+				@include media("<=767px") {
+					@include margin-left(5);
+				}
+			}
+		}
+	}
+	.cyp_form_outer {
+		.cyp_body {
+			.cyp_body_inner {
+				.artist-profile-box{
+					@include media("<=767px") {
+						@include padding(15 15 0 15);
+					}					
+					.artist-profile-img{
+						@include media("<=767px") {
+							@include square(120px);
+							@include margin-right(0);	
+						}						
+					}
+					.artist-box-l{
+						@include media("<=992px") {
+							width:100%;
+							margin-bottom: 20px;
+						}
+					}
+					.edit-page-link{
+						a{
+							&.theme-button{
+								@include media("<=992px") {
+									margin:5px 5px !important;
+									padding: 10px 20px !important;
+									text-align: center;
+								}
+							}
+						}
+					}
+					.artist-profile-detail{
+						@include media("<=767px") {
+							display: block;
+							@include margin-top(10);								
+						}						
+					}					
+				}
+				.carousal-outer{
+					.carousal-inner{
+						@include media("<=767px") {
+						max-height: 190px;
+					}
+					.carousal-box{						
+						@include media("<=767px") {
+							width:100%;
+							margin:0 0;												
+						}						
+						img{
+							@include media("<=767px") {
+								display: inline-block;
+							}
+						}
+					}
+					.arrow-slider{						
+						@include media("<=767px") {
+							@include padding(0 20);
+						}
+						.arw{
+							&.pre-arw{
+								&:before{
+									@include media("<=767px") {
+										left: -180px;
+									}								
+								}
+							}
+							&.next-arw{
+								&:before{
+								@include media("<=767px") {
+									right: -180px;
+								}	
+							}
+							}
+						}
+					}
+					}
+				}
+				.barand-mem-outr{
+					
+					@include media("<=767px") {
+						@include padding(20 15);
+					}
+					h5{
+						@include media("<=767px") {
+							@include margin-bottom(20);	
+						}
+					}
+					.member-list{
+						.member-list-box{
+							@include media("<=992px") {
+								width:30%;
+								@include margin-bottom(10);
+							}
+							@include media("<=767px") {
+								width:100%;
+								@include margin-bottom(10);
+							}
+						}
+					}
+				}
+				.music-tab-outer{
+					.music-tab-links{
+						ul{
+							li{
+								@include media("<=992px") {
+									@include margin-left(10);
+								}
+								a{
+									@include padding(20 5);
+								}
+								&.active,&:hover{
+									a{
+									}
+								}
+							}
+						}
+					}
+					.music-tab-content{
+						.music-panel{
+							@include media("<=992px") {
+								@include padding(10 15);
+							} 
+							.musicpanel-head{
+								@include padding(20 40 20 0);
+								&.no-arrow {
+									.music-paneltitle {
+										@include padding-left(10);
+										h2 {
+											width: 100%;
+										}
+									}
+								}
+								.music-main-img {
+									@include media("<=767px") {
+										width:12%;
+										vertical-align: top;
+									}
+									@include media("<=480px") {
+										width:20%;
+									}
+								}
+								.music-paneltitle{
+									@include media("<=767px") {
+										width:87%;
+									}
+									@include media("<=480px") {
+										width:78%;
+									}	
+									h2{
+										@include media("<=767px") {
+											width:100%;
+										}
+										@include media("<=479px") {
+											line-height: $lineheight-sm;
+											br {
+												display: none;
+											}
+											span {
+												display: $block;
+											}
+										}
+									}
+								}
+								a{
+									@include media("<=767px") {
+										width:100%;
+										@include font-size(14);
+										text-align: left;
+									}
+									&.theme-button {
+										@include media("<=1800px") {
+											padding:10px 15px  !important;
+											text-align: center;
+											font-size: 14px;
+										}
+										@include media("<=767px") {
+											padding:8px 5px  !important;
+											margin-top: 5px  !important;
+											width: 160px !important;
+										}
+										@include media("<=480px") {
+											width: 150px !important;
+											float: none;
+											padding: 6px 5px !important;
+										}
+									}								
+								}
+							}
+							ul{
+								li{
+									@include media("<=992px") {
+											@include padding(10 15);
+										}
+									.music-small-img{
+										@include media("<=767px") {
+											display: none;
+										}
+									}
+									.audio-box{
+										@include media("<=767px") {
+											width:78%;
+											@include padding-left(10);
+										}
+									}
+									.music-viewnumber{
+										@include media("<=767px") {
+											width:100%;
+											text-align: right;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media("<=1600px") {
+		&.musicalbum {
+			.cyp_form_outer {
+				.cyp_body {
+					.cyp_body_inner {
+						.music-tab-outer {
+							.music-tab-content {
+								.music-panel {
+									.musicpanel-head {
+										.music-paneltitle {
+											h2 {
+												width: 70%;
+											}
+										}
+										.music_options {
+											width: 29%;
+											span {
+												@include margin-left(20);
+											}
+										}
+									}
+									ul {
+										li {
+											.song_cntrls {
+												width: 93%;
+												@include media("<=767px") {
+													@include padding(20 0);
+													width: 100%;
+												}
+												.sc_left {
+													@include media("<=480px") {
+														width: 100%;
+													}
+													i {
+														&.icon-pause {
+															@include fontsize(15);
+														}
+													}
+												}
+												.sc_views {
+													@include media("<=480px") {
+														width: 100%;
+														text-align: left;
+														@include padding-top(15);
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media("<=1400px") {
+		&.musicalbum {
+			.cyp_form_outer {
+				.cyp_body {
+					.cyp_body_inner {
+						.music-tab-outer {
+							.music-tab-content {
+								.music-panel {
+									@include padding(0 15);
+									.musicpanel-head {
+										.music-paneltitle {
+											h2 {
+												width: 69%;
+											}
+										}
+										.music_options {
+											width: 30%;
+											span {
+												@include margin-left(24);
+											}
+										}
+									}
+								}
+							}
+							.music-tab-links {
+								ul {
+									li {
+										@include margin-left(15);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.modal{
+	&.custom-modal{
+		background-color: rgba(40,46,73,0.85);
+	.modal-content{
+			.modal-body{
+				.update-profile-left{
+					h2{
+						@include media("<=767px") {
+							margin:12% 0;
+						}						
+					}
+				}				
+			}
+			.modal-footer{		
+				.theme-button{
+					@include media("<=767px") {
+						@include padding(10 20);
+						min-width: 100px;
+					
+					}
+					&:hover{
+						background-color: $white;
+						color:rgba(40, 46, 73, 0.9);
+					}
+				}		
+				.modal-fiiter-left{
+					@include media("<=767px") {
+						@include margin-bottom(10);
+					}
+					input{
+						position: relative;
+						z-index:9;
+						width: 100%;
+						height:52px;
+						opacity: 0;
+					}
+					.choose-btn{
+						@include media("<=767px") {
+							@include pos(a, 0 auto auto 15px);
+						}
+					}
+					
+				}
+
+
+			}
+		}
+	}
+}
+
+.a_center-box-outer{	
+	.a_center-box-inner{		
+		&.artsit-dashboard{			
+			p{
+				@include media("<=767px") {
+					@include font-size(16);
+					line-height: 25px;
+					@include margin-bottom(25);
+				}
+			}			
+		}
+		&.a_error-page{
+			padding:0 8%;
+			h2{
+				@include media("<=767px") {
+					font-size:80px;
+					line-height: 80px;
+					@include margin-bottom(30);				
+				}
+			}
+			p{
+				@include media("<=767px") {
+					@include font-size(16);
+					line-height: 25px;
+					@include margin-bottom(25);
+				}
+			}			
+		}
+	}
+}

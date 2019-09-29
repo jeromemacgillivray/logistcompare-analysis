@@ -1,0 +1,114 @@
+@include max-screen-height('700px'){
+    .heroWarpper{
+        .heroWarpInner{
+            .logo{
+                top: 20px;
+                @include padding(15 10);
+            }
+            h3{
+                bottom: 20px;
+            }
+        }
+    }
+}
+
+@include media('<=991px'){
+    .hWarpper1, .hWarpper2{
+        @include padding(40 0);
+        text-align: center;
+        .Title{
+            &:before{
+                left: 0;
+                right: 0;
+                margin: $mauto;
+            }
+        }
+        .__video{
+            @include margin-top(20);
+        }
+        p{
+            @include fontsize(16);
+        }
+    }
+    .hWarpper2{
+        .Title, p{
+            text-align: center;
+        }
+    }
+    .hWarpper3{
+        @include padding(40 0);
+    }
+}
+
+@include media('<=767px'){
+    .heroWarpper{
+        .heroWarpInner{
+            .logo{
+                @include pos(r, 0 null null);
+                width: 100%;
+                display: $b;
+                @include padding(15 15);
+                img{
+                    @include width(110);
+                }
+            }
+            h3{
+                display: $none;
+            }
+        }
+        .heroBanner{
+            height: inherit !important;
+            height: auto !important;
+        }
+        .cell{
+            display: $b;
+            @include width-auto;
+            i{
+                @include fontsize(50);
+                display: inline;
+                line-height: 1;
+            }
+            h2{
+                @include fontsize(32);
+                @include margin(0);
+            }
+        }
+        .heroInfo{
+            h4{
+                @include fontsize(20);
+                span{
+                    @include padding(0 10);
+                }
+            }
+        }
+    }
+    .hWarpper3{
+        .__testimonialUser{
+            .slickSyncNav{
+                @include pos(r, null);
+            }
+            .slick-arrow{
+                @include translateY(-50%);
+            }
+        }
+        .slickSyncFor{
+            p{
+                @include fontsize(18);
+                line-height: 1.6;
+            }
+        }
+    }
+    .mapSection{
+        .map{
+            &:before{
+                padding-top: 30%;
+            }
+        }
+        .directionBtn{
+            @include square(55px);
+            @include fontsize(25);
+            line-height: 55px;
+            @include margin-bottom(-33);
+        }
+    }
+}

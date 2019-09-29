@@ -1,0 +1,181 @@
+.table-div {
+  padding: 0 10px;
+}
+
+.table-responsive {
+  margin: 50px 0;
+  box-shadow: 0px 5px 8px #e0e0e0;
+}
+.table-responsive .table {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.table-responsive .table thead {
+  background: #fcfdfd;
+  text-transform: uppercase;
+}
+.table-responsive .table thead tr {
+  color: #000;
+}
+
+.table-responsive .table tbody {
+}
+
+.table-responsive .table tbody tr {
+  color: #aeaeae;
+}
+.table-responsive .table thead tr th,
+.table-responsive .table tbody tr td {
+  vertical-align: middle;
+}
+
+.table-responsive .table thead tr th {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 29px;
+  border-bottom: none;
+  border-color: #f2f4f5;
+  border-top: 1px solid #f2f4f5 !important;
+  border-right: 1px solid #f2f4f5;
+  font-weight: 300;
+}
+.table-responsive .table thead tr th:first-child,
+.table-responsive .table tbody tr td:first-child {
+  padding-left: 28px;
+}
+.table-responsive .table thead tr th:last-child {
+  border-right: none;
+}
+
+.table-responsive .table tbody tr td {
+  padding-top: 35px;
+  padding-left: 29px;
+  padding-bottom: 35px;
+  border-color: #f2f4f5;
+  font-size: 18px;
+  text-align: left;
+}
+.table-responsive .table tbody tr td a:hover {
+  color: inherit;
+}
+/*.table-responsive .table tbody tr td a{
+    color:#f62121;
+}*/
+.red {
+  color: #f62121;
+}
+.green {
+  color: green;
+}
+.table-responsive .table tbody tr td .icons {
+  font-size: 37px;
+}
+.table-responsive .table tbody tr td .icons + .icons {
+  padding: 0 0 0 20px;
+}
+.table-responsive .table tbody tr td .icons .icon-trash-can {
+  color: #f43030;
+}
+.table-responsive .table tbody tr td .icons .icon-edit {
+  color: #239205;
+}
+
+.advertisement-table {
+  margin: 0 0 50px;
+}
+
+.btn.grey + .btn.grey {
+  margin-left: 22px;
+}
+.btn.grey {
+  color: #aeaeae;
+  border-color: #c4c5c7;
+  border-width: 2px;
+  line-height: 32px;
+  height: 35px;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  max-width: 111px;
+  border-radius: 20px;
+  font-size: 16px;
+  box-shadow: none;
+}
+.btn.grey:hover,
+.btn.grey:focus,
+.btn.grey.active {
+  background: #4cb1fd;
+  border-color: #4cb1fd;
+  color: #fff;
+}
+
+.table-responsive .table tr td table tr td:first-child {
+  padding: 0 10px 0 0;
+  border-left: none;
+}
+.table-responsive .table tr td table tr td {
+  color: #4cb1fd;
+  padding: 0 10px;
+  border-left: 1px solid #aeaeae;
+  cursor: pointer;
+}
+.table-responsive .table tr td table tr td:hover {
+  text-decoration: underline;
+}
+
+/* pagination css */
+
+.pagination-wrapper {
+  margin-bottom: 50px;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.pagination-wrapper p {
+  display: inline-block;
+  color: #aeaeae;
+}
+.pagination-wrapper nav {
+  display: inline-block;
+  float: right;
+}
+.pagination-wrapper nav ul.pagination {
+  margin: 0;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  color: #aeaeae;
+  border-color: #e6e9ed;
+  margin-left: 13px;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: 0;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: #191e27;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  font-size: 20px;
+}
+.pagination > li:first-child > a,
+.pagination > li:last-child > a {
+  font-size: 28px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* pagination css */

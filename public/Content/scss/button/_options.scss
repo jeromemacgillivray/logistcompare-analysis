@@ -1,0 +1,35 @@
+@import '../style/base';
+
+$ubtn: 'Unicorn Buttons';
+$ubtn-namespace: '.button' !default; //prefix for all classes
+
+$ubtn-bgcolor: #EEE !default;
+$ubtn-font-color: #666 !default;
+$ubtn-font-weight: 500 !default;
+$ubtn-font-size: 16px !default;
+$ubtn-height: 46px !default;
+$ubtn-font-family: "Hind", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif  !default;
+
+
+$ubtn-colors: ('primary' $theme-alt #FFF) ('action' $theme  #fff) ('fade' $white #000) ('default' #dddddd #000) ('danger' $theme-danger #fff) ('gray' #cccccc #777777) ('inverse' #626e7b  #ffffff) !default;
+
+$ubtn-shapes: (square 0) (box 0) (rounded 3px) (pill 200px) (circle 100%) !default;
+// Use a map if you prefer when running Sass 3.3+
+// $ubtn-shapes: (
+//   square: 0,
+//   box: 10px,
+//   rounded: 3px,
+//   pill: 200px,
+//   circle: 100%
+// ) !default;
+
+$ubtn-sizes: (giant 1.75) (jumbo 1.5) (large 1.25) (normal 1) (small .75) (tiny .6) !default;
+// Use a map if you prefer when running Sass 3.3+
+// $ubtn-sizes: (
+//   giant: 2,
+//   jumbo: 1.5,
+//   large: 1.25,
+//   default: 1,
+//   small: .75,
+//   tiny: .5
+// ) !default;

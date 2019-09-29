@@ -1,0 +1,111 @@
+.artist-market-edit {
+	.a_page-tile{
+		@include padding-bottom(25);
+		span{
+			color:lighten($white,30%);
+		}
+	}
+	.cyp_form_outer {
+		.cyp_body {
+			.cyp_body_inner {
+				.music-tab-outer{
+					.music-tab-links{
+						ul{
+							li{
+								display: $inline;
+								@include margin-left(35);
+								a{
+									display: $inline;
+									@include padding(20 10);
+									color:$white;
+									@include border-bottom(3,solid,transparent); 
+								}
+								&.active,&:hover{
+									a{
+										border-color:$skycolor;
+									}
+								}
+							}
+						}
+					}
+					.music-tab-content{
+						.music-panel{
+							@include padding(0 35);
+							@include border-top(2,solid,rgba(255,255,255,0.07)); 
+							.musicpanel-head{
+								@include padding(20 70 20 0);
+								background:{
+									image:url('../images/accordian-down-arow.png');
+									repeat:no-repeat;
+									position: center right;
+								}
+								&.close-panel{
+									background-image:url('../images/accordian-up-arow.png');
+								}
+								.music-main-img{									
+									display: $inline;
+									vertical-align: middle;
+									width:9%;
+									@include square(9%);
+								}
+								.music-paneltitle{
+									display: $inline;
+									vertical-align: middle;
+									width:90%;
+									@include padding-left(20);
+									h2{
+										color:rgba(255,255,255,0.65);
+										font-size:16px;
+										width:79%;
+										line-height:$lineheight;
+										display: $inline;
+										vertical-align: middle;
+										span{
+											color:$skycolor;
+										}
+									}
+								}
+								a{
+									color:$skycolor;
+									@include font-size(18);
+									text-decoration: underline;
+									text-transform: $uppercase;
+									width:20%;
+									display: $inline;
+									vertical-align: middle;									
+								}
+							}
+							ul{
+								li{
+									@include border-top(2,solid,rgba(255,255,255,0.07)); 
+									@include padding(10 35);
+									.music-small-img{
+										width:6%;
+										display: $inline;
+										vertical-align: middle;
+									}
+									.audio-box{
+										width:80%;
+										display: $inline;
+										@include padding-left(20);
+										vertical-align: middle;
+										audio{
+											width:100%;										
+										}
+									}
+									.music-viewnumber{
+										color:$skycolor;
+										@include font-size(13);
+										width:12%;
+										display: $inline;
+										text-align: right;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

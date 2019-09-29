@@ -1,0 +1,232 @@
+.beforelogin {
+	background: url(../images/beforelogin-bg.jpg);
+	@include bg_cover($size:cover, $position: top center, $repeat: no-repeat);
+	.beforelogin_inner {
+		@include width(860);
+		margin: auto;
+		.logo {
+			@include padding(90 0 70);
+		}
+		.login_content_box {
+			@include padding(18);
+			@include border-round(5);
+			background: rgba(246,246,246,0.1);
+			@include margin-bottom(50);
+			@include min-height(540);
+			.form-title {
+				display: inline-block;
+				width: 100%;
+				h1 {
+					@include font-size(20);
+					color:$h1-color;
+					@include margin-bottom(40);
+				}
+				p {
+					@include font-size(18);
+					color:$p-color;
+					@include margin-bottom(60);
+					line-height: $lineheight;
+				}
+			}
+			.login_content_box_inner {
+				background: rgba(255, 255, 255, 0.85);
+				@include border-round(5);
+				@include padding(90 70);
+				text-align: left;
+				@include fontsize(24);
+				line-height: $lineheight-sm;
+				form {
+					width: 100%;
+					display: $block;
+					.inout-outer {
+						display: inline-block;
+						width: 100%;
+						vertical-align: top;
+						position: relative;
+						input {
+							width: 100%;
+							background: transparent;
+							@include margin-bottom(30);
+							@include padding(0 6 10);
+							@include fontsize(16);
+							border: none;
+							@include border-bottom(2, solid, $lightpurp);
+							&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+							  color: $purp;
+							  opacity: 1;
+							}
+							&::-moz-placeholder { /* Firefox 19+ */
+							  color: $purp;
+							  opacity: 1;
+							}
+							&:-ms-input-placeholder { /* IE 10+ */
+							  color: $purp;
+							  opacity: 1;
+							}
+							&:-moz-placeholder { /* Firefox 18- */
+							  color: $purp;
+							  opacity: 1;
+							}
+							&:focus {
+								border-color: $purp;
+							}
+						}
+						&.box-20 {
+							width:20%;
+						}
+						&.box-25 {
+							width:25%;
+						}
+						
+						&.box-30 {
+							width:30%;
+						}
+						&.box-40 {
+							width:40%;
+						}
+						&.box-45 {
+							width:45%;							
+						}
+						&.box-60 {
+							width:60%;	
+						}
+						&.box-65 {
+							width:65%;	
+						}
+						&.box-80 {
+							width:80%;	
+						}
+						&.box-70 {
+							width:70%;	
+						}
+					}
+					.radio-outer {
+						@include margin-bottom(25);
+						label {
+							&.z_radio {
+								@include pos(r, null);
+								font-size: 16px;
+								font-weight: 400;
+								color: $h1-color;
+								@include margin-right(40);
+								span {
+									@include padding-left(30);
+									@include pos(r, null);
+									&:after {
+									@include pos(a, 7px auto auto 5px );
+									  @include circle;
+									  content:none;
+									  @include square(10px);
+									  background-color: $radio-color;								
+									}
+									&:before {
+									  @include pos(a, 2px auto auto 0px );
+									  @include border(1,solid,$radio-color); 
+									  @include circle;
+									  content: "";
+									  @include square(20px);
+									}
+								}
+								input[type="radio"] {
+									@include pos(a, 0px auto auto 0px );
+									visibility: hidden;
+									&:checked {
+										&+ span {
+											&:after {
+												content:'';
+											}
+										}
+									}
+								}
+							}
+							&.z_checked {
+								@include pos(r, null);
+								font-size: 16px;
+								font-weight: 400;
+								color: $h1-color;
+								@include margin-right(40);
+								span {
+									@include padding-left(30);
+									@include pos(r, null);
+									&:after {
+									  @include pos(a, 5px auto auto 4px );
+									  content:'';
+									  color:$white;
+									  font-family:"icomoon";
+									  font-size:12px;
+									}
+									&:before {
+									  @include pos(a, 2px auto auto 0px);
+									  @include border(1,solid,$radio-color); 
+									  @include circle;
+									  content: "";
+									  @include square(20px);
+									}
+								}
+								input[type="checkbox"] {
+									@include pos(a, 0px auto auto 0px );
+									visibility: hidden;
+									&:checked {
+										&+ span {
+											&:after {
+												content:"\e93b";
+											}
+											&:before {
+												background-color:$radio-color; 
+											}
+										}
+									}
+								}
+							}
+						}
+					}							
+				}
+				.forgot_pwd {
+					a {
+						color: $basecolor;
+						display: $inline;
+						@include font-size(18);
+						&:hover {
+							color: $skycolor;
+						}
+					}
+				}
+				.button_block {
+					@include margin-top(60);
+					.button {
+						background: $skycolor;
+						color: $white;
+						@include padding(20 40);						
+						min-width: 160px;
+						@include h_auto;
+						@include fontsize(22);
+						line-height: $lineheight-sm;
+						font-family: $font-family;
+						font-weight: 400;
+						position: relative;
+						&:hover:before {
+								content: "";
+							    @include pos(a, 0px auto auto 0px );
+							    width: 100%;
+							    height: 100%;
+							    border: 3px solid $skyhovercolor;
+							    @include border-round(200);
+							   
+						}
+					}
+				}
+				.signup_btn {
+					@include margin-top(37);
+					p {
+						@include font-size(18);
+						color:$basecolor;
+					}
+					a {
+						color: $skycolor;
+						font-weight: 600;						
+					}
+				}
+			}
+		}
+	}
+}

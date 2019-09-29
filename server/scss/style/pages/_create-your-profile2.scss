@@ -1,0 +1,54 @@
+.createyourprofile-step2 {
+	.cyp_form_outer {
+		.cyp_body {
+			.cyp_body_inner {
+				.cyp_contentbox {
+					.field_outer {
+						button {
+							margin: 0 0 55px !important;
+							&.theme-button {
+							    background: transparent;
+							    width: 70%;
+							    border-color: rgba(255, 255, 255, 0.7);
+							    font-weight: normal;
+							    text-transform: none;
+							    color: rgba(255, 255, 255, 0.7);
+							    @include padding(25);
+							    @include fontsize(16);
+							}
+						}
+					}
+					.errorbox_outer {
+						.errorbox {
+							@include margin-bottom(26);
+							i,span,a {
+								@extend .ver_midle;
+							}
+							i {
+								@include fontsize(24);
+								@include margin-right(10);
+							}
+							&:last-child {
+								@include margin-bottom(0);
+							}
+						}
+					}
+					&.notification {
+						@include padding-top(50);
+						.field_outer {
+							&:nth-child(2) {
+								text-align: center;
+							}
+							&:last-child {
+								text-align: right;
+							}
+						}
+						&:last-child {
+							@include margin-bottom(28);
+						}
+					}
+				}
+			}
+		}
+	}
+}

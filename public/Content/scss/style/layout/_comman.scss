@@ -1,0 +1,282 @@
+.Title{
+    @include fontsize(40);
+    font-family: $font-family-alt;
+    font-weight: 400;
+    @include pos(r, null);
+}
+
+.mainSection{
+    background-color: $white;
+    @include box-shadow(0 0 10px rgba(0,0,0,0.05));
+    @include clear;
+    @include margin(50 0);
+    @include pos(r, null);
+    @include padding-left(70);
+    .header{
+        //float: right;
+        @include pos(r, null);
+        z-index: 50;
+        //width: 100%;
+        //@include experimental-value(width, calc(100% - 70px));
+        @include padding(0 30);
+        border-bottom: 3px solid darken($white, 4%);
+        @include clear;
+        h2{
+            @include fontsize(18);
+            font-weight: 600;
+            line-height: 57px;
+        }
+    }
+    .mainContent{
+        //float: right;
+        width: 100%;
+        //@include experimental-value(width, calc(100% - 70px));
+        @include min-height(665);
+        //@include max-height(670);
+        @include clear;
+        .innerPadding{
+            @include padding-left(15);
+            @include padding-right(15);
+        }
+    }
+    #aside{
+        //float: left;
+        @include pos(ab, 0 null 0 0);
+        //@include min-height(730);
+        border-right: 3px solid darken($white, 4%);
+        width: 70px;
+        @include transition(all 0.4s ease-in-out 0.7s);
+        .collapesToggle{
+            @include width(70);
+            display: $ib;
+            text-align: center;
+            line-height: 60px;
+            @include fontsize(28);
+            color: darken($white, 23%);
+        }
+        nav{
+            @include pos(ab, 60px null 0 0);
+            @include width(70);
+            overflow: hidden;
+            border-right: 3px solid darken($white, 4%);
+            background-color: $white;
+            z-index: 40;
+            @include transition(all 0.5s ease-out 0.6s);
+            ul{
+                li{
+                    a{
+                        display: $b;
+                        white-space: nowrap;
+                        line-height: 58px;
+                        @include fontsize(14);
+                        color: darken($white, 23%);
+                        i{
+                            display: $ib;
+                            @include width(70);
+                            text-align: center;
+                            vertical-align: middle;
+                            @include fontsize(28);
+                        }
+                        span{
+                            display: $ib;
+                            vertical-align: middle;
+                        }
+                    }
+                    &.proInfo{
+                        text-align: center;
+                        @include padding(15);
+                        display: none;
+                        //@include opacity(0);
+                        .imgBlk{
+                            @include square(135px);
+                            overflow: hidden;
+                            display: $ib;
+                            @include radius(50%);
+                        }
+                    }
+                    &.active{
+                        a{
+                            background-color: $theme-alt;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+        &.opened{
+            .collapesToggle{
+                @include fontsize(34);
+                i{
+                    &:before{
+                        content: "\f104";
+                    }
+                }
+            }
+            nav{
+                @include width(240);
+                @include transition-delay(0.1s);
+            }
+        }
+    }
+}
+
+%curvedTabs-extend{
+    ul{
+        @include clear;
+        overflow: hidden;
+        li{
+            float: left;
+            width: 55%;
+            a{
+                display: block;
+                text-align: center;
+                background-color: darken($white, 10%);
+                color: $color00;
+                @include height(45);
+                @include radius(30px);
+                line-height: 45px;
+                @include fontsize(15);
+                @include font-weight(semi-bold);
+                @include pos(r, null);
+            }
+            &.active{
+                a{
+                    background-color: $theme-alt;
+                    color: $white;
+                }
+            }
+            &:first-child{
+                width: 45%;
+                @include pos(r, null);
+                z-index: 1;
+                a{
+                    @include radius(30px 0 0 30px);
+                    &:after, &:before{
+                        content: "";
+                        @include pos(ab, 0 null 0 100%);
+                        @include radius(0 50px 0 0);
+                        @include transform-origin(left, bottom);
+                        @include transform(rotate(20deg) skew(35deg));
+                        z-index: 1;
+                        width: 40px;
+                        height: 50px;
+                    }
+                    &:after{
+                        background-color: inherit;
+                        //width: 40px;
+                    }
+                    &:before{
+                        //width: 40px;
+                        background-color: $white;
+                        z-index: -1;
+                        margin-left: 5px;
+                    }
+                }
+            }
+            &:last-child{
+                a{
+                    @include radius(0 30px 30px 0);
+                }
+            }
+        }
+    }
+}
+
+%tab-content-extend{
+    .tab-pane{
+        display: $none;
+        @include transition(all 0.4s ease-out);
+        &.fade{
+            @include opacity(0);
+            @include translateY(-20px);
+            &.in{
+                @include opacity(1);
+                @include translateY(0);
+            }
+        }
+        &.active{
+            display: $b;
+        }
+    }
+}
+.tab-content{
+    @extend %tab-content-extend;
+}
+
+.curvedTabs{
+    @extend %curvedTabs-extend;
+}
+
+%formWarpInner-extend{
+    .form-group{
+        @include margin-bottom(30);
+        label{
+            display: block;
+            @include fontsize(13);
+            @include font-weight(semi-bold);
+            @include margin-bottom(10);
+        }
+    }
+    .multiSelectBlk{
+        .bootstrap-select{
+            @include pos(r, null);
+            width: 100% !important;
+            &.open{
+                .dropdown-toggle{
+                    border-color: $theme;
+                }
+            }
+            .dropdown-toggle{
+                @include pos(r, null);
+                @include box-shadow-none;
+                @include radius(2px);
+                border-color: darken($white, 10%);
+                background-color: darken($white, 4%);
+                @include fontsize(13);
+                outline: 0 !important;
+            }
+        }
+    }
+}
+
+
+
+// Modal Warpper - Custom Modal lg
+.modalWarpper{
+    .modal-dialog{
+        @include max-width(930);
+        width: 100%;
+        .modal-content{
+            @include radius(0);
+        }
+        .modal-header{
+            @include padding(20 30);
+            @include pos(r, null);
+            z-index: 1;
+            h4{
+                @include fontsize(20);
+                color: $black;
+            }
+            .close{
+                background-color: $white;
+                @include square(40px);
+                text-align: center;
+                border: none;
+                @include radius(50%);
+                @include pos(ab, -15px -15px null null);
+                @include fontsize(18);
+                line-height: 1;
+                &:before{
+                    content: "";
+                    @include pos(ab, -5px);
+                    @include radius(50%);
+                    @include rgba($black, 0.2, bg);
+                    z-index: -1;
+                }
+            }
+        }
+        .modal-body{
+            @include padding(20 30);
+        }
+    }
+}

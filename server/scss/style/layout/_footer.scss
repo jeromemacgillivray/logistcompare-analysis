@@ -1,0 +1,9 @@
+footer{
+	.footer_inner {
+		@include padding(40 0);
+		@include fontsize(16);
+		.copyright {
+			color: $dulwhite;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.beforelogin {
+	.beforelogin_inner {		
+		.login_content_box {		
+			.login_content_box_inner {			
+				.email_verif_box_inner {
+					.tick-img {
+						@include margin(0 0 40 0);
+						span {
+							@include font-size(80);
+							line-height: $lineheight-sm;
+						}
+					}
+					h2{
+						@include font-size(18);
+						color:$p-color;
+						@include margin-bottom(30);
+						line-height: $lineheight;
+					}
+					p{
+						color: $basecolor;
+						@include font-size(18);
+						line-height: 33px;
+						a {
+							color: #000;
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+					}
+
+				}				
+			}
+		}
+	}
+}

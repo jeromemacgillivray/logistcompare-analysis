@@ -1,0 +1,492 @@
+.main_outer {
+	line-height: $lineheight-sm;
+	color: $dashboardcolor;
+	&.afterlogin {
+		background: url(../images/afterlogin-bg.jpg);
+		@include bg_cover($size:cover, $position: top center, $repeat: no-repeat);
+		background-attachment: fixed;
+		.errorbox {
+			color: $white;
+		}
+	}
+	.errorbox {
+		color: $dangererror;
+	    @include fontsize(14);
+	    @include padding-left(24);
+	    position: relative;
+	    bottom: 22px;
+	    &:before {
+	    	content: "\e90f";
+		    font-family: icomoon;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+	    }
+	}
+	.content_area {
+		@include min-height(0);
+		.content_area_inner {
+			@include padding(146 471 0 406);
+			&.withoutsidebar {
+				@include padding(130 257 0 530);
+				.con_sidebar {
+					display: none;
+				}
+			}
+			.con_left_menu {
+				background: rgba(40, 46, 73, 0.52);
+				@include padding(0);
+				position: fixed;
+				top: 91px;
+				left: 0;
+				@include width(316);
+				overflow-y: auto;
+				bottom: 0;
+				.menu_outer {
+					@include padding(23 0 38);
+					@include fontsize(15);
+					li {
+						display: $inline;
+						width: 100%;
+						a {
+							display: $block;
+							width: 100%;
+							@include padding(10 22);
+							color: $dashboardcolor;
+							i {
+								@extend .ver_midle;
+								@include margin-right(6);
+								line-height: $lineheight-sm;
+								color: rgba(255, 255, 255, 0.7);
+								text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+							}
+							span {
+								@extend .ver_midle;
+								color: $dulwhite;
+								text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+							}
+						}
+						&.menu_withdraw {
+							@include padding(18 22 18 20);
+							background: rgba(33, 33, 39, 0.4);
+							@include margin-top(30);
+							span {
+								@include fontsize(25);
+								line-height: $lineheight-sm;
+								color: rgba(255, 255, 255, 0.65);
+								@include margin-right(17);
+								text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+							}
+							a {
+								display: $inline;
+								width: auto;
+								background: $skycolor;
+								color: $white;
+								@include border-round(50);
+								text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+							}
+						}
+						&.sgst_fchr {
+							@include padding(35 22 14);
+							color: $dulwhite;
+							span {
+								@include margin-right(20);
+							}
+							samp {
+								font-family: $font-family;
+								background: #d73f3f;
+								display: $inline;
+								@include padding(3 8);
+								@include fontsize(14);
+							}
+						}
+						&.dropdown {
+							&:after {
+								content: "\e904";
+							    font-family: "icomoon";
+							    top: 13px;
+							    position: absolute;
+							    right: 42px;
+							    @include fontsize(13);
+							}
+							.sub_nav {
+								@include padding-left(17);
+								li {
+									&.prfile_info {
+										a {
+											@include padding(10 14);
+											i {
+												&.pro_img {
+													@include circle;
+													overflow: hidden;
+													@include width(30);
+													@include height(30);
+													img {
+														width: 100%;
+														@include h_auto;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.con_sidebar {
+				background: rgba(40, 46, 73, 0.52);
+				position: fixed;
+				right: 0;
+				top: 91px;
+				@include width(380);
+				@include fontsize(13);
+				overflow-y: auto;
+				bottom: 0;
+				color: $dashboardcolor;
+				.profile_progress {
+					@include padding(42 37 14);
+					@include border-bottom(3, solid, rgba(35, 37, 58, 0.65));
+					.pp_graph {
+						@include margin-bottom(25);
+						img {
+							margin: auto;
+							@include max-width(180);
+						}
+					}
+					.pp_text {
+						.cplt_pro {
+							@include margin-top(20);
+							a {
+								color: rgba(122, 212, 232, 0.65);
+								@extend .ver_midle;								
+							}
+							i {
+								@include margin-left(15);
+								@include fontsize(20);
+								@extend .ver_midle;
+							}
+						}
+					}
+				}
+				.top_selling_music {
+					@include padding(20 37);
+					@include border-bottom(3, solid, rgba(35, 37, 58, 0.65));
+					h3 {
+						@include fontsize(17);
+						@include margin-bottom(28);
+					   }
+					.tsm_box {
+						@include margin-bottom(17);
+						.media-left {
+							img {
+								@include width(50);
+								@include h_auto;
+							}
+						}
+						.media-body {
+							span {
+								color: rgba(122, 212, 232, 0.65);
+								display: $block;
+								width: 100%;
+							}
+						}
+					}
+					.sidebox_footer {
+						.viewall {
+							a {
+								text-transform: uppercase;
+								color: rgba(122, 212, 232, 0.65);
+							}
+						}
+					}
+				}
+				.music_contracts {
+					@include padding(20 37);
+					h3 {
+						@include fontsize(17);
+						@include margin-bottom(28);
+					   }
+					   .ctrct_info_box {
+					   		@include margin-bottom(22);
+						   	.media-left {
+						   		@include margin-right(19);
+						   	}
+						   	.media-body {
+						   		color: $dulwhite;
+						   		span {
+						   			display: $block;
+						   			width: 100%;
+						   			color: rgba(122, 212, 232, 0.65);
+						   		}
+						   	}
+					   }
+					.sidebox_footer {
+						.viewall {
+							a {
+								text-transform: uppercase;
+								color: rgba(122, 212, 232, 0.65);
+							}
+						}
+					}
+				}
+			}
+			input,textarea,select {
+				background: transparent;
+				@include padding(4 4 14);
+				@include border(0, solid, transparent);
+				@include border-bottom(1, solid, rgba(255, 255, 255, 0.5));
+				width: 89%;
+				@include margin-bottom(32);
+				@include fontsize(14);
+				&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+				  color: rgba(255, 255, 255, 0.55);
+				  opacity: 1;
+				}
+				&::-moz-placeholder { /* Firefox 19+ */
+				  color: rgba(255, 255, 255, 0.5);
+				  opacity: 1;
+				}
+				&:-ms-input-placeholder { /* IE 10+ */
+				  color: rgba(255, 255, 255, 0.5);
+				  opacity: 1;
+				}
+				&:-moz-placeholder { /* Firefox 18- */
+				  color: rgba(255, 255, 255, 0.5);
+				  opacity: 1;
+				}
+			}
+			textarea {
+				@include min-height(90);
+				resize: none;
+				@include padding(4);
+				width: 100%;
+			}
+			select {
+				&::-ms-expand {
+					display: none;
+				}
+				option{
+					color: $dashboardcolor;
+					background: #fff;
+				}
+			}
+			input[type="checkbox"] {
+				@extend .ver_midle;
+				width: auto !important;
+				position: relative;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				left: 0;
+				@include circle;
+				cursor: pointer;
+				margin:0 10px 0 0 !important;
+				margin-bottom:0 !important;
+				padding:0 10px 0 0 !important;
+				outline: 0;
+				border:0 none !important;
+				cursor: pointer;
+				&:after {
+					content: "\e938";
+					 font-family: "icomoon";
+				     left: 0;
+				    top: -8px;
+				    position: absolute;
+				    @include circle;
+				    right: 0;
+				    margin: auto;				   
+				}
+				&:checked {
+					color: $skycolor;
+					&:after {
+						color: $skycolor;
+					}
+				}
+			}
+			input[type="radio"] {
+				@extend .ver_midle;
+				width: auto;
+				position: relative;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				left: 0;
+				@include border(2, solid, rgba(255, 255, 255, 0.55));
+				@include width(16);
+				@include height(16);
+				@include circle;
+				@include margin(0 10 0 0);
+				cursor: pointer;
+				@include padding(0);
+				outline: 0;
+				cursor: pointer;
+				&:after {
+					content: "";
+				    @include height(12);
+				    @include width(12);
+				    left: 0;
+				    top: 0;
+				    position: absolute;
+				    background: rgba(255, 255, 255, 0.55);
+				    @include circle;
+				    right: 0;
+				    margin: auto;
+				    @include border(2, solid, $contentbg);
+				}
+				&:checked {
+					border-color: $skycolor;
+					&:after {
+						background: $skycolor;
+					}	
+				}
+			}
+			.toprightsearch {
+				.search_outer {
+					@include border-bottom(1, solid, rgba(255, 255, 255, 0.2));
+					@include padding(0 0 8 2);
+					input {
+						@extend .ver_midle;
+						@include margin(0);
+						@include padding(0);
+					    border: none;
+					    @include width(260);
+					    @include fontsize(13);
+					    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+						  color: $dulwhite;
+						  opacity: 1;
+						}
+						::-moz-placeholder { /* Firefox 19+ */
+						  color: $dulwhite;
+						  opacity: 1;
+						}
+						:-ms-input-placeholder { /* IE 10+ */
+						  color: $dulwhite;
+						  opacity: 1;
+						}
+						:-moz-placeholder { /* Firefox 18- */
+						  color: $dulwhite;
+						  opacity: 1;
+						}
+						&[type="submit"] {
+							background: url(../images/search-icon.svg);
+							@include height(10);
+							@include width(10);
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+				}
+				label {
+				    @include width(245);
+				    cursor: pointer;
+				    font-weight: normal;
+				    position: relative;
+				    @include margin(0 36 0 0);
+				    &:after {
+				    	position: absolute;
+					    right: 0;
+					    top: 7px;
+					    @include height(0);
+					    @include width(0);
+					    content: "";
+					    @include border-left(5, solid, transparent);
+					    @include border-right(5, solid, transparent);
+					    @include border-top(5, solid, #52b3c6);
+				    }
+				    &:last-child {
+				    	@include margin(0);
+				    }
+					select {
+						background: transparent;
+					    border: none;
+					    @include border-bottom(1, solid, rgba(255, 255, 255, 0.2));
+					    width: 100%;
+					    @include padding(0 12 10 0);
+					    -webkit-appearance: none;
+					    -moz-appearance: none;
+					    cursor: pointer;
+					    @include margin-bottom(0);
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.notify-outer{
+	width:285px;
+	display: inline-block;
+}
+
+.a_alert{
+	background-color: #fdfdfd;
+	@include border(1, solid, #e4e4e4);
+	text-align: left;
+	@include padding(10 25 10 75);
+	@include pos(r, null);
+	overflow: hidden;
+	margin: 10px 0;
+	@include radius(3px);
+	max-width: 285px;
+	font-size: 12px;
+	&:before{
+		content:'\e942';
+		@include pos(a, -14px auto auto -19px);
+		font-family: "icomoon";
+		font-size: 76px;
+		opacity: 0.4;
+	}
+	p{
+		@include margin(4 0);
+		white-space: nowrap; 
+	    width: 100%; 
+	    overflow: hidden;
+	    text-overflow: ellipsis; 	   
+	}
+	.close-error{
+		@include pos(a, calc(50% - 9px) 15px auto auto);
+		font-size: 18px;
+		cursor: pointer;
+
+	}
+	&.fail-error{
+		color: #fc8585;
+		.error-status{			
+			color:#f66363;
+			font-size: 15px;
+		}
+	}
+	&.success-error{
+		color: #80bb83;
+		.error-status{			
+			color:#2bab33;
+			font-size: 15px;
+		}
+		&:before{
+			content:'\e946';		
+		}
+	}
+	&.info-error{
+		color:#52b3c6;
+		.error-status{
+			color: #52b3c6;
+			font-size: 15px;
+		}
+	}
+}
+
+.white-color{
+	color:$white;
+}

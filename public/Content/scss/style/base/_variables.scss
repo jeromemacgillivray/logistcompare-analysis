@@ -1,0 +1,41 @@
+// THEME AND COLOR
+$color00:                                     #6d6d6d !default;
+$color01:                                     #39b449 !default;
+$color02:                                     #0170bb !default;
+$color03:                                     #53cfe9 !default;
+$color04:                                     #ff6434 !default;
+$black:                                       #000000 !default;
+$white:                                       #ffffff !default;
+$theme:                                       $color01 !default;
+$theme-alt:                                   $color02 !default;
+$theme-info:                                  $color03 !default;
+$theme-danger:                                $color04 !default;
+
+// PATH & FONT NAME
+$font-family:                                 "Raleway" !default;
+$font-family-alt:                             "BebasNeue" !default;
+$imgpath:                                     "../images/" !default;
+$primary-font-path:                           "../fonts" !default;
+$url:                                         $imgpath !default;
+
+// FONTS and TEXT STYLE
+$fontnormal:                                  16px !default;
+$fontsmall:                                   12px !default;
+$lineheight:                                  1.5 !default;
+$fontawesome:                                 FontAwesome !default;
+$spacing:                                     5px !default;
+
+//TRANSITION EFFECT
+$trasition_all:                               all 0.3s ease-in-out 0s !default;
+
+// Display
+$ib:                                          inline-block !default;
+$b:                                           block !default;
+$t:                                           table !default;
+$cell:                                        table-cell !default;
+$none:                                        none !default;
+
+// Margin
+$mauto:                                       auto auto !default;
+$zeroauto:                                    0 auto !default;
+$auto:                                        auto !default;

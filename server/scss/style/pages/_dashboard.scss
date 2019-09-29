@@ -1,0 +1,165 @@
+.con_mid.dashboard_main {
+	.status_con {
+		display: $inline;
+		width: 100%;
+		.top_strip {
+			display: $inline;
+			width: 100%;
+			@include padding-bottom(22);
+			.heading {
+				@extend .ver_midle;
+				width: 14%;
+				@include fontsize(18);
+				i {
+					color: $pink;
+				}
+				i,span {
+					@extend .ver_midle;
+				}
+			}
+			.ts_filter {
+				@extend .ver_midle;
+				width: auto;
+				@include fontsize(13);
+				span {
+					@include margin-right(12);
+					color: $skycolor;
+				}
+				label {
+					@include width(245);
+					@include margin(0 36 0 0);
+					cursor: pointer;
+					font-weight: normal;
+					position: relative;
+					&:last-child {
+						@include margin(0);
+					}
+					&:after {
+						position: absolute;
+						right: 0;
+						top: 7px;
+						height: 0;
+						width: 0;
+						content: "";
+						@include border-left(5, solid, transparent);
+						@include border-right(5, solid, transparent);
+						@include border-top(5, solid, $skycolor);
+					}
+					select {
+						background: transparent;
+						border: none;
+						@include border-bottom(1, solid, rgba(255, 255, 255, 0.2));
+						width: 100%;
+						@include padding(0 12 10 0);
+						-webkit-appearance: none;
+						-moz-appearance: none;
+						cursor: pointer;
+						@include margin-bottom(0);
+					}
+
+				}
+			}
+		}
+		.status_body {
+			.graph_outer {
+				@include padding(30 35 50);
+				background: rgba(40, 46, 73, 0.4);
+				@include border-round(6);
+				box-shadow: 0 0 7px 3px #13151f;
+				-webkit-box-shadow: 0 0 7px 3px #13151f;
+				-moz-box-shadow: 0 0 7px 3px #13151f;
+				@include margin-bottom(60);
+				.cyp_contentbox {
+					@extend .ver_midle;
+					width: 100%;
+					@include padding-bottom(22);
+					.walletrecord {
+						@include padding-top(15);
+					}
+				}
+			}
+			.chartresult_boxes {
+				.cr_box {
+					@include padding(0 25);
+					&:last-child {
+							h5 {
+								@include margin(0);
+							}
+						}
+					.cr_box_inner {
+						@include padding(38 25);
+						background: rgba(40, 46, 73, 0.45);
+						@include border-round(6);
+						box-shadow: 0 4px 7px 0 #10121b;
+						@include min-height(387);
+						h5 {
+							@include fontsize(18);
+							line-height: $lineheight-sm;
+							@include margin-bottom(38);
+							color: rgba(225, 225, 225, 0.55);
+						}
+						.cr_con {
+							@include fontsize(13);
+							.cr_con_txt {
+								color: $dulwhite;
+								@include margin-bottom(35);
+								p {
+									@extend .ver_midle;
+									width: 70%;
+									span {
+										display: $block;
+										width: 100%;
+										color: rgba(122, 212, 232, 0.65);
+										@include margin-top(2);
+									}
+								}
+								samp {
+									display: $inline;
+									vertical-align: bottom;
+									width: 28%;
+									text-align: right;
+									font-family: $font-family;
+								}
+							}
+							.viewall_outer {
+								a {
+									color: rgba(122, 212, 232, 0.65);	
+								}
+							}
+							.create_new	 {
+								a {
+									color: $white;
+								    text-align: center;
+								    display: $block;
+								    vertical-align: top;
+								    @include border(2, solid, $white);
+								    @include border-round(50);
+								    @include padding(18);
+								    span {
+								    	font-weight: bold;
+								    	@include fontsize(15);
+								    }
+								    i {
+								    	@include margin-right(8);
+								    }
+								    &:hover {
+								    	color: $skycolor;
+								    	border-color: $skycolor;
+								    }
+								}
+							}
+							.cr_blankcbox {
+							    display: table-cell;
+							    vertical-align: middle;
+							    width: 1%;
+							    @include height(194);
+							    text-align: center;
+							    @include fontsize(17);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

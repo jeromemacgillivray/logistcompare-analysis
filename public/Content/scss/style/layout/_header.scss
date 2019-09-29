@@ -1,0 +1,128 @@
+#header{
+    background-color: $white;
+    @include box-shadow(2px 2px 4px rgba(0,0,0,0.2));
+    @include padding(20 0);
+    @include pos(f, 0 0 null);
+    z-index: 1000;
+    @include transition(all 0.7s);
+    &.header-scroll{
+        @include pos(r, null);
+    }
+    &.header-sticky{
+        @include pos(f, null);
+    }
+    .nav-header{
+        float: left;
+        .nav-brand{
+            float: left;
+            @include max-width(130);
+            img{
+                max-height: 50px;
+            }
+        }
+        .toggleMenuButton{
+            @include width(45);
+            float: right;
+            @include padding(10 5);
+            display: none;
+            span{
+                background-color: $black;
+                display: $b; 
+                height: 2px;
+                @include transition(all 0.5s);
+                &:first-child{
+                    margin-top: 0 !important;
+                }
+            }
+            &.navClosed{
+                span{
+                    margin-top:6px;
+                }
+            }
+            &.navOpen{
+                span{
+                    &:nth-child(1){
+                        @include transform(rotate(45deg) translateX(6px) translateY(4px));
+                    }
+                    &:nth-child(2){
+                        @include transform(translateX(-50px));
+                        @include opacity(0);
+                    }
+                    &:nth-child(3){
+                        @include transform(rotate(-45deg) translateX(7px) translateY(-6px));
+                    }
+                }
+            }
+        }
+    }
+    .nav-collapsed{
+        @include clear;
+        @include transition(all 0.5s);
+        &.opened{
+            left: 0;
+            @include opacity(1);
+        }
+        nav{
+            float: right;
+            @include margin-top(5);
+            ul{
+                li{
+                    float: left;
+                    @include margin-left(25);
+                    a{
+                        font-weight: 500;
+                        @include fontsize(18);
+                        @include pos(r, null);
+                        line-height: 46px;
+                        color: $color00;
+                        display: $b;
+                        @include padding(0 10);
+                        &:before, &:after{
+                            content: "";
+                            @include pos(ab, null 0);
+                            @include height(1);
+                            background-color: $theme;
+                            @include opacity(0);
+                            @include transition(all 0.4s ease-out);
+                        }
+                        &:before{
+                            top: 50%;
+                        }
+                        &:after{
+                            bottom: 50%;
+                        }
+                        &:hover, &.active{
+                            color: $theme;
+                            &:before, &:after{
+                                @include opacity(1);
+                            }
+                            &:before{
+                                top: 0;
+                            }
+                            &:after{
+                                bottom: 0;
+                            }
+                        }
+                        &.button-action{
+                            color: $theme;
+                            line-height: 44px;
+                            &:hover{
+                                color: $white;
+                            }
+                            &:before, &:after{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.headerSpacer{
+    @include min-height(90);
+    display: none;
+    &.block{
+        display: block;
+    }
+}

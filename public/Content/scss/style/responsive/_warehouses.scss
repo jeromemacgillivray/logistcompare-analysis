@@ -1,0 +1,28 @@
+@include media('<=991px'){
+    .warehouseWarpper{
+        .wh_Warp{
+            .resultWarp{
+                .__content{
+                    .__contentHead{
+                        @include padding-right(0);
+                        .__actions{
+                            @include pos(r, null);
+                            display: $b;
+                            float: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media('<=499px'){
+    .warehouseWarpper{
+        .warehouseDetailWarp{
+            .__backButton{
+                float: left;
+            }
+        }
+    }
+}

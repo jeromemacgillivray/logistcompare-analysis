@@ -1,0 +1,24 @@
+.beforelogin {
+		.beforelogin_inner {		
+		.login_content_box {			
+			.login_content_box_inner {			
+				.signin_stepp1_box_inner{
+				form {
+					.inout-outer{
+						&.box-45{
+							&.second-box{
+								@include media("<=767px"){
+									@include margin-left(0);
+								}
+							}
+							img{
+								@include margin-bottom(20);
+							}
+						}						
+					}					
+				}
+			}				
+			}
+		}
+	}
+}

@@ -1,0 +1,226 @@
+.beforelogin {
+		.beforelogin_inner {
+		@include media("<=1367px") {
+			@include width(800);
+		}
+		@include media("<=992px") {
+			@include width(700);
+		}
+		@include media("<=767px") {
+			width:94%;
+		}
+		.logo {
+			@include media("<=1367px") {
+				@include padding(70 0 50);
+			}
+			@include media("<=767px") {
+				@include padding(40 0 30);
+			}
+			img {
+				@include media("<=767px") {
+					@include max-width(110);
+				}
+			}
+		}
+		.login_content_box {
+			@include media("<=1367px") {
+				@include margin-bottom(30);
+				@include padding(10);
+				@include min-height(90);
+			}
+			.form-title {
+				h1 {
+					@include media("<=1367px") {
+						@include font-size(18);
+						@include margin-bottom(30);
+					}
+					@include media("<=767px") {
+						@include font-size(16);						
+					}
+				}
+				p {
+					@include media("<=1367px") {
+						@include font-size(16);
+						@include margin-bottom(50);
+					}
+					@include media("<=767px") {
+						@include font-size(14);						
+					}
+				}
+			}
+			.login_content_box_inner {
+				@include media("<=1367px") {
+					@include font-size(20);
+					@include padding(50 40);
+				}
+				@include media("<=767px") {
+					@include font-size(16);
+					@include padding(40 20);					
+				}
+				form {
+					.inout-outer {
+						input {
+							@include media("<=1367px") {
+								@include margin-bottom(30);
+								font-size:16px;
+								@include padding(0 3 10);
+							}
+							@include media("<=767px") {
+								@include margin-bottom(20);	
+								font-size:14px;				
+							}
+						}
+						&.box-20 {
+							@include media("<=767px") {
+								width:100%;
+							}
+						}
+						&.box-25 {
+							@include media("<=767px") {
+								width:100%;
+							}
+						}
+						
+						&.box-30 {
+							@include media("<=767px") {
+								width:100%;
+							}
+						}
+						&.box-40 {
+							@include media("<=767px") {
+								width:100%;
+							}
+						}
+						&.box-45 {
+							@include media("<=767px") {
+								width:100%;
+							}
+						}
+						&.box-60 {
+							@include media("<=767px") {
+								width:100%;
+							}
+						}
+						&.box-65 {
+							@include media("<=767px") {
+								width:100%;
+							}
+						}
+						&.box-80 {
+							@include media("<=767px") {
+								width:100%;
+							}
+						}
+						&.box-70 {
+							@include media("<=767px") {
+								width:100%;
+							}	
+						}
+					}
+					.radio-outer {
+						@include media("<=1367px") {
+							@include margin-bottom(30);							
+						}
+						@include media("<=767px") {
+							@include margin-bottom(20);										
+						}
+						label {
+							&.z_radio {
+								@include media("<=1367px") {
+									@include margin-right(20);						
+								}
+								@include media("<=767px") {
+									@include margin-right(10);
+									font-size: 14px;
+								}
+								span {
+									&:after {
+										@include media("<=767px") {
+											@include pos(a, 6px auto auto 4px);
+										    @include square(8px);
+										}
+									}
+									&:before {
+										@include media("<=767px") {
+										 	@include pos(a, 2px auto auto 0px );
+										   	@include square(16px);
+										}
+									}
+								}
+							}
+							&.z_checked {
+								@include media("<=1367px") {
+									@include margin-right(20);
+								}
+								@include media("<=767px") {
+									@include margin-right(10);
+									font-size: 14px;							
+								}
+								span {
+									@include media("<=1367px") {
+										@include padding-left(25);
+									}
+									&:after {
+										@include media("<=1367px") {
+										  @include pos(a, 3px auto auto 4px );
+										}
+										@include media("<=767px") {
+										  @include pos(a, 2px auto auto 2px );
+										  font-size:10px;
+										}
+									}
+									&:before {
+										@include media("<=767px") {
+										 	@include pos(a, 2px auto auto 0px );
+										   	@include square(16px);
+										}
+									}									
+								}							
+							}
+						}
+					}								
+				}
+				.forgot_pwd {
+					a {
+						@include media("<=1367px") {
+							@include font-size(16);			
+						}
+						@include media("<=767px") {
+							@include font-size(14);							
+						}					
+					}
+				}
+				.button_block {
+					@include media("<=1367px") {
+						@include margin-top(40);						
+					}
+					@include media("<=767px") {
+						@include margin-top(30);					
+					}	
+					.button {
+						@include media("<=1367px") {
+							@include padding(10 20);						
+							@include fontsize(18);						
+						}
+						@include media("<=767px") {
+							@include fontsize(16);					
+						}						
+					}
+				}
+				.signup_btn {
+					p {
+						@include media("<=767px") {
+							@include fontsize(14);					
+						}
+						a {
+							@include media("<=480px") {
+								display: $block;
+								width: 100%;
+							}
+						}
+					}					
+				}
+			}
+		}
+	}
+}

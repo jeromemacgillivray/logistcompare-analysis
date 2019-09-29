@@ -1,0 +1,236 @@
+.ver_midle {
+	display: $inline;
+	vertical-align: middle;
+}
+
+//dashboard
+header{
+		background: $contentbg;
+		position: fixed;
+		width: 100%;
+		z-index: 9999;
+		.header_inner {
+			@include padding(16 18);
+			box-shadow: (0 0 1px 2px #10111b);
+			-webkit-box-shadow: (0 0 1px 2px #10111b);
+			-moz-box-shadow: (0 0 1px 2px #10111b);
+			.h_left_content {
+				@extend .ver_midle;
+				@include padding-top(17);
+				.logo_outer {
+					display: $inline;
+					vertical-align: top;
+					width: 62%;
+					@include padding-left(10);
+				}
+				.menuicon {
+					display: $inline;
+					vertical-align: top;
+					width: 18%;
+					@include padding-right(19);
+					@include padding-top(4);
+					 a {
+						color: $dashboardcolor;
+						&:hover {
+							color: $skycolor;
+						}
+					 }					 
+				}
+			}
+			.h_mid_content {
+				@include padding(0 150 0 85);
+				@extend .ver_midle;
+				.songfilter {
+					@extend .ver_midle;
+					@include width_auto;
+					background: rgba(40, 47, 70, 0.6);
+					@include padding(16 30);
+					@include border-round(50);
+					position: relative;
+					&:active {
+						background: rgba(40, 47, 70, 0.8);
+					}
+					input {
+						background: transparent;
+						border: none;
+						&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+						  color: $dashboardcolor;
+						  opacity: 1;
+						}
+						&::-moz-placeholder { /* Firefox 19+ */
+						  color: $dashboardcolor;
+						  opacity: 1;
+						}
+						&:-ms-input-placeholder { /* IE 10+ */
+						  color: $dashboardcolor;
+						  opacity: 1;
+						}
+						&:-moz-placeholder { /* Firefox 18- */
+						  color: $dashboardcolor;
+						  opacity: 1;
+						}
+					}
+					&.searchoptions {
+						.filteroptions {
+							display: $block;
+						}	
+					}
+					.filteroptions {
+						position: absolute;
+					    top: 60px;
+					    background: rgba(40, 47, 70, 0.8);
+					    @include width(100);
+					    left: 20px;
+					    display: none;
+					    ul {
+					    	li {
+					    		float: left;
+    							width: 100%;
+    							a {
+    								display: inline-block;
+								    vertical-align: middle;
+								    padding: 16px 10px;
+								    width: 100%;
+								    text-align: center;
+								    color: rgba(255, 255, 255, 0.6);
+    							}
+					    	}
+					    }
+					}
+				}
+				.search {
+					@extend .ver_midle;
+					@include width_auto;
+					@include border-round(50);
+					@include border(3, solid, $skycolor);
+					@include padding(13 25);
+					input {
+						@include width(216);
+						background: transparent;
+						border: none;
+						color: rgba(255,255,255,0.7);
+						&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+						  color: rgba(255,255,255,0.7);
+						  opacity: 1;
+						}
+						&::-moz-placeholder { /* Firefox 19+ */
+						  color: rgba(255,255,255,0.7);
+						  opacity: 1;
+						}
+						&:-ms-input-placeholder { /* IE 10+ */
+						  color: rgba(255,255,255,0.7);
+						  opacity: 1;
+						}
+						&:-moz-placeholder { /* Firefox 18- */
+						  color: rgba(255,255,255,0.7);
+						  opacity: 1;
+						}
+					}
+				}
+				.h_mid_right {
+					@include padding-top(19);
+					.uploadmusic {
+						@extend .ver_midle;
+						@include width_auto;
+					    overflow: hidden;
+						position: relative;
+						@include border-right(1, solid, #444752);
+						@include padding(0 34 4 0);
+						@include margin-right(22);
+						@include fontsize(15);
+						a {
+							i {
+								@include fontsize(15);
+								color: $dashboardcolor;
+								@extend .ver_midle;
+							}
+							span {
+								@extend .ver_midle;	
+								color: rgba(255, 255, 255, 0.65);
+							}
+						}
+						input[type="file"] {
+							    opacity: 0;
+							    position: absolute;
+							    width: 100%;
+							    height: 100%;
+						}
+					}
+					.user_notif {
+						@extend .ver_midle;
+						@include width_auto;
+						a {
+							@extend .ver_midle;
+							color: $dashboardcolor;
+							&.active {
+								color: $white;
+							}
+							i {
+								@include margin(0 6);
+								position: relative;
+								@include fontsize(24);
+								&.icon-comment {
+									@include fontsize(18);
+    								color: $white;
+    								samp {
+    									    position: absolute;
+											top: -6px;
+											background: #fa72a3;
+											@include width(15);
+											@include height(15);
+											@include circle;
+											right: 1px;
+											text-align: center;
+											@include padding-top(3);
+											@include fontsize(8);
+    								}
+								}
+							}
+						}
+					}
+				}
+			}
+			.h_right_content {
+				@include padding(5 26 0);
+				@extend .ver_midle;
+				.profilemenu {
+					@extend .ver_midle;
+					@include width_auto;
+					@include padding-right(20);
+					color: rgba(255, 255, 255, 0.65);
+					img {
+						@include circle;
+						@include margin-right(14);
+						display: $inline;
+					}
+					.usr_name {
+						position: relative;
+						vertical-align: middle;
+					    display: inline-block;
+					    margin-top: -18px;
+						samp {
+							position: absolute;
+						    bottom: -17px;
+						    width: 100%;
+						    left: 0;
+						    @include fontsize(13);
+						    text-align: left;
+						    color: $skycolor;
+						}
+					}
+				}
+				.profile_logout {
+					@extend .ver_midle;
+					@include width_auto;
+					@include padding(5 0 5 20);
+					@include border-left(1, solid, #444752);
+					a {
+						color: rgba(255, 255, 255, 0.65);
+					&:hover {
+						color: $skycolor;
+					}
+					}
+				}
+			}
+		}
+	}

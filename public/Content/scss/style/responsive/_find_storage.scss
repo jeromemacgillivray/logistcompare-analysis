@@ -1,0 +1,56 @@
+@include media('<=991px'){
+    .findStorageWarpper{
+        .findStorageInner{
+            @include padding-right(0);
+            .cell{
+                display: $b;
+                &:last-child{
+                    @include width-auto;
+                    @include padding(15);
+                }
+                #map{
+                    @include pos(r, null);
+                    @include fluid-ratio(16 9, iframe);
+                }
+            }
+        }
+    }
+}
+
+@include media('<=600px'){
+    .wDetailModal{
+        .reviewBlk{
+            .__reviewField{
+                @include padding-right(0);
+                .postReviewBtn{
+                    @include pos(r, null);
+                    width: 100%;
+                    height: 50px;
+                    @include fontsize(24);
+                }
+            }
+        }
+    }
+}
+
+@include media('<=500px'){
+    .wDetailModal{
+        .sliderBlock{
+            .slickSyncThumbs{
+                @include pos(r, null);
+                @include margin-top(10);
+                li{
+                    @include padding(0);
+                }
+            }
+        }
+    }
+}
+
+@include media('<=767px'){
+    .findStorageWarpper{
+        .findStorageInner{
+            
+        }
+    }
+}

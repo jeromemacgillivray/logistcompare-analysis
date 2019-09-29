@@ -1,0 +1,174 @@
+.createyourprofile {
+	&.addcompaign-page {
+		.a_page-tile {
+			@include padding-bottom(25);
+			.page-title-left {
+				width: 49%;
+				@extend .ver_midle;
+				span {
+					color:lighten($white,30%);
+				}
+				i {
+					color:$pink;
+					transform:rotateY(180deg);
+					display: inline-block;
+					font-size: 26px;
+					vertical-align: middle;
+				}
+			}
+			.cyp_uppersteps {
+				@extend .ver_midle;
+				width: 50%;
+				span {
+					@extend .ver_midle;
+					@include margin(0 37);
+					font-weight: 600;
+					@include fontsize(18);
+					background: $inactive;
+					@include circle;
+					@include width(42);
+					@include height(42);
+					text-align: center;
+					@include padding-top(10);
+					position: relative;
+					&:first-child {
+						@include margin-left(0);
+					}
+					&:last-child {
+						@include margin-right(0);
+						&:after {
+							display: none;
+						}
+					}
+					&:after {
+						content: "";
+					    position: absolute;
+					    height: 2px;
+					    top: 21px;
+					    left: 42px;
+					    width: 75px;
+					    background: $active;
+					}
+					&.active {
+						background: $active;
+						&:after {
+							background: $active;
+						}
+					}
+				}
+			}
+		}
+		.cyp_form_outer {
+			.cyp_body {				
+				.cyp_body_inner {
+					&.compaign-tab-outer{
+						.comp-tab-links {
+							ul {
+								@include border(2, solid,$white);
+								@include radius(30px);
+								overflow: hidden;
+								display: $inline;
+								li {
+									display: $inline;
+									width:180px;
+									text-align: center;
+									@include border-right(1, solid,$white);
+									a {
+										@include padding(12 0);
+										display: block;
+										font-weight: bold;
+										color: $white;
+									}
+									&.active {
+										a {
+											background-color: $skycolor;
+										}
+									}
+								}
+							}
+						}
+						.cyp_contentbox {
+							@include padding-top(60);
+							&.first-cyp_contentbox {
+								@include padding-top(0);
+							}
+						}
+					}
+					.cyp_contentbox {
+						@include border-bottom(1, solid, rgba(255, 255, 255, 0.1));
+						&.without-border {
+							@include border-bottom(0, solid, rgba(255, 255, 255, 0.1));
+						}
+						&:last-child {
+							@include margin-bottom(10);
+						}	
+						.field_outer {
+							.theme-button {
+								@include margin-left(0);
+							}
+							&.uploadimg {
+								@include margin-bottom(50);
+								label {
+									padding: 16px 0px;
+									width: 60%;
+									text-align: center;
+								}
+							}	
+						}
+						&.compaign-view {
+							@include padding-top(0);
+							h5 {
+								&.view-all-link {
+								@include margin-bottom(25);
+									a {
+										text-transform: uppercase;
+										i {
+											@include font-size(10);
+											@include margin-left(8);
+											transform: rotateX(180deg);
+											display: inline-block;
+										}
+									}
+								}
+							}
+							ul {
+								li {
+									@include margin-bottom(40);
+									.music-right-cos {
+										@include margin-bottom(15);
+										span {
+											width:49%;
+											display: inline-block;
+											vertical-align: middle;
+										}	
+									}
+									p {
+										@include font-size(14);
+										color: rgba(255,255,255,0.55);
+										@include margin(0 0 20 0);
+
+									}
+									h6 {
+										@include margin(0 0 15 0);
+										color: $skycolor;
+									}
+									.viw-all-costlist {
+										span {
+											@include margin-right(70);
+											@include font-size(13); 
+											color: rgba(255,255,255,0.55);
+											samp {
+												color: $skycolor;
+											}
+										}
+									}
+								}
+							}
+						}	
+					}
+
+				}
+			}			
+		}
+	}
+}

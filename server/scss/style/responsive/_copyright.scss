@@ -1,0 +1,25 @@
+.artist-market-page {
+	&.copyright_page{
+		.cyp_form_outer {	
+			.cyp_body {
+				.cyp_body_inner {
+					@include media("<=767px") {
+						min-height:400px;			
+					}		
+					.copyright-outer{
+						@include media("<=1200px") {
+							@include padding(20 30);
+						} 
+						.comp-box{
+							@include media("<=767px") {
+								@include margin-bottom(20);
+								@include padding(0);
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
+}

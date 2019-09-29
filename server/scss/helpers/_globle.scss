@@ -1,0 +1,193 @@
+        @import "style/base";
+        //animate
+        /*==================================== GLOBLE CSS ====================================*/
+        
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            line-height: $lineheight;
+            font-family: $font-family;
+            font-weight: 400;
+            color: $basecolor;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: #fff;
+            font-size: 16px;
+            // overflow-x: hidden;
+        }
+        
+        body {
+            overflow-x: hidden;
+        }
+        * {
+            outline: 0;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ol,
+        ul,
+        li,
+        p,
+        img {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            // font-size:100%;
+            outline: none;
+            border: none;
+        }
+        
+        a {
+            @include anchor;
+            @include single-transition;
+            color: $skycolor;
+            &:hover {
+                color: $skyhovercolor;
+            }
+        }
+        
+        .uppercase {
+            text-transform: $uppercase;
+        }
+        
+        .responsiveimg {
+            display: block;
+            max-width: 100%;
+            margin: 0 auto;
+            height: auto;
+        }
+        
+        .full {
+            width: 100%;
+        }
+        
+        input[type="text"],
+        input[type="password"],
+        input[type="search"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"],
+        input[type="date"],
+        input[type="month"],
+        textarea {
+            -webkit-appearance: none;
+            outline: none;
+        }
+        
+        .ib_v {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .block {
+            display: $block;
+        }
+        
+        .v-middle {
+            vertical-align: middle !important;
+        }
+        
+        
+        select {
+            &:focus {
+                outline: none;
+            }
+        }
+        
+        .table-cell {
+            display: table-cell;
+            vertical-align: middle;
+            width: inherit;
+            &.justified-cell {
+                width: 1%;
+            }
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 0) {
+            ::i-block-chrome,
+            select.form-control {
+                background-position-x: 97%;
+                background-position-y: 50%;
+            }
+        }
+        
+        .pointer {
+            cursor: pointer;
+        }
+        
+        // break
+        .br {
+            display: block;
+        }
+        
+        .flowhidden {
+            overflow: hidden;
+        }
+        .main_outer {
+            min-height: 100%;
+            width: 100%;
+        }
+        .removepad {
+            padding: 0 !important;
+        }
+        .removepadleft {
+            padding-left: 0 !important;
+        }
+        .removepadright {
+            padding-right: 0 !important;
+        }
+        samp {
+            font-family: $font-family !important;
+            font-weight: 400;   
+        }
+        .theme-button {
+            padding: 16px 47px !important;
+            text-transform: capitalize;
+            @include border-round(50);
+            font-weight: bold;
+            color: $white;
+            @include fontsize(15);
+            margin: 0 25px !important;
+            @extend .ver_midle;
+            border: 2px solid #fff !important;
+            background: transparent !important;
+            transition: all 0.2s ease-in-out 0s;
+            width: auto !important;
+            &:hover {
+                background: $white !important;
+                color: rgba(40, 46, 73, 0.9) !important;
+            }
+        }
+        .removemar {
+            margin: 0 !important;
+        }
+        .removemarleft {
+            margin-left: 0 !important;
+        }
+        .removemar_top {
+            margin-top: 0 !important;
+        }
+        .noborder {
+            border: none !important;
+        }
+        .bluebtn {
+            color: $white;
+            background: $skycolor;
+            @extend .ver_midle;;
+            @include padding(16 30);
+            @include border-round(50);
+            text-shadow: 0px 1px 2px #000;
+            -webkit-text-shadow: 0px 1px 2px #000;
+            -moz-text-shadow: 0px 1px 2px #000;
+            &:hover {
+                background: #4195a6;
+                color: $white;
+            }
+        }

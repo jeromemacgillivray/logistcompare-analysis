@@ -1,0 +1,173 @@
+@include media("<=1400px") {
+	.createyourprofile-step2 {
+		.cyp_form_outer {
+			.cyp_body {
+				.cyp_body_inner {
+					.cyp_contentbox {
+						.field_outer {
+							button {
+								&.theme-button {
+									width: 100%;
+									@include padding(17);
+								}
+							}
+						}
+						.errorbox_outer {
+							.errorbox {
+								span {
+									width: 90%;
+									vertical-align: top;
+								}
+							}
+						}
+						&.notification {
+							.field_outer {
+								&:nth-child(2) {
+									text-align: left;
+									@include padding(10 0);
+								}
+								&:last-child {
+									text-align: left;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@include media("<=1200px") {
+	.createyourprofile {
+		.cyp_upperbox {
+			@include margin-bottom(30);
+			.cyp_uppersteps {
+				span {
+					@include margin(0 28);
+					@include fontsize(16);
+					@include padding-top(10);
+					&:after {
+						width: 57px;
+					}
+				}
+			}
+		}
+		.cyp_form_outer {
+			.cyp_body {
+				.cyp_body_inner {
+					.cyp_contentbox {
+						@include padding(0 40 40);
+						h5 {
+							@include margin(30 0);
+							@include fontsize(14);
+						}
+						.field_outer {
+							input,textarea {
+								@include padding-bottom(20);
+								@include margin-bottom(40);
+							}
+						}
+						&:last-child {
+							@include margin-bottom(67);
+						}
+					}
+				}
+			}
+		}
+		&.createyourprofile-step2 {
+			.cyp_form_outer {
+				.cyp_body {
+					.cyp_body_inner {
+						.cyp_contentbox {
+							.field_outer {
+								button {
+									&.theme-button {
+										@include width(300);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@include media("<=992px") {
+
+}
+@include media("<=767px") {
+	.createyourprofile {
+		.cyp_upperbox {
+			text-align: center;
+			@include margin-bottom(20);
+			.cyp_uppertext {
+				width: 100%;
+			}
+			.cyp_uppersteps {
+				width: 100%;
+				@include margin-top(15);
+				&.text-right {
+					text-align: center;
+				}	
+			}
+		}
+		.cyp_form_outer {
+			.cyp_body {
+				.cyp_body_inner {
+					.cyp_contentbox {
+						@include padding(0 20 30);
+						.field_outer {
+							input,textarea {
+								width: 100%;
+							}
+							textarea {
+								@include min-height(80);
+							}
+						}
+					}
+				}
+			}
+			.cyp_footer {
+				@include padding(14 16);
+				&.text-right {
+					text-align: center;
+				}
+			}
+		}
+		&.createyourprofile-step2 {
+			.cyp_form_outer {
+				.cyp_body {
+					.cyp_body_inner {
+						.cyp_contentbox {
+							.errorbox_outer {
+								.errorbox {
+									i {
+										@include fontsize(20);
+									}
+									span {
+										width: 84%;
+									}
+								}
+							}
+							.field_outer {
+								button {
+									.theme-button {
+										width: 60%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.theme-button {
+		@include padding(12 36);
+    	@include margin(0 5);
+	}
+}
+@include media("<=479px") {
+
+}

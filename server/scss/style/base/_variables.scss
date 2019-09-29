@@ -1,0 +1,39 @@
+// THEME AND COLOR
+
+
+$white: #ffffff !default;
+$dulwhite: rgba(255, 255, 255, 0.65) !default;
+$basecolor: #666666 !default;
+$dashboardcolor: #91949e !default;
+$inactive: #4f4f4f !default;
+$active: #4c9fb2;
+$h1-color:#292e59;
+$p-color:rgba(41,46,89,0.8);
+$contentbg: rgba(40, 46, 73, 0.8) !default;
+$radio-color:#52b3c6;
+$pink: #fa72a3;
+$dangererror: #4e0707;
+
+//block divs
+$block: block;
+$inline: inline-block;
+
+// PATH & FONT NAME
+$imgpath: "../images/" !default;
+$primary-font-path: "../fonts" !default;
+$url: $imgpath !default;
+$font-family: 'OpenSans' !default;
+
+// FONTS and TEXT STYLE
+$lineheight: 1.5 !default;
+$lineheight-sm: 1.2 !default;
+$uppercase: uppercase;
+
+//border colors
+$lightpurp: #a1a4b8 !default;
+$purp: #5e617d !default;
+$skycolor: #52b3c6 !default;
+$skyhovercolor: #4493a3 !default;
+
+//TRANSITION EFFECT
+$trasition_all: all 0.4s ease-in-out 0s !default;

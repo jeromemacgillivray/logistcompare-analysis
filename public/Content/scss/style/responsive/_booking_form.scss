@@ -1,0 +1,26 @@
+@include media('<=991px'){
+    .bookingFormWarp{
+        .bCateBlk{
+            ul{
+                @include clear;
+                li{
+                    float: left;
+                    width: 50%;
+                    @include margin(7 0);
+                }
+            }
+        }
+    }
+}
+
+@include media('<=450px'){
+    .bookingFormWarp{
+        .bCateBlk{
+            ul{
+                li{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

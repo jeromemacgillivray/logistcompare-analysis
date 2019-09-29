@@ -1,0 +1,33 @@
+@include media('<=620px'){
+    .quotesWarpper{
+        .quoteWarp{
+            .__findBy{
+                .__searchByName, .__searchByDate{
+                    float: none;
+                    label{
+                        display: $b;
+                    }
+                }
+                .__searchByName{
+                    .form-control{
+                        width: 100%;
+                    }
+                }
+                .__searchByName{
+                    .form-control{
+                        width: 100%;
+                    }
+                }
+                .__searchByDate{
+                    .__dateRang{
+                        display: $b;
+                        @include max-width-auto;
+                        .form-control{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

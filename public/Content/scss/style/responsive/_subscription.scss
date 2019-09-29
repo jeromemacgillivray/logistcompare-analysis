@@ -1,0 +1,40 @@
+@include media('<=1100px'){
+    .sbsWarpper{
+        .formWarp{
+            @include padding(0);
+        }
+    }
+}
+
+@include media('<=991px'){
+    .sbsWarpper{
+        @include padding-top(60);
+    }
+}
+@include media('<=767px'){
+    .sbsWarpper{
+        .infoBlk{
+            .imgBlk{
+                @include square(200px);
+                img{
+                    width: 65%;
+                }
+            }
+            p{
+                @include fontsize(16);
+                line-height: 1.8;
+            }
+        }
+        .innerWarp{
+            height: inherit !important;
+            height: auto !important;
+            .cell{
+                display: $b;
+                width: 100%;
+            }
+        }
+        .formWarp{
+            @include margin-top(20);
+        }
+    }
+}

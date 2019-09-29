@@ -1,0 +1,11 @@
+@include media('<=600px'){
+    .addWhWarpper{
+        .formWarp{
+            .form-group{
+                .ch-checkMark{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

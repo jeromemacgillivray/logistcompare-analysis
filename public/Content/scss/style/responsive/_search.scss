@@ -1,0 +1,49 @@
+@include media('<=991px'){
+    .sStorageWarp{
+        .resultWarp{
+            .cell{
+                display: $b;
+                &:first-child{
+                    @include width-auto;
+                    @include padding(10 10 0);
+                }
+                &.button-cell{
+                    @include width-auto;
+                    text-align: center;
+                    border-left: none;
+                    border-top: 1px solid darken($white, 7%);
+                }
+            }
+            .slickSingle{
+                margin: $mauto;
+            }
+            .__content{
+                text-align: center;
+            }
+        }
+    }
+}
+
+@include media('<=767px'){
+    .sStorageWarp{
+        .resultWarp{
+            display: $b;
+            .slickSingle{
+                @include max-width(275);
+                width: 100%;
+            }
+        }
+    }
+}
+
+@include media('<=499px'){
+    .sStorageWarp{
+        .head{
+            .__viewMap{
+                float: none;
+                display: $ib;
+                @include margin-top(15);
+            }
+        }
+    }
+}

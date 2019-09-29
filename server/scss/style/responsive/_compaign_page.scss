@@ -1,0 +1,17 @@
+.createyourprofile {
+	&.addcompaign-page{
+		.a_page-tile{
+			.page-title-left{
+				@include media("<=767px") {
+					width: 100%;
+					@include margin-bottom(15);
+				}
+			}
+			.cyp_uppersteps {
+				@include media("<=767px") {
+					width: 100%;					
+				}				
+			}
+		}
+	}
+}

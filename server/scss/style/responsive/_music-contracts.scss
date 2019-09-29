@@ -1,0 +1,18 @@
+//add music contracts
+.sbscrp_page {
+	.subscription_content {
+		& > div {
+		   .sub_contentbox {
+		   	@include media("<=1600px") {
+				@include min-height(396);
+			}
+			@include media("<=1400px") {
+				@include min-height(1);
+			}
+		   	@include media("<=767px") {
+				@include margin-bottom(0);
+			}
+			}
+		}
+	}
+}

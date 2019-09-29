@@ -1,0 +1,24 @@
+@include media("<=1400px") {
+    footer {
+    	.footer_inner {
+    		@include fontsize(14);
+    		@include padding(30 0);
+    	}
+    }
+}
+ 
+@include media("<=1200px") {
+
+}
+
+@include media("<=992px") {
+
+}
+
+@include media("<=767px") {
+
+}
+
+@include media("<=479px") {
+
+}

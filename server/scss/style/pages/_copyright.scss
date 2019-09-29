@@ -1,0 +1,36 @@
+.artist-market-page {
+	&.copyright_page {
+		.a_page-tile {
+		}
+		.cyp_form_outer {	
+			.cyp_body {
+				.cyp_body_inner {
+					min-height:800px;					
+					.copyright-outer {
+						@include padding(30 50);
+						@include border-bottom(1, solid, rgba(255, 255, 255, 0.1));
+						.comp-box {
+							.copyright-img {
+								@include square(50px);
+								overflow: hidden;
+								@include radius(50%);
+								float:left;
+								@include margin-right(12);
+							}
+							p {
+								@include margin(5 0);
+								color: $dashboardcolor;
+								&.sky-text {
+									color:$skycolor;
+								}
+								i {
+									@include margin-right(5);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

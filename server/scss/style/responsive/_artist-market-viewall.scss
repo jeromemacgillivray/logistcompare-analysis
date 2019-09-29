@@ -1,0 +1,77 @@
+.artist-market-edit {
+	.cyp_form_outer {
+		.cyp_body {
+			.cyp_body_inner {
+				.music-tab-outer{
+					.music-tab-links{
+						ul{
+							li{
+								a{
+								}
+								&.active,&:hover{
+									a{
+									}
+								}
+							}
+						}
+					}
+					.music-tab-content{
+						.music-panel{
+							@include media("<=992px") {
+								@include padding(10 15);
+							} 
+							.musicpanel-head{
+								.music-main-img{									
+									@include media("<=767px") {
+										width:30%;
+									}	
+								}
+								.music-paneltitle{
+									@include media("<=767px") {
+										width:68%;
+									}	
+									h2{
+										@include media("<=767px") {
+											width:100%;
+										}
+									}
+								}
+								a{
+									@include media("<=767px") {
+										width:100%;
+										@include font-size(14);
+										text-align: left;
+									}								
+								}
+							}
+							ul{
+								li{
+									@include media("<=992px") {
+											@include padding(10 15);
+										}
+									.music-small-img{
+										@include media("<=767px") {
+											width:20%;
+										}
+									}
+									.audio-box{
+										@include media("<=767px") {
+											width:78%;
+											@include padding-left(10);
+										}
+									}
+									.music-viewnumber{
+										@include media("<=767px") {
+											width:100%;
+											text-align: right;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

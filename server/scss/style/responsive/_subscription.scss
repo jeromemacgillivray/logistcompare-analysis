@@ -1,0 +1,48 @@
+@include media("<=1400px") {
+	.sbscrp_page {
+		.subscription_content {
+			& > div {
+				@include padding(0 17);
+				.sub_contentbox {
+					.sub_main {
+						h2 {
+							@include padding(25 15 30);
+							@include fontsize(18);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@include media("<=1200px") {
+	
+}
+@include media("<=992px") {
+
+}
+@include media("<=767px") {
+	.sbscrp_page {
+		.subscription_content {
+			& > div {
+				@include padding(0 0 30);
+				.sub_contentbox {
+					.sub_main {
+						& > div {
+							@include padding(37 20 43);
+							 p {
+							 	span {
+							 		@include fontsize(16);
+							 		@include padding(10 0);
+							 	}
+							 }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@include media("<=479px") {
+
+}

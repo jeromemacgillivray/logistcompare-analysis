@@ -1,0 +1,572 @@
+/*==================================== GLOBLE CSS ====================================*/
+html,
+body {
+    height: 100%;
+    width: 100%;
+    line-height: $lineheight;
+    font-family: $font-family;
+    font-weight: 400;
+    color: $color00;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 17px;
+    line-height: 1.4;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-stroke: 0;
+    -webkit-overflow-scrolling: touch;
+}
+body{
+    overflow-x: hidden;
+    @include transition(all 0.5s ease-in-out);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+p,
+img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 100%;
+    outline: none;
+    border: none;
+}
+
+a {
+    @include anchor;
+    @include transition ($trasition_all);
+    color: $theme;
+}
+
+.responsiveimg {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.full {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="month"],
+textarea {
+    -webkit-appearance: none;
+}
+
+select {
+    &:focus {
+        outline: none;
+    }
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    //width: inherit;
+    &.justified-cell {
+        width: 1%;
+    }
+}
+
+label {
+    font-weight: 400;
+}
+
+// break
+.br {
+    display: block;
+}
+
+// Margin
+@include maring-and-padding-spacing($spacing);
+.margin-1x{
+    @extend %margin-1x;
+}
+.margin-left-1x {
+    @extend %margin-left-1x;
+}
+
+.margin-left-2x {
+    @extend %margin-left-2x;
+}
+
+.margin-left-3x {
+    @extend %margin-left-3x;
+}
+
+.margin-left-4x {
+    @extend %margin-left-4x;
+}
+
+.margin-right-1x {
+    @extend %margin-right-1x;
+}
+
+.margin-right-2x {
+    @extend %margin-right-2x;
+}
+
+.margin-right-3x {
+    @extend %margin-right-3x;
+}
+
+.margin-right-4x {
+    @extend %margin-right-4x;
+}
+
+.margin-right-6x {
+    @extend %margin-right-6x;
+}
+
+.margin-top-1 {
+    margin-top: -1px;
+}
+
+.margin-top-1x {
+    @extend %margin-top-1x;
+}
+
+.margin-top-2x {
+    @extend %margin-top-2x;
+}
+
+.margin-top-3x {
+    @extend %margin-top-3x;
+}
+
+.margin-top-4x {
+    @extend %margin-top-4x;
+}
+
+.margin-top-6x {
+    @extend %margin-top-6x;
+}
+
+.margin-top-8x {
+    @extend %margin-top-8x;
+}
+
+.margin-top-10x {
+    @extend %margin-top-10x;
+}
+
+.margin-bottom-1x {
+    @extend %margin-bottom-1x;
+}
+
+.margin-bottom-2x {
+    @extend %margin-bottom-2x;
+}
+
+.margin-bottom-3x {
+    @extend %margin-bottom-3x;
+}
+
+.margin-bottom-4x {
+    @extend %margin-bottom-4x;
+}
+
+.margin-bottom-6x {
+    @extend %margin-bottom-6x;
+}
+
+.margin-bottom-8x {
+    @extend %margin-bottom-8x;
+}
+
+.margin-bottom-10x {
+    @extend %margin-bottom-10x;
+}
+
+// PADDING
+.padding-2x {
+    @extend %padding-2x;
+}
+
+.padding-4x {
+    @extend %padding-4x;
+}
+
+.padding-left-1x {
+    @extend %padding-left-1x;
+}
+
+.padding-left-2x {
+    @extend %padding-left-2x;
+}
+
+.padding-left-3x {
+    @extend %padding-left-3x;
+}
+
+.padding-left-4x {
+    @extend %padding-left-4x;
+}
+
+.padding-right-1x {
+    @extend %padding-right-1x;
+}
+
+.padding-right-2x {
+    @extend %padding-right-2x;
+}
+
+.padding-right-3x {
+    @extend %padding-right-3x;
+}
+
+.padding-right-4x {
+    @extend %padding-right-4x;
+}
+
+.padding-top-1x {
+    @extend %padding-top-1x;
+}
+
+.padding-top-2x {
+    @extend %padding-top-2x;
+}
+
+.padding-top-3x {
+    @extend %padding-top-3x;
+}
+
+.padding-top-4x {
+    @extend %padding-top-4x;
+}
+
+.padding-top-6x {
+    @extend %padding-top-6x;
+}
+
+.padding-top-8x {
+    @extend %padding-top-8x;
+}
+
+.padding-top-10x {
+    @extend %padding-top-10x;
+}
+
+.padding-top-12x {
+    @extend %padding-top-12x;
+}
+
+.padding-bottom-1x {
+    @extend %padding-bottom-1x;
+}
+
+.padding-bottom-2x {
+    @extend %padding-bottom-2x;
+}
+
+.padding-bottom-3x {
+    @extend %padding-bottom-3x;
+}
+
+.padding-bottom-4x {
+    @extend %padding-bottom-4x;
+}
+
+.padding-bottom-6x {
+    @extend %padding-bottom-6x;
+}
+
+.padding-bottom-8x {
+    @extend %padding-bottom-8x;
+}
+
+.padding-bottom-10x {
+    @extend %padding-bottom-10x;
+}
+
+.Pad0_i {
+    padding: 0 !important;
+}
+
+// Main
+#MainWarpper{
+    min-height: 100%;
+    @include calc( min-height, '100% - 340px', 100%);
+    @include padding-top(90);
+}
+
+.button_fb {
+    @include bg-color(#3b5998);
+}
+
+.button_tw {
+    @include bg-color(#459ffc);
+}
+
+.button_g {
+    @include bg-color(#d54235);
+}
+
+.posrel{
+    @include pos(r, null);
+}
+
+.form-control {
+    @include fontsize(13);
+    @include height(34);
+    @include box-shadow-none;
+    @include radius(2px);
+    border-color: darken($white, 10%);
+    background-color: darken($white, 4%);
+    &:focus {
+        border-color: lighten($theme, 3%);
+        @include box-shadow-none;
+    }
+    &.input-lg {
+        @include radius(4px);
+        @include padding-left(12);
+        @include padding-right(12);
+        @include height(48);
+    }
+}
+
+input::-webkit-input-placeholder {
+    line-height: normal !important;
+}
+input[type="file"]{
+    cursor: pointer;
+    &::-webkit-file-upload-button {
+        cursor:pointer;
+    }
+}
+
+textarea {
+    &.form-control {
+        @include height(120);
+        resize: none;
+    }
+}
+
+.flowhidden {
+    overflow: hidden;
+}
+
+.text-theme {
+    color: $theme
+}
+.bg-theme {
+    background-color: $theme
+}
+.bg-theme-alt {
+    background-color: $theme-alt
+}
+
+.text-white {
+    color: $white
+}
+.bg-light{
+    background-color: darken($white, 4%);
+}
+
+// FONT WEIGHT
+.fw300 {
+    @include font-weight(light);
+}
+
+.fw400 {
+    @include font-weight(normal);
+}
+
+.fw500 {
+    @include font-weight(medium);
+}
+
+.fw600 {
+    @include font-weight(semi-bold);
+}
+
+.fw400-alt{
+    font-family: $font-family-alt;
+    @include font-weight(normal);
+}
+.fw700-alt{
+    font-family: $font-family-alt;
+    @include font-weight(bold);
+}
+
+.ib_v {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn:focus{
+    outline: none !important;
+}
+
+.text18 {
+    @include fontsize(18);
+}
+
+.ico-t2 {
+    @include pos(r, 2px null null);
+}
+
+.ico-t4 {
+    @include pos(r, 4px null null);
+}
+
+.Row-5 {
+    @include margin-left(-5);
+    @include margin-right(-5);
+    [class^="col-"] {
+        @include padding-left(5);
+        @include padding-right(5);
+    }
+}
+.Row-10 {
+    @include margin-left(-10);
+    @include margin-right(-10);
+    [class^="col-"] {
+        @include padding-left(10);
+        @include padding-right(10);
+    }
+}
+.Row-2{
+    @include margin-left(-2);
+    @include margin-right(-2);
+    [class^="col-"] {
+        @include padding-left(2);
+        @include padding-right(2);
+    }
+}
+
+// CH-Checkbox
+.ch-checkBox{
+    @include pos(r, null);
+    display: $ib;
+    span{
+        @include pos(r, null);
+        display: $b;
+        @include fontsize(13);
+        @include font-weight(medium);
+        @include padding(5 10);
+        @include radius(4px);
+        background-color: darken($white, 7%);
+        @include margin(5 5 5 0);
+        cursor: pointer;
+    }
+    input[type="checkbox"]{
+        @include pos(ab, null);
+        @include opacity(0);
+        &:checked{
+            & + span{
+                background-color: $theme;
+                color: $white;
+            }
+        }
+    }
+}
+.ch-checkMark{
+    @include pos(r, null);
+    display: $ib;
+    span{
+        @include pos(r, null);
+        display: $b;
+        @include fontsize(14);
+        @include font-weight(medium);
+        @include padding-left(30);
+        cursor: pointer;
+        &:before, &:after{
+            content: "";
+            @include pos(ab, 0 null null 0);
+        }
+        &:before{
+            @include square(20px);
+            @include radius(3px);
+            border: 2px solid darken($white, 15%);
+            background-color: $white;
+        }
+        &:after{
+            height: 6px;
+            width: 12px;
+            border: 2px solid darken($white, 15%);
+            border-top: none;
+            border-right: none;
+            @include rotate(-45deg);
+            left: 4px;
+            top: 6px;
+        }
+    }
+    input[type="checkbox"]{
+        @include pos(ab, null);
+        @include opacity(0);
+        &:checked{
+            & + span{
+                &:before, &:after{
+                    border-color: $theme;
+                }
+            }
+        }
+    }
+}
+
+// CH-Radio
+.ch-radioBox{
+    @include pos(r, null);
+    display: $ib;
+    span{
+        @include pos(r, null);
+        display: $b;
+        @include fontsize(14);
+        @include font-weight(semi-bold);
+        @include padding-left(30);
+        line-height: 20px;
+        cursor: pointer;
+        &:before, &:after{
+            content: "";
+            @include pos(ab, 0 null null 0);
+            @include radius(50%);
+        }
+        &:before{
+            @include square(20px);
+            border: 3px solid darken($white, 15%);
+        }
+        &:after{
+            background-color: darken($white, 15%);
+            @include square(8px);
+            left: 6px;
+            top: 6px;
+        }
+    }
+    input[type="radio"]{
+        @include pos(ab, null);
+        @include opacity(0);
+        &:checked{
+            & + span{
+                &:before{
+                    border-color: $theme-alt;
+                }
+                &:after{
+                    background-color: $theme-alt;
+                }
+            }
+        }
+    }
+}
+.btn-group{
+    &.bootstrap-select{
+        @include pos(r, null);
+    }
+}

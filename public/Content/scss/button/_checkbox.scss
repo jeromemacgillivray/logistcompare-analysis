@@ -1,0 +1,249 @@
+$color-default: #849FBB; // default color
+$color-default-light: #DDDDDD; // default color light
+$color-active: $coloraction; // color when active or checked
+$color-active-light: lighten($themecolor,10%); // active color light
+$color-focus: #6FB5FB; // color when focused
+
+$margin-el: 5px; // default margin for our custom inputs
+
+/**
+* Checkboxes & radios
+*/
+.fh-checkbox > [type="checkbox"],
+.fh-radio > [type="radio"] {
+    &:checked,
+    &:not(:checked) {
+        width: 0;
+        height: 0;
+        display: none;
+        opacity: 0;
+        & + label {
+            display: inline-block;
+            margin-bottom: $margin-el;
+            padding-left: 30px;
+            position: relative;
+            cursor: pointer;
+            font-weight: 400;
+            line-height: 20px;
+            &:before {
+                // position elements absolute to parent container
+                position: absolute;
+                display: inline-block;
+                top: 0;
+                left: 0;
+                width: 20px;
+                height: 20px;
+                border: 1px solid $color-default;
+                color: $color-default;
+                //border-radius:3px;
+            }
+            //&:hover:before {
+            // add some hover styling
+            //background-color: $color-default;
+            //}
+        }
+        &:focus + label:before {
+            border-color: $color-focus;
+            box-shadow: 0 0 6px 0 $color-focus;
+        }
+        &[disabled] + label {
+            cursor: not-allowed;
+            opacity: .4;
+            &:before {
+                opacity: .7;
+            }
+        }
+    }
+}
+// styling for checkbox for both states
+.fh-checkbox > [type="checkbox"]:checked + label:before,
+.fh-checkbox > [type="checkbox"]:not(:checked) + label:before {
+    // set icon font
+    font-family: "FontAwesome";
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    // add some CSS3-animations
+    -webkit-transition: border-color .2s ease-in, background-color .2s ease-in;
+    -moz-transition: border-color .2s ease-in, background-color .2s ease-in;
+    -o-transition: border-color .2s ease-in, background-color .2s ease-in;
+    -ms-transition: border-color .2s ease-in, background-color .2s ease-in;
+    transition: border-color .2s ease-in, background-color .2s ease-in;     
+}
+// styling for checkbox when selected
+.fh-checkbox > [type="checkbox"]:checked + label:before {
+    // set checkmark icon
+    content: "\f00c";
+    color: #FFF;
+    background-color: $color-active;
+    border-color: $color-active;
+}
+// styling for checkbox when not selected
+.fh-checkbox > [type="checkbox"]:not(:checked) + label:before {
+    // remove checkmark icon
+    content: "";
+}
+
+// styling for radio for Not checked states
+.fh-radio > [type="radio"]:not(:checked) + label:before{
+    background-color: $themecolor;
+    border-color: $themecolor;
+    @include box-shadow-none;
+}
+// styling for radio for both states
+.fh-radio > [type="radio"]:checked + label:before,
+.fh-radio > [type="radio"]:not(:checked) + label:before, {
+    content: "";
+    border-radius: 15px;
+    // add some CSS3-animations
+    -webkit-transition: border-color .2s ease-in, box-shadow .1s ease-in, background-color .2s ease-in, box-shadow .2s ease-in;
+    -moz-transition: border-color .2s ease-in, box-shadow .1s ease-in, background-color .2s ease-in;
+    -o-transition: border-color .2s ease-in, box-shadow .1s ease-in, background-color .2s ease-in;
+    -ms-transition: border-color .2s ease-in, box-shadow .1s ease-in, background-color .2s ease-in;
+    transition: border-color .2s ease-in, box-shadow .1s ease-in, background-color .2s ease-in;
+} 
+// styling for radio when selected
+.fh-radio > [type="radio"]:checked + label:before {
+    color: $color-active;
+    border-color: $themecolor;
+    background-color: $themecolor;
+    // use box-shadow to render circle
+    box-shadow: inset 0 0 0 3px #fff;  
+}  
+// styling for radio when not selected
+.fh-radio > [type="radio"]:not(:checked) + label:before {
+    //box-shadow: inset 0 0 0 3px #fff; 
+}
+/**
+* On/off switch
+*/
+.fh-switch {
+    position: relative;
+}
+.fh-switch > [type="checkbox"]:checked,
+.fh-switch > [type="checkbox"]:not(:checked) {
+    width: 0;
+    height: 0;
+    display: none;
+    opacity: 0;
+    & + label {
+        cursor: pointer;
+        display: inline-block;
+        margin-right: $margin-el;
+        margin-top: $margin-el;
+        margin-bottom: $margin-el;
+        // apply padding so the switch fits inside the label
+        padding-right: 60px;
+        &:after {
+            content: "";
+            top: 4px;
+            right: 10px;
+            width: 30px;
+            height: 12px;
+            // use absolute for better positioning
+            position: absolute;
+            border-radius: 30px;
+        }
+        & + .fh-switch-knob {
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 30px;
+            display: inline-block;
+            position: absolute;
+            cursor: pointer;
+            pointer-events: none;
+            box-shadow: 1px 1px 1px $color-default-light;
+            // add some CSS3-animations
+            -webkit-transition: right .1s ease-in, background-color .1s ease-in;
+            -moz-transition: right .1s ease-in, background-color .1s ease-in;
+            -o-transition: right .1s ease-in, background-color .1s ease-in;
+            -ms-transition: right .1s ease-in, background-color .1s ease-in;
+        }
+    }
+    &:focus + label:after,
+    &:focus + label + .fh-switch-knob {
+        box-shadow: 0 0 6px 0 $color-focus;
+    }
+    &[disabled] {
+        & + label,
+        & + label:after,
+        & + label + .fh-switch-knob {
+            cursor: not-allowed;
+            opacity: 0.4;
+        }
+    }
+}
+.fh-switch > [type="checkbox"]:checked + label:after {
+    background-color: $color-active-light;
+}
+.fh-switch > [type="checkbox"]:not(:checked) + label:after {
+    background-color: $color-default-light;
+}
+.fh-switch > [type="checkbox"]:checked + label + .fh-switch-knob {
+    right:5px;
+    background-color: $color-active;
+}
+.fh-switch > [type="checkbox"]:not(:checked) + label + .fh-switch-knob {
+    right: 25px;
+    background-color: $color-default;
+}
+
+.label-checkbox{
+    position: relative;
+    font-weight: normal;
+    cursor: pointer;
+    @include transition(all 0.2s);
+    & *{
+        @include transition(inherit);
+    }
+    .check-mark{
+        display: inline-block;
+        @include square(20px);
+        border: 1px solid lighten(#000, 75%);
+        @include fontsize(12);
+        line-height: 18px;
+        color: #fff;
+        @include pos(r, null);
+        text-align: center;
+        overflow: hidden;
+        vertical-align: middle;
+        i{
+            @include pos(r, null);
+            z-index: 1;
+            @include scale(0);
+            display: block;
+            @include opacity(0);
+            visibility: hidden;
+            line-height: 17px;
+        }
+        &:before{
+            content: "";
+            @include pos(ab, 0 0 0 0);
+            background-color: $coloraction;
+            @include scale(0);
+            @include transition(all 0.2s);
+            @include opacity(0);
+        }
+    }
+    input[type="checkbox"]{
+        @include opacity(0);
+        @include pos(ab, null);
+        visibility: hidden;
+        &:checked{
+            & + .check-mark{
+                border-color: $coloraction;
+                &:before, i{
+                    @include scale(1);
+                    @include opacity(1);
+                    visibility: visible;
+                }
+            }
+        }
+    }
+    &.label-checkbox-white{
+        .check-mark{
+            border-color: $white;
+        }
+    }
+}

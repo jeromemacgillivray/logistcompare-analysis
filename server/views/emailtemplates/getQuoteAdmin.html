@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Logist Compare" />
+    <meta name="description" content="Logist Compare" />
+    <!-- Favicon Icons -->
+    <link rel="icon" type="image/png" href="<%- @WebUrl %>/Content/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="<%- @WebUrl %>/Content/images/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="<%- @WebUrl %>/Content/images/favicon.ico" />
+    <title>List Space Email</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            min-width: 100% !important;
+        }
+
+        .content {}
+
+        @media only screen and (min-device-width: 601px) {
+            .content {
+                width: 600px !important;
+            }
+        }
+    </style>
+</head>
+
+<body bgcolor="#ffffff">
+
+    <table width="100%" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+
+                <table style="width: 800px;" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td style="text-align: center; width: 100%; background: <%-@typecolor %> padding: 30px 0;">
+                            <a href="#">
+                                <img src="<%- @WebUrl %>/Content/images/logist-compare-white.png" width="150" height="60" alt="logist compare" class="img-responsive center-block">
+                            </a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:70px 100px;">
+                            <table style="width: 600px;" align="center" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td style="font-size: 24px; font-family: arial;"> Hi..
+                                        <!-- <%= @username %>, -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height:30px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 20px; font-family: arial;line-height:30px;">
+                                        <br /> We are emailing to let you know that the customer
+                                        <strong>
+                                            <%= @senderName%>
+                                        </strong> (
+                                        <%= @senderEmail%>) has sent a booking notification to
+                                            <strong>
+                                                <%= @recieverName%>
+                                            </strong>(
+<<<<<<< HEAD
+                                            <%= @receiverEmail%>) for the warehouse named
+                                                <strong>
+                                                    <%= @warehouseName%>
+                                                </strong> at
+                                                <strong>
+                                                    <%= @city%>
+                                                </strong>.</td>
+=======
+                                            <%= @receiverEmail%>) for the warehouse named <strong> <%= @warehouseName%></strong> at <strong> <%= @city%></strong>.
+                                    </td>
+>>>>>>> 4f2ac1887df8ac331014c90735e6816f27d5fb47
+                                </tr>
+                                <tr>
+                                    <td style="height:60px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 18px; font-family: arial;line-height:30px;">
+                                        If you would rather not receive these notifications, you can adjust your email preferences in your account under `privacy`.
+                                        <br/>
+                                        <br/> Regards,
+                                        <br/> Team LogistCompare
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height:40px;">&nbsp;</td>
+                                </tr>
+
+
+                            </table>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 12px; background: #f6f6f6; text-align: center; color:#ccc; font-family: arial;line-height:30px; padding: 20px 0;">
+                            &copy; All Rights Reserved to Logist Compare
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

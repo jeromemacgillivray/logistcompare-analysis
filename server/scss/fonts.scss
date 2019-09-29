@@ -1,0 +1,8 @@
+//Fonts
+@import 'style/base/fonts';
+
+// INCLUDE
+@include font-face($font-family, '#{$primary-font-path}/OpenSans-Light', 300, normal);
+@include font-face($font-family, '#{$primary-font-path}/OpenSans-Regular', 400, normal);
+@include font-face($font-family, '#{$primary-font-path}/OpenSans-SemiBold', 600, normal);
+@include font-face($font-family, '#{$primary-font-path}/OpenSans-Bold', 700, normal);

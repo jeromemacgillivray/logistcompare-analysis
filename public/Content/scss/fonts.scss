@@ -1,0 +1,10 @@
+//Fonts
+@import 'style/base/fonts';
+
+// INCLUDE
+@include font-face($font-family, '#{$primary-font-path}/Raleway-Light', 300, normal);
+@include font-face($font-family, '#{$primary-font-path}/Raleway', 400, normal);
+@include font-face($font-family, '#{$primary-font-path}/Raleway-Medium', 500, normal);
+@include font-face($font-family, '#{$primary-font-path}/Raleway-SemiBold', 600, normal);
+@include font-face($font-family-alt, '#{$primary-font-path}/BebasNeue', 400, normal);
+@include font-face($font-family-alt, '#{$primary-font-path}/BebasNeueBold', 700, normal);

@@ -1,0 +1,144 @@
+.createyourprofile {
+	color: $white;
+	.cyp_upperbox {
+		display: $inline;
+		width: 100%;
+		@include margin-bottom(50);
+		.cyp_uppertext {
+			@extend .ver_midle;
+			width: 49%;
+		}
+		.cyp_uppersteps {
+			@extend .ver_midle;
+			width: 50%;
+			span {
+				@extend .ver_midle;
+				@include margin(0 58);
+				font-weight: 600;
+				@include fontsize(24);
+				background: $inactive;
+				@include circle;
+				@include width(60);
+				@include height(60);
+				text-align: center;
+				@include padding-top(14);
+				position: relative;
+				&:first-child {
+					@include margin-left(0);
+				}
+				&:last-child {
+					@include margin-right(0);
+					&:after {
+						display: none;
+					}
+				}
+				&:after {
+					content: "";
+				    position: absolute;
+				    height: 2px;
+				    top: 30px;
+				    left: 60px;
+				    width: 117px;
+				    background: $inactive;
+				}
+				&.active {
+					background: $active;
+					&:after {
+						background: $active;
+					}
+				}
+			}
+		}
+	}
+	.cyp_form_outer {
+		.cyp_head {
+			background: rgba(82, 179, 198, 0.86);
+			@include padding(38);
+			text-shadow: 1px 3px 2px #287181;
+			box-shadow: 0 2px 2px 2px #000;
+			text-transform: uppercase;
+			h4 {
+				font-weight: 400;
+				@include fontsize(16);
+			}
+		}
+		.cyp_body {
+			@include padding(0 2);
+			.cyp_body_inner {
+				background: rgba(40, 46, 73, 0.45);
+				.cyp_contentbox {
+					@include padding(0 60 60);
+					@include border-bottom(1, solid, rgba(255, 255, 255, 0.1));
+					@extend .ver_midle;
+					width: 100%;
+					h5 {
+						@include fontsize(16);
+						text-transform: capitalize;
+						@include margin(50 0 44);
+						color: $white;
+					}
+					.field_outer {
+						input,textarea,select {
+							background: transparent;
+							@include padding(4 4 24);
+							@include border(0, solid, transparent);
+							@include border-bottom(1, solid, rgba(255, 255, 255, 0.5));
+							width: 89%;
+							@include margin-bottom(52);
+							@include fontsize(14);
+							&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+							  color: rgba(255, 255, 255, 0.55);
+							  opacity: 1;
+							}
+							&::-moz-placeholder { /* Firefox 19+ */
+							  color: rgba(255, 255, 255, 0.5);
+							  opacity: 1;
+							}
+							&:-ms-input-placeholder { /* IE 10+ */
+							  color: rgba(255, 255, 255, 0.5);
+							  opacity: 1;
+							}
+							&:-moz-placeholder { /* Firefox 18- */
+							  color: rgba(255, 255, 255, 0.5);
+							  opacity: 1;
+							}
+						}
+						textarea {
+							@include min-height(100);
+							resize: none;
+							@include padding(4);
+							width: 100%;
+						}
+						&.optionalbox {
+							h5 {
+								position: relative;
+								@include padding-right(20);
+								&:after {
+									content: "\e90e";
+	    							font-family: "icomoon";
+	    							color: rgba(255, 255, 255, 0.5);
+								    font-weight: bold;
+								    right: 0;
+								    position: absolute;
+								    top: 1px;
+								}
+							}
+						}
+					}
+					&:last-child {
+						@include margin-bottom(77);
+					}
+				}
+			}
+		}
+		.cyp_footer {
+			@include padding(20 60);
+			background: rgba(40, 46, 73, 0.6);
+			a {
+				&:last-child {
+					@include margin-right(0);
+				}	
+			}
+		}
+	}
+}
