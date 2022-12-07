@@ -47,7 +47,7 @@
     "require_optional": "^1.0.1",
     "resolve-from": "^3.0.0",
     "sendgrid": "^5.1.1",
-    "stripe": "^4.23.1",
+    "stripe": "^11.2.0",
     "valuelink": "^1.5.2"
   },
   "devDependencies": {
